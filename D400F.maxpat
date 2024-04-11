@@ -105,8 +105,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 491.0, 549.0, 113.0, 22.0 ],
-					"text" : "prepend /fader8 set"
+					"patching_rect" : [ 491.0, 549.0, 98.0, 22.0 ],
+					"text" : "prepend /ch8 set"
 				}
 
 			}
@@ -117,8 +117,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 428.0, 521.0, 113.0, 22.0 ],
-					"text" : "prepend /fader7 set"
+					"patching_rect" : [ 428.0, 521.0, 98.0, 22.0 ],
+					"text" : "prepend /ch7 set"
 				}
 
 			}
@@ -129,8 +129,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 365.0, 549.0, 113.0, 22.0 ],
-					"text" : "prepend /fader6 set"
+					"patching_rect" : [ 365.0, 549.0, 98.0, 22.0 ],
+					"text" : "prepend /ch6 set"
 				}
 
 			}
@@ -141,8 +141,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 302.0, 521.0, 113.0, 22.0 ],
-					"text" : "prepend /fader5 set"
+					"patching_rect" : [ 302.0, 521.0, 98.0, 22.0 ],
+					"text" : "prepend /ch5 set"
 				}
 
 			}
@@ -153,8 +153,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 239.0, 549.0, 113.0, 22.0 ],
-					"text" : "prepend /fader4 set"
+					"patching_rect" : [ 239.0, 549.0, 98.0, 22.0 ],
+					"text" : "prepend /ch4 set"
 				}
 
 			}
@@ -165,8 +165,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 176.0, 521.0, 113.0, 22.0 ],
-					"text" : "prepend /fader3 set"
+					"patching_rect" : [ 176.0, 521.0, 98.0, 22.0 ],
+					"text" : "prepend /ch3 set"
 				}
 
 			}
@@ -177,8 +177,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 113.0, 549.0, 113.0, 22.0 ],
-					"text" : "prepend /fader2 set"
+					"patching_rect" : [ 113.0, 549.0, 98.0, 22.0 ],
+					"text" : "prepend /ch2 set"
 				}
 
 			}
@@ -189,8 +189,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.0, 521.0, 113.0, 22.0 ],
-					"text" : "prepend /fader1 set"
+					"patching_rect" : [ 50.0, 521.0, 98.0, 22.0 ],
+					"text" : "prepend /ch1 set"
 				}
 
 			}
@@ -224,10 +224,10 @@
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 8,
-					"outlettype" : [ "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 54.5, 66.0, 449.0, 22.0 ],
-					"text" : "spat5.osc.route /fader1 /fader2 /fader4 /fader5 /fader6 /fader7 /fader8"
+					"numoutlets" : 9,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 51.0, 64.0, 519.571428571428555, 22.0 ],
+					"text" : "spat5.osc.route /ch1 /ch2 /ch3 /ch4 /ch5 /ch6 /ch7 /ch8"
 				}
 
 			}
