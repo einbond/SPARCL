@@ -82,7 +82,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 533.0, 219.0, 75.0, 22.0 ],
-					"text" : "/F1/ch1 0."
+					"text" : "0."
 				}
 
 			}
@@ -105,8 +105,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 447.0, 178.0, 53.0, 22.0 ],
-					"text" : "prepend"
+					"patching_rect" : [ 447.0, 178.0, 96.0, 22.0 ],
+					"text" : "prepend /F1/ch1"
 				}
 
 			}

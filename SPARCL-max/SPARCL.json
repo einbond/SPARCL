@@ -1,0 +1,82 @@
+{
+	"pattrstorage" : 	{
+		"name" : "u947006027",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"mixer::faderA" : [ 0 ],
+					"mixer::faderB" : [ 1 ],
+					"mixer::faderC" : [ 10 ],
+					"mixer::faderE" : [ 6 ],
+					"mixer::faderF" : [ 7 ],
+					"mixer::faderG" : [ 8 ],
+					"mixer::faderH" : [ 9 ],
+					"mixer::faderHOA" : [ 30 ],
+					"mixer::faderHOAsubs" : [ 31 ],
+					"mixer::faderI" : [ 2 ],
+					"mixer::faderIKO" : [ 0 ],
+					"mixer::faderIKO1" : [ 28 ],
+					"mixer::faderIKO2" : [ 29 ],
+					"mixer::faderJ" : [ 3 ],
+					"mixer::faderK" : [ 14 ],
+					"mixer::faderL" : [ 13 ],
+					"mixer::faderM" : [ 16 ],
+					"mixer::faderN" : [ 17 ],
+					"mixer::faderO" : [ 18 ],
+					"mixer::faderP" : [ 19 ],
+					"mixer::faderQ" : [ 12 ],
+					"mixer::faderR" : [ 13 ],
+					"mixer::faderS" : [ 20 ],
+					"mixer::faderT" : [ 21 ],
+					"mixer::faderU" : [ 22 ],
+					"mixer::faderV" : [ 23 ],
+					"mixer::faderW" : [ 4 ],
+					"mixer::faderX" : [ 5 ],
+					"mixer::faderY" : [ 11 ],
+					"mixer::live.gain~[A]" : [ 0.0 ],
+					"mixer::live.gain~[B]" : [ 0.0 ],
+					"mixer::live.gain~[C]" : [ 0.0 ],
+					"mixer::live.gain~[E]" : [ 0.0 ],
+					"mixer::live.gain~[F]" : [ 0.0 ],
+					"mixer::live.gain~[G]" : [ 0.0 ],
+					"mixer::live.gain~[H]" : [ 0.0 ],
+					"mixer::live.gain~[IKO1]" : [ 0.0 ],
+					"mixer::live.gain~[IKO2]" : [ 0.0 ],
+					"mixer::live.gain~[I]" : [ 0.0 ],
+					"mixer::live.gain~[J]" : [ 0.0 ],
+					"mixer::live.gain~[K]" : [ 0.0 ],
+					"mixer::live.gain~[L]" : [ 0.0 ],
+					"mixer::live.gain~[M]" : [ 0.0 ],
+					"mixer::live.gain~[N]" : [ 0.0 ],
+					"mixer::live.gain~[O]" : [ 0.0 ],
+					"mixer::live.gain~[P]" : [ 0.0 ],
+					"mixer::live.gain~[Q]" : [ 0.0 ],
+					"mixer::live.gain~[R]" : [ 0.0 ],
+					"mixer::live.gain~[S]" : [ 0.0 ],
+					"mixer::live.gain~[T]" : [ 0.0 ],
+					"mixer::live.gain~[U]" : [ 0.0 ],
+					"mixer::live.gain~[V]" : [ 0.0 ],
+					"mixer::live.gain~[W]" : [ 0.0 ],
+					"mixer::live.gain~[X]" : [ 0.0 ],
+					"mixer::live.gain~[Y]" : [ 0.0 ],
+					"mixer::live.gain~[subAA]" : [ 0.0 ],
+					"mixer::live.gain~[subAB]" : [ 0.0 ],
+					"mixer::live.gain~[subD]" : [ 0.0 ],
+					"mixer::live.gain~[subZ]" : [ 0.0 ],
+					"mixer::mc.live.gain~[HOA-subs]" : [ 0.0 ],
+					"mixer::mc.live.gain~[HOA]" : [ 0.0 ],
+					"mixer::mc.live.gain~[IKO]" : [ 0.0 ],
+					"mixer::fadersubD" : [ 24 ],
+					"mixer::fader-subZ" : [ 25 ],
+					"mixer::fader-subAA" : [ 26 ],
+					"mixer::fader-subAB" : [ 27 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
