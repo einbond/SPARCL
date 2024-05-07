@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-49",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ 67.0, 147.0, 43.0, 19.0 ],
+					"text" : "mc.adc~"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-55",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -555,7 +567,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 63.0, 1352.0, 188.0 ],
+						"rect" : [ 0.0, 63.0, 1352.0, 192.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -4717,7 +4729,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 510.0, 180.0, 120.0, 58.0 ],
+													"patching_rect" : [ 510.0, 180.0, 123.0, 58.0 ],
 													"text" : "/col/29/color 1. 1. 0. 1., /col/30/color 1. 1. 0. 1., /col/31/color 1. 1. 0. 1., /col/32/color 1. 1. 0. 1."
 												}
 
@@ -4730,7 +4742,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 480.0, 90.0, 130.0, 58.0 ],
+													"patching_rect" : [ 480.0, 90.0, 131.0, 58.0 ],
 													"text" : "/col/29/name \"mono #1\", /col/30/name \"mono #2\", /col/31/name \"mono #3\", /col/32/name \"mono #4\","
 												}
 
@@ -4755,7 +4767,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 180.0, 120.0, 58.0 ],
+													"patching_rect" : [ 50.0, 180.0, 123.0, 58.0 ],
 													"text" : "/col/25/color 1. 1. 1. 1., /col/26/color 1. 1. 1. 1., /col/27/color 1. 1. 1. 1., /col/28/color 1. 1. 1. 1."
 												}
 
@@ -5218,7 +5230,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 29.0, 90.0, 121.0, 58.0 ],
+													"patching_rect" : [ 29.0, 90.0, 123.0, 58.0 ],
 													"text" : "/col/25/name \"sub D\", /col/26/name \"sub Z\", /col/27/name \"sub AA\", /col/28/name \"sub AB\","
 												}
 
@@ -5231,7 +5243,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 360.0, 360.0, 140.0, 303.0 ],
+													"patching_rect" : [ 360.0, 360.0, 141.0, 303.0 ],
 													"text" : "/col/1/name \"speaker A\", /col/2/name \"speaker B\", /col/3/name \"speaker C\", /col/4/name \"speaker E\", /col/5/name \"speaker F\", /col/6/name \"speaker G\", /col/7/name \"speaker H\", /col/8/name \"speaker I\", /col/9/name \"speaker J\", /col/10/name \"speaker K\", /col/11/name \"speaker L\", /col/12/name \"speaker M\", /col/13/name \"speaker N\", /col/14/name \"speaker O\", /col/15/name \"speaker P\", /col/16/name \"speaker Q\", /col/17/name \"speaker R\", /col/18/name \"speaker S\", /col/19/name \"speaker T\", /col/20/name \"speaker U\", /col/21/name \"speaker V\", /col/22/name \"speaker W\", /col/23/name \"speaker X\", /col/24/name \"speaker Y\""
 												}
 
@@ -6087,7 +6099,7 @@
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "spat5.routing @inputs 25 @outputs 77"
+									"text" : "spat5.routing @inputs 64 @outputs 77"
 								}
 
 							}
@@ -6103,7 +6115,7 @@
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "spat5.routing~ @inputs 25 @outputs 77 @mc 1"
+									"text" : "spat5.routing~ @inputs 64 @outputs 77 @mc 1"
 								}
 
 							}
@@ -8917,7 +8929,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 394.0, 76.0, 105.0, 76.0 ],
-									"presentation_linecount" : 4,
 									"text" : "\"divergence\" applies sort of a spread, whenever the source distance is < the divergence radius",
 									"textjustification" : 1
 								}
@@ -9018,7 +9029,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 501.0, 76.0, 125.0, 56.0 ],
-									"presentation_linecount" : 3,
 									"text" : "\"directional\" spread is currently only supported in DBAP",
 									"textjustification" : 1
 								}
@@ -11251,7 +11261,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "multichannelsignal", "" ],
-									"patching_rect" : [ 37.0, 444.0, 300.0, 19.0 ],
+									"patching_rect" : [ 37.0, 444.0, 300.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -11270,7 +11280,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "multichannelsignal", "" ],
-									"patching_rect" : [ 373.0, 625.0, 200.0, 19.0 ],
+									"patching_rect" : [ 373.0, 625.0, 200.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -16511,7 +16521,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ -1.500000000000007, 0.0, 121.0, 71.37109375 ],
+					"patching_rect" : [ -1.0, 1.0, 121.0, 71.37109375 ],
 					"pic" : "Macintosh HD:/Users/sbjm131/Documents/23-24/City23-24/SPARCLab23-24/City,_University_of_London_Logo.svg.png",
 					"presentation" : 1,
 					"presentation_rect" : [ -1.500000000000007, 0.0, 121.0, 71.37109375 ]
@@ -16526,7 +16536,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 121.5, 49.37109375, 375.0, 22.0 ],
+					"patching_rect" : [ 122.0, 50.0, 375.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 121.5, 49.37109375, 375.0, 22.0 ],
 					"text" : "Aaron Einbond 02.05.2024",
@@ -16543,7 +16553,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 121.5, 0.0, 190.0, 47.0 ],
+					"patching_rect" : [ 122.0, 1.0, 190.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 121.5, 0.0, 190.0, 47.0 ],
 					"text" : "SPARCLab"
@@ -16879,6 +16889,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-80", 0 ],
+					"midpoints" : [ 76.5, 326.5, 131.0, 326.5 ],
+					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-5", 1 ]
@@ -17048,7 +17066,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-89", 0 ],
-					"midpoints" : [ 131.0, 181.5, 131.0, 181.5 ],
+					"midpoints" : [ 131.0, 140.5, 131.0, 140.5 ],
 					"source" : [ "obj-88", 0 ]
 				}
 
