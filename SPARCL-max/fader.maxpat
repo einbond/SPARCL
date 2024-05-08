@@ -82,7 +82,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 533.0, 219.0, 75.0, 22.0 ],
-					"text" : "0."
+					"text" : "/F1/ch1 0."
 				}
 
 			}
@@ -223,8 +223,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 64.0, 178.0, 102.0, 22.0 ],
-					"text" : "osc-route /F1/ch1"
+					"patching_rect" : [ 64.0, 178.0, 134.0, 22.0 ],
+					"text" : "spat5.osc.route /F1/ch1"
 				}
 
 			}
