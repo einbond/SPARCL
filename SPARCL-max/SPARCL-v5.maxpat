@@ -445,7 +445,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595186999999999,
 					"id" : "obj-15",
-					"items" : [ "to Max 1", ",", "to Max 2" ],
+					"items" : [ "Logic Pro Virtual Out", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -463,7 +463,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595186999999999,
 					"id" : "obj-5",
-					"items" : [ "to Max 1", ",", "to Max 2" ],
+					"items" : [ "Logic Pro Virtual Out", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -481,7 +481,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595186999999999,
 					"id" : "obj-124",
-					"items" : [ "to Max 1", ",", "to Max 2" ],
+					"items" : [ "Logic Pro Virtual Out", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -550,7 +550,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595186999999999,
 					"id" : "obj-123",
-					"items" : [ "to Max 1", ",", "to Max 2" ],
+					"items" : [ "Logic Pro Virtual Out", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1354,42 +1354,42 @@
 										"faderX" : [ 6 ],
 										"faderY" : [ 12 ],
 										"fadersubD" : [ 25 ],
-										"live.gain~[A]" : [ -24.166409611169719 ],
-										"live.gain~[B]" : [ -25.134507671077191 ],
-										"live.gain~[C]" : [ -21.772708823768117 ],
-										"live.gain~[E]" : [ -21.772708823768117 ],
-										"live.gain~[F]" : [ -21.772708823768117 ],
-										"live.gain~[G]" : [ -21.772708823768117 ],
-										"live.gain~[HOA1]" : [ -21.772708823768117 ],
-										"live.gain~[HOA2]" : [ -21.772708823768117 ],
-										"live.gain~[HOA3]" : [ -21.772708823768117 ],
-										"live.gain~[HOA4]" : [ -21.772708823768117 ],
-										"live.gain~[H]" : [ -21.772708823768117 ],
+										"live.gain~[A]" : [ 0.0 ],
+										"live.gain~[B]" : [ 0.0 ],
+										"live.gain~[C]" : [ 0.0 ],
+										"live.gain~[E]" : [ 0.0 ],
+										"live.gain~[F]" : [ 0.0 ],
+										"live.gain~[G]" : [ 0.0 ],
+										"live.gain~[HOA1]" : [ 0.0 ],
+										"live.gain~[HOA2]" : [ 0.0 ],
+										"live.gain~[HOA3]" : [ 0.0 ],
+										"live.gain~[HOA4]" : [ 0.0 ],
+										"live.gain~[H]" : [ 0.0 ],
 										"live.gain~[IKO1]" : [ -21.772708823768117 ],
 										"live.gain~[IKO2]" : [ -21.772708823768117 ],
 										"live.gain~[IKO3]" : [ 0.0 ],
 										"live.gain~[IKO4]" : [ 0.0 ],
-										"live.gain~[I]" : [ -21.772708823768117 ],
-										"live.gain~[J]" : [ -21.772708823768117 ],
-										"live.gain~[K]" : [ -21.772708823768117 ],
-										"live.gain~[L]" : [ -21.772708823768117 ],
-										"live.gain~[M]" : [ -21.772708823768117 ],
-										"live.gain~[N]" : [ -21.772708823768117 ],
-										"live.gain~[O]" : [ -21.772708823768117 ],
-										"live.gain~[P]" : [ -21.772708823768117 ],
-										"live.gain~[Q]" : [ -21.772708823768117 ],
-										"live.gain~[R]" : [ -21.772708823768117 ],
-										"live.gain~[S]" : [ -21.772708823768117 ],
-										"live.gain~[T]" : [ -21.772708823768117 ],
-										"live.gain~[U]" : [ -21.772708823768117 ],
-										"live.gain~[V]" : [ -21.772708823768117 ],
-										"live.gain~[W]" : [ -21.772708823768117 ],
-										"live.gain~[X]" : [ -21.772708823768117 ],
-										"live.gain~[Y]" : [ -21.772708823768117 ],
-										"live.gain~[subAA]" : [ -21.772708823768117 ],
-										"live.gain~[subAB]" : [ -21.772708823768117 ],
-										"live.gain~[subD]" : [ -21.772708823768117 ],
-										"live.gain~[subZ]" : [ -21.772708823768117 ],
+										"live.gain~[I]" : [ 0.0 ],
+										"live.gain~[J]" : [ 0.0 ],
+										"live.gain~[K]" : [ 0.0 ],
+										"live.gain~[L]" : [ 0.0 ],
+										"live.gain~[M]" : [ 0.0 ],
+										"live.gain~[N]" : [ 0.0 ],
+										"live.gain~[O]" : [ 0.0 ],
+										"live.gain~[P]" : [ 0.0 ],
+										"live.gain~[Q]" : [ 0.0 ],
+										"live.gain~[R]" : [ 0.0 ],
+										"live.gain~[S]" : [ 0.0 ],
+										"live.gain~[T]" : [ 0.0 ],
+										"live.gain~[U]" : [ 0.0 ],
+										"live.gain~[V]" : [ 0.0 ],
+										"live.gain~[W]" : [ 0.0 ],
+										"live.gain~[X]" : [ 0.0 ],
+										"live.gain~[Y]" : [ 0.0 ],
+										"live.gain~[subAA]" : [ 0.0 ],
+										"live.gain~[subAB]" : [ 0.0 ],
+										"live.gain~[subD]" : [ 0.0 ],
+										"live.gain~[subZ]" : [ 0.0 ],
 										"mc.live.gain~[HOA-subs]" : [ -21.772708823768117 ],
 										"mc.live.gain~[HOA]" : [ -21.772708823768117 ],
 										"mc.live.gain~[IKO]" : [ -21.772708823768117 ]
@@ -19247,8 +19247,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "D400F.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/SPARCL/SPARCL-max",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Desktop/SPARCL-main1/SPARCL-max",
+				"patcherrelativepath" : "../../SPARCL-main1/SPARCL-max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -19258,15 +19258,15 @@
 			}
 , 			{
 				"name" : "SPARCL.json",
-				"bootpath" : "~/Documents/Max 8/Library/SPARCL/SPARCL-max",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Desktop/SPARCL-main1/SPARCL-max",
+				"patcherrelativepath" : "../../SPARCL-main1/SPARCL-max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fader.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/SPARCL/SPARCL-max",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Desktop/SPARCL-main1/SPARCL-max",
+				"patcherrelativepath" : "../../SPARCL-main1/SPARCL-max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -19277,14 +19277,14 @@
 , 			{
 				"name" : "spat5.colorpicker.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../../Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spat5.deferloadmess.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../../Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -19311,7 +19311,7 @@
 , 			{
 				"name" : "spat5.hoa.decoder.control.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../../Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -19338,7 +19338,7 @@
 , 			{
 				"name" : "spat5.hoa.fx~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../../Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -19369,28 +19369,28 @@
 , 			{
 				"name" : "spat5.iko.beamcontrol~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../../Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spat5.known.colors.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../../Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spat5.known.hoanorm.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../../Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spat5.known.speakersetups.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../../Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -19429,7 +19429,7 @@
 , 			{
 				"name" : "spat5.playbar.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../../Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -19476,7 +19476,7 @@
 , 			{
 				"name" : "spat5.window.management.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../../Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
