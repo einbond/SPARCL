@@ -2085,10 +2085,10 @@
 										"live.gain~[E]" : [ 0.0 ],
 										"live.gain~[F]" : [ 0.0 ],
 										"live.gain~[G]" : [ 0.0 ],
-										"live.gain~[HOA1]" : [ -1.551702618598938 ],
-										"live.gain~[HOA2]" : [ -12.670714497566223 ],
-										"live.gain~[HOA3]" : [ -10.39830207824707 ],
-										"live.gain~[HOA4]" : [ -1.094757795333862 ],
+										"live.gain~[HOA1]" : [ 6.0 ],
+										"live.gain~[HOA2]" : [ -5.359587550163269 ],
+										"live.gain~[HOA3]" : [ -15.107760071754456 ],
+										"live.gain~[HOA4]" : [ -8.101261377334595 ],
 										"live.gain~[HOA5]" : [ 0.0 ],
 										"live.gain~[HOA6]" : [ 0.0 ],
 										"live.gain~[HOA7]" : [ 0.0 ],
@@ -2123,9 +2123,9 @@
 										"live.gain~[subAB]" : [ 0.0 ],
 										"live.gain~[subD]" : [ 0.0 ],
 										"live.gain~[subZ]" : [ 0.0 ],
-										"mc.live.gain~[HOA-subs]" : [ 1.037654638290405 ],
-										"mc.live.gain~[HOA]" : [ -0.637812972068787 ],
-										"mc.live.gain~[IKO]" : [ 0.123764991760254 ]
+										"mc.live.gain~[HOA-subs]" : [ 3.474700212478638 ],
+										"mc.live.gain~[HOA]" : [ 3.01775050163269 ],
+										"mc.live.gain~[IKO]" : [ 4.845534682273865 ]
 									}
 ,
 									"text" : "autopattr @autorestore 1",
