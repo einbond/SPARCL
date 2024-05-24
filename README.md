@@ -5,4 +5,4 @@ SPARCLab (or SPARCL) https://sparc.london/sparc-lab is a system for immersive so
 
 This repository is a forum for users to share software for use with SPARCL including tools for Higher-Order Ambisonic (HOA) spatialization with a 24.4-channel Ambisonic loudspeaker dome, 9.1.6 Dolby Atmos system, and IKO 20-channel spherical loudspeaker array.
 
-Dependencies currently include Max packages spat5
+Max dependencies currently include Max packages spat5 available from https://forum.ircam.fr/projects/detail/spat/ and osc-route.mxo from CNMAT Externals available from the package manager.
