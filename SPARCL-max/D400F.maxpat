@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 609.0, 521.0, 58.0, 22.0 ],
+					"patching_rect" : [ 609.0, 516.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -57,8 +57,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 609.0, 549.0, 72.0, 22.0 ],
-					"text" : "prepend set"
+					"patching_rect" : [ 609.0, 549.0, 93.0, 22.0 ],
+					"text" : "prepend set #1"
 				}
 
 			}
@@ -105,7 +105,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 428.0, 521.0, 98.0, 22.0 ],
+					"patching_rect" : [ 429.0, 516.0, 98.0, 22.0 ],
 					"text" : "prepend /ch7 set"
 				}
 
@@ -129,7 +129,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 302.0, 521.0, 98.0, 22.0 ],
+					"patching_rect" : [ 303.0, 516.0, 98.0, 22.0 ],
 					"text" : "prepend /ch5 set"
 				}
 
@@ -153,7 +153,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 176.0, 521.0, 98.0, 22.0 ],
+					"patching_rect" : [ 177.0, 516.0, 98.0, 22.0 ],
 					"text" : "prepend /ch3 set"
 				}
 
@@ -177,7 +177,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.0, 521.0, 98.0, 22.0 ],
+					"patching_rect" : [ 51.0, 516.0, 98.0, 22.0 ],
 					"text" : "prepend /ch1 set"
 				}
 
