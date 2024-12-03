@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 68.0, 63.0, 1284.0, 815.0 ],
+		"rect" : [ 151.0, 66.0, 1284.0, 815.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 9.0,
@@ -445,7 +445,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595186999999999,
 					"id" : "obj-15",
+<<<<<<< Updated upstream:SPARCL-max/SPARCL-old/SPARCL-v5.maxpat
 					"items" : [ "to Max 1", ",", "to Max 2" ],
+=======
+					"items" : [ "Digiface Dante (24128585) Port 1", ",", "D 400 Port 1", ",", "D 400 Port 2", ",", "to Max 1", ",", "to Max 2" ],
+>>>>>>> Stashed changes:SPARCL-max/SPARCL-v5.maxpat
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -463,7 +467,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595186999999999,
 					"id" : "obj-5",
+<<<<<<< Updated upstream:SPARCL-max/SPARCL-old/SPARCL-v5.maxpat
 					"items" : [ "to Max 1", ",", "to Max 2" ],
+=======
+					"items" : [ "Digiface Dante (24128585) Port 1", ",", "D 400 Port 1", ",", "D 400 Port 2", ",", "to Max 1", ",", "to Max 2" ],
+>>>>>>> Stashed changes:SPARCL-max/SPARCL-v5.maxpat
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -481,7 +489,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595186999999999,
 					"id" : "obj-124",
+<<<<<<< Updated upstream:SPARCL-max/SPARCL-old/SPARCL-v5.maxpat
 					"items" : [ "to Max 1", ",", "to Max 2" ],
+=======
+					"items" : [ "Digiface Dante (24128585) Port 1", ",", "D 400 Port 1", ",", "D 400 Port 2", ",", "to Max 1", ",", "to Max 2" ],
+>>>>>>> Stashed changes:SPARCL-max/SPARCL-v5.maxpat
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -550,7 +562,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595186999999999,
 					"id" : "obj-123",
+<<<<<<< Updated upstream:SPARCL-max/SPARCL-old/SPARCL-v5.maxpat
 					"items" : [ "to Max 1", ",", "to Max 2" ],
+=======
+					"items" : [ "Digiface Dante (24128585) Port 1", ",", "D 400 Port 1", ",", "D 400 Port 2", ",", "to Max 1", ",", "to Max 2" ],
+>>>>>>> Stashed changes:SPARCL-max/SPARCL-v5.maxpat
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -700,7 +716,11 @@
 						}
 ,
 						"classnamespace" : "box",
+<<<<<<< Updated upstream:SPARCL-max/SPARCL-old/SPARCL-v5.maxpat
 						"rect" : [ 0.0, 53.0, 1755.0, 324.0 ],
+=======
+						"rect" : [ 100.0, 138.0, 1352.0, 408.0 ],
+>>>>>>> Stashed changes:SPARCL-max/SPARCL-v5.maxpat
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -730,6 +750,7 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+<<<<<<< Updated upstream:SPARCL-max/SPARCL-old/SPARCL-v5.maxpat
 									"fontsize" : 9.0,
 									"id" : "obj-143",
 									"items" : [ "none", ",", 1, 1, ",", 1, 2, ",", 1, 3, ",", 1, 4, ",", 1, 5, ",", 1, 6, ",", 1, 7, ",", 1, 8, ",", 2, 1, ",", 2, 2, ",", 2, 3, ",", 2, 4, ",", 2, 5, ",", 2, 6, ",", 2, 7, ",", 2, 8, ",", 3, 1, ",", 3, 2, ",", 3, 3, ",", 3, 4, ",", 3, 5, ",", 3, 6, ",", 3, 7, ",", 3, 8, ",", 4, 1, ",", 4, 2, ",", 4, 3, ",", 4, 4, ",", 4, 5, ",", 4, 6, ",", 4, 7, ",", 4, 8 ],
@@ -1209,6 +1230,15 @@
 									"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
 									"patching_rect" : [ 1141.999999999999773, 231.0, 252.500000000000227, 22.0 ],
 									"text" : "mc.unpack~ 8"
+=======
+									"id" : "obj-17",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "signal", "signal", "signal", "signal" ],
+									"patching_rect" : [ 1021.0, 231.0, 84.0, 22.0 ],
+									"text" : "mc.unpack~ 4"
+>>>>>>> Stashed changes:SPARCL-max/SPARCL-v5.maxpat
 								}
 
 							}
@@ -8169,8 +8199,13 @@
 									"numinlets" : 1,
 									"numoutlets" : 8,
 									"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
+<<<<<<< Updated upstream:SPARCL-max/SPARCL-old/SPARCL-v5.maxpat
 									"patching_rect" : [ 1.0, 198.0, 1836.0, 22.0 ],
 									"text" : "mc.separate~ 24 4 8 8 25 4 16"
+=======
+									"patching_rect" : [ 1.0, 198.0, 1463.0, 22.0 ],
+									"text" : "mc.separate~ 24 4 4 4 25 4 16"
+>>>>>>> Stashed changes:SPARCL-max/SPARCL-v5.maxpat
 								}
 
 							}
@@ -8792,6 +8827,7 @@
 							}
 , 							{
 								"patchline" : 								{
+<<<<<<< Updated upstream:SPARCL-max/SPARCL-old/SPARCL-v5.maxpat
 									"destination" : [ "obj-13", 0 ],
 									"source" : [ "obj-110", 0 ]
 								}
@@ -8799,6 +8835,8 @@
 							}
 , 							{
 								"patchline" : 								{
+=======
+>>>>>>> Stashed changes:SPARCL-max/SPARCL-v5.maxpat
 									"destination" : [ "obj-106", 0 ],
 									"source" : [ "obj-111", 0 ]
 								}
@@ -9163,6 +9201,7 @@
 							}
 , 							{
 								"patchline" : 								{
+<<<<<<< Updated upstream:SPARCL-max/SPARCL-old/SPARCL-v5.maxpat
 									"destination" : [ "obj-138", 0 ],
 									"source" : [ "obj-17", 7 ]
 								}
@@ -9177,6 +9216,8 @@
 							}
 , 							{
 								"patchline" : 								{
+=======
+>>>>>>> Stashed changes:SPARCL-max/SPARCL-v5.maxpat
 									"destination" : [ "obj-14", 0 ],
 									"source" : [ "obj-17", 2 ]
 								}
@@ -9184,6 +9225,7 @@
 							}
 , 							{
 								"patchline" : 								{
+<<<<<<< Updated upstream:SPARCL-max/SPARCL-old/SPARCL-v5.maxpat
 									"destination" : [ "obj-140", 0 ],
 									"source" : [ "obj-17", 5 ]
 								}
@@ -9198,6 +9240,8 @@
 							}
 , 							{
 								"patchline" : 								{
+=======
+>>>>>>> Stashed changes:SPARCL-max/SPARCL-v5.maxpat
 									"destination" : [ "obj-20", 0 ],
 									"source" : [ "obj-170", 0 ]
 								}
@@ -10529,7 +10573,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "binaural",
-							"parameter_mmax" : 6.0,
+							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "binaural",
@@ -10654,7 +10698,11 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 550.5, 180.0, 149.0, 146.0 ],
 					"size" : 9,
+<<<<<<< Updated upstream:SPARCL-max/SPARCL-old/SPARCL-v5.maxpat
 					"values" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+=======
+					"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 0 ]
+>>>>>>> Stashed changes:SPARCL-max/SPARCL-v5.maxpat
 				}
 
 			}
@@ -10739,7 +10787,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "HOA decoded[2]",
-							"parameter_mmax" : 6.0,
+							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "IKO",
@@ -13941,7 +13989,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "multichannelsignal", "" ],
-									"patching_rect" : [ 37.0, 444.0, 300.0, 19.0 ],
+									"patching_rect" : [ 37.0, 444.0, 300.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -13960,7 +14008,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "multichannelsignal", "" ],
-									"patching_rect" : [ 373.0, 625.0, 200.0, 19.0 ],
+									"patching_rect" : [ 373.0, 625.0, 200.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -14691,7 +14739,11 @@
  ]
 					}
 ,
+<<<<<<< Updated upstream:SPARCL-max/SPARCL-old/SPARCL-v5.maxpat
 					"patching_rect" : [ 210.699999999999989, 416.0, 51.0, 24.0 ],
+=======
+					"patching_rect" : [ 211.0, 410.0, 51.0, 24.0 ],
+>>>>>>> Stashed changes:SPARCL-max/SPARCL-v5.maxpat
 					"presentation" : 1,
 					"presentation_rect" : [ 210.699999999999989, 405.0, 51.0, 24.0 ],
 					"saved_object_attributes" : 					{
@@ -16206,7 +16258,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "HOA subs",
-							"parameter_mmax" : 6.0,
+							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "subs",
@@ -16288,7 +16340,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 101.0, 97.0, 1217.0, 747.0 ],
+						"rect" : [ 134.0, 172.0, 1217.0, 747.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -17953,7 +18005,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "HOA decoded[1]",
-							"parameter_mmax" : 6.0,
+							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "speaker dome",
@@ -19232,7 +19284,11 @@
  ]
 					}
 ,
+<<<<<<< Updated upstream:SPARCL-max/SPARCL-old/SPARCL-v5.maxpat
 					"patching_rect" : [ 210.699999999999989, 380.0, 45.0, 29.0 ],
+=======
+					"patching_rect" : [ 211.0, 373.0, 45.0, 29.0 ],
+>>>>>>> Stashed changes:SPARCL-max/SPARCL-v5.maxpat
 					"presentation" : 1,
 					"presentation_rect" : [ 121.5, 290.0, 45.0, 29.0 ],
 					"saved_object_attributes" : 					{
@@ -19263,7 +19319,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.drop[2]",
-							"parameter_mmax" : 6.0,
+							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "input",
@@ -20579,7 +20635,11 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "D400F.maxpat",
+<<<<<<< Updated upstream:SPARCL-max/SPARCL-old/SPARCL-v5.maxpat
 				"bootpath" : "~/Desktop/SPARCL-main/SPARCL-max",
+=======
+				"bootpath" : "~/Desktop/SPARCL/SPARCL-max",
+>>>>>>> Stashed changes:SPARCL-max/SPARCL-v5.maxpat
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -20589,15 +20649,25 @@
 				"type" : "iLaX"
 			}
 , 			{
+<<<<<<< Updated upstream:SPARCL-max/SPARCL-old/SPARCL-v5.maxpat
 				"name" : "SPARCL-CCRMA.json",
 				"bootpath" : "~/Desktop/SPARCL",
 				"patcherrelativepath" : "../../SPARCL",
+=======
+				"name" : "SPARCL.json",
+				"bootpath" : "~/Desktop/SPARCL/SPARCL-max",
+				"patcherrelativepath" : ".",
+>>>>>>> Stashed changes:SPARCL-max/SPARCL-v5.maxpat
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fader.maxpat",
+<<<<<<< Updated upstream:SPARCL-max/SPARCL-old/SPARCL-v5.maxpat
 				"bootpath" : "~/Desktop/SPARCL-main/SPARCL-max",
+=======
+				"bootpath" : "~/Desktop/SPARCL/SPARCL-max",
+>>>>>>> Stashed changes:SPARCL-max/SPARCL-v5.maxpat
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
