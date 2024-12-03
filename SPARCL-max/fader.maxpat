@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 88.0, 232.0, 72.0, 22.0 ],
+					"patching_rect" : [ 88.0, 269.0, 72.0, 22.0 ],
 					"text" : "prepend set"
 				}
 
@@ -128,7 +128,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.0, 316.0, 66.0, 20.0 ],
+					"patching_rect" : [ 64.0, 353.0, 66.0, 20.0 ],
 					"text" : "to live.gain"
 				}
 
@@ -149,13 +149,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-26",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 526.0, 235.0, 61.0, 35.0 ],
-					"text" : "/F1/ch1 0."
+					"patching_rect" : [ 526.0, 235.0, 57.0, 49.0 ],
+					"text" : "/F1/ch1 0.015748"
 				}
 
 			}
@@ -224,7 +224,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 249.0, 278.0, 157.0, 20.0 ],
+					"patching_rect" : [ 203.5, 291.0, 157.0, 20.0 ],
 					"text" : "send label to D400S display"
 				}
 
@@ -236,7 +236,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 253.0, 302.0, 36.0, 22.0 ],
+					"patching_rect" : [ 207.5, 315.0, 36.0, 22.0 ],
 					"text" : "#1"
 				}
 
@@ -286,7 +286,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.0, 278.0, 30.0, 30.0 ]
+					"patching_rect" : [ 64.0, 315.0, 30.0, 30.0 ]
 				}
 
 			}
