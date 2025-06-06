@@ -1,0 +1,1072 @@
+# ==============================================================================
+# File: "/Users/performancemac/Desktop/SPARCL/SPARCL-max/Mo/snapshots-spat5.viewer-All.txt"
+# Exported by: Performance mac
+# performancemac@Performance-Mac - macOS 14.4.1
+# 06-jun-2025 18:35:58
+# Content: 1065 OSC messages
+# ==============================================================================
+/snapshot/indices 1 15 16 17 18 2 3 4 12 7 13 5 6 11 8 9 10 14
+/snapshot/1/name "MO 1"
+/snapshot/1/time 0.0
+/snapshot/1/begin
+/snapshot/1/source/1/aed -36.1059 0.0 4.63123
+/snapshot/1/source/1/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/1/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/2/aed 36.8225 2.41893 4.74562
+/snapshot/1/source/2/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/2/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/3/aed 146.263 45.8559 0.0492026
+/snapshot/1/source/3/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/3/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/4/aed 170.031 0.307305 4.08384
+/snapshot/1/source/4/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/4/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/5/aed 0.39487 55.8104 3.50468
+/snapshot/1/source/5/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/5/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/6/aed -60.4922 24.3524 5.20409
+/snapshot/1/source/6/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/6/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/7/aed -172.61 33.6642 5.65582
+/snapshot/1/source/7/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/7/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/8/aed -33.6248 7.52036 5.89501
+/snapshot/1/source/8/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/8/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/9/aed 121.407 3.90069 4.81371
+/snapshot/1/source/9/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/9/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/10/aed 40.084 -32.0325 9.20436
+/snapshot/1/source/10/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/10/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/11/aed 47.9504 -31.1541 9.43669
+/snapshot/1/source/11/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/11/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/12/aed 31.4302 -30.3752 9.65469
+/snapshot/1/source/12/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/12/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/13/aed 35.1051 -29.9792 9.77013
+/snapshot/1/source/13/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/13/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/14/aed 34.3869 -35.2194 8.46526
+/snapshot/1/source/14/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/14/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/15/aed 40.4772 -28.2132 10.3267
+/snapshot/1/source/15/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/15/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/16/aed 45.223 -28.7628 10.1458
+/snapshot/1/source/16/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/16/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/subwoofer/1/aed -45.0 0.0 4.0
+/snapshot/1/subwoofer/2/aed 45.0 0.0 4.0
+/snapshot/1/subwoofer/3/aed -135.0 0.0 4.0
+/snapshot/1/subwoofer/4/aed 135.0 0.0 4.0
+/snapshot/1/listener/aed 90.0 0.0 0.0
+/snapshot/1/listener/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/listener/lookat/xyz 0.0 1.0 0.0
+/snapshot/1/end
+/snapshot/15/name "MO 2"
+/snapshot/15/time 0.0
+/snapshot/15/begin
+/snapshot/15/source/1/aed -91.1236 0.0 3.11849
+/snapshot/15/source/1/orientation 0.0 0.0 0.0 1.0
+/snapshot/15/source/1/lookat/xyz 0.0 0.0 0.0
+/snapshot/15/source/2/aed 90.1369 3.93778 2.91661
+/snapshot/15/source/2/orientation 0.0 0.0 0.0 1.0
+/snapshot/15/source/2/lookat/xyz 0.0 0.0 0.0
+/snapshot/15/source/3/aed 146.263 45.8559 0.0492026
+/snapshot/15/source/3/orientation 0.0 0.0 0.0 1.0
+/snapshot/15/source/3/lookat/xyz 0.0 0.0 0.0
+/snapshot/15/source/4/aed 170.031 0.307305 4.08384
+/snapshot/15/source/4/orientation 0.0 0.0 0.0 1.0
+/snapshot/15/source/4/lookat/xyz 0.0 0.0 0.0
+/snapshot/15/source/5/aed 0.39487 55.8104 3.50468
+/snapshot/15/source/5/orientation 0.0 0.0 0.0 1.0
+/snapshot/15/source/5/lookat/xyz 0.0 0.0 0.0
+/snapshot/15/source/6/aed -60.4922 24.3524 5.20409
+/snapshot/15/source/6/orientation 0.0 0.0 0.0 1.0
+/snapshot/15/source/6/lookat/xyz 0.0 0.0 0.0
+/snapshot/15/source/7/aed -0.164916 32.5483 5.82732
+/snapshot/15/source/7/orientation 0.0 0.0 0.0 1.0
+/snapshot/15/source/7/lookat/xyz 0.0 0.0 0.0
+/snapshot/15/source/8/aed -30.4449 7.91061 5.60591
+/snapshot/15/source/8/orientation 0.0 0.0 0.0 1.0
+/snapshot/15/source/8/lookat/xyz 0.0 0.0 0.0
+/snapshot/15/source/9/aed -80.886 4.87671 3.85198
+/snapshot/15/source/9/orientation 0.0 0.0 0.0 1.0
+/snapshot/15/source/9/lookat/xyz 0.0 0.0 0.0
+/snapshot/15/source/10/aed 40.084 -32.0325 9.20436
+/snapshot/15/source/10/orientation 0.0 0.0 0.0 1.0
+/snapshot/15/source/10/lookat/xyz 0.0 0.0 0.0
+/snapshot/15/source/11/aed 47.9504 -31.1541 9.43669
+/snapshot/15/source/11/orientation 0.0 0.0 0.0 1.0
+/snapshot/15/source/11/lookat/xyz 0.0 0.0 0.0
+/snapshot/15/source/12/aed 31.4302 -30.3752 9.65469
+/snapshot/15/source/12/orientation 0.0 0.0 0.0 1.0
+/snapshot/15/source/12/lookat/xyz 0.0 0.0 0.0
+/snapshot/15/source/13/aed 35.1051 -29.9792 9.77013
+/snapshot/15/source/13/orientation 0.0 0.0 0.0 1.0
+/snapshot/15/source/13/lookat/xyz 0.0 0.0 0.0
+/snapshot/15/source/14/aed 34.3869 -35.2194 8.46526
+/snapshot/15/source/14/orientation 0.0 0.0 0.0 1.0
+/snapshot/15/source/14/lookat/xyz 0.0 0.0 0.0
+/snapshot/15/source/15/aed 40.4772 -28.2132 10.3267
+/snapshot/15/source/15/orientation 0.0 0.0 0.0 1.0
+/snapshot/15/source/15/lookat/xyz 0.0 0.0 0.0
+/snapshot/15/source/16/aed 45.223 -28.7628 10.1458
+/snapshot/15/source/16/orientation 0.0 0.0 0.0 1.0
+/snapshot/15/source/16/lookat/xyz 0.0 0.0 0.0
+/snapshot/15/subwoofer/1/aed -45.0 0.0 4.0
+/snapshot/15/subwoofer/2/aed 45.0 0.0 4.0
+/snapshot/15/subwoofer/3/aed -135.0 0.0 4.0
+/snapshot/15/subwoofer/4/aed 135.0 0.0 4.0
+/snapshot/15/listener/aed 90.0 0.0 0.0
+/snapshot/15/listener/orientation 0.0 0.0 0.0 1.0
+/snapshot/15/listener/lookat/xyz 0.0 1.0 0.0
+/snapshot/15/end
+/snapshot/16/name "MO 3"
+/snapshot/16/time 0.0
+/snapshot/16/begin
+/snapshot/16/source/1/aed -114.979 1.18976 3.53206
+/snapshot/16/source/1/orientation 0.0 0.0 0.0 1.0
+/snapshot/16/source/1/lookat/xyz 0.0 0.0 0.0
+/snapshot/16/source/2/aed 112.876 2.46217 3.56009
+/snapshot/16/source/2/orientation 0.0 0.0 0.0 1.0
+/snapshot/16/source/2/lookat/xyz 0.0 0.0 0.0
+/snapshot/16/source/3/aed 146.263 45.8559 0.0492026
+/snapshot/16/source/3/orientation 0.0 0.0 0.0 1.0
+/snapshot/16/source/3/lookat/xyz 0.0 0.0 0.0
+/snapshot/16/source/4/aed 163.688 1.81682 4.14525
+/snapshot/16/source/4/orientation 0.0 0.0 0.0 1.0
+/snapshot/16/source/4/lookat/xyz 0.0 0.0 0.0
+/snapshot/16/source/5/aed 0.169865 47.4297 3.93648
+/snapshot/16/source/5/orientation 0.0 0.0 0.0 1.0
+/snapshot/16/source/5/lookat/xyz 0.0 0.0 0.0
+/snapshot/16/source/6/aed -60.4922 24.3524 5.20409
+/snapshot/16/source/6/orientation 0.0 0.0 0.0 1.0
+/snapshot/16/source/6/lookat/xyz 0.0 0.0 0.0
+/snapshot/16/source/7/aed 0.330808 32.9781 5.75979
+/snapshot/16/source/7/orientation 0.0 0.0 0.0 1.0
+/snapshot/16/source/7/lookat/xyz 0.0 0.0 0.0
+/snapshot/16/source/8/aed -30.4449 7.91061 5.60591
+/snapshot/16/source/8/orientation 0.0 0.0 0.0 1.0
+/snapshot/16/source/8/lookat/xyz 0.0 0.0 0.0
+/snapshot/16/source/9/aed -80.886 4.87671 3.85198
+/snapshot/16/source/9/orientation 0.0 0.0 0.0 1.0
+/snapshot/16/source/9/lookat/xyz 0.0 0.0 0.0
+/snapshot/16/source/10/aed 40.084 -32.0325 9.20436
+/snapshot/16/source/10/orientation 0.0 0.0 0.0 1.0
+/snapshot/16/source/10/lookat/xyz 0.0 0.0 0.0
+/snapshot/16/source/11/aed 47.9504 -31.1541 9.43669
+/snapshot/16/source/11/orientation 0.0 0.0 0.0 1.0
+/snapshot/16/source/11/lookat/xyz 0.0 0.0 0.0
+/snapshot/16/source/12/aed 31.4302 -30.3752 9.65469
+/snapshot/16/source/12/orientation 0.0 0.0 0.0 1.0
+/snapshot/16/source/12/lookat/xyz 0.0 0.0 0.0
+/snapshot/16/source/13/aed 35.1051 -29.9792 9.77013
+/snapshot/16/source/13/orientation 0.0 0.0 0.0 1.0
+/snapshot/16/source/13/lookat/xyz 0.0 0.0 0.0
+/snapshot/16/source/14/aed 34.3869 -35.2194 8.46526
+/snapshot/16/source/14/orientation 0.0 0.0 0.0 1.0
+/snapshot/16/source/14/lookat/xyz 0.0 0.0 0.0
+/snapshot/16/source/15/aed 40.4772 -28.2132 10.3267
+/snapshot/16/source/15/orientation 0.0 0.0 0.0 1.0
+/snapshot/16/source/15/lookat/xyz 0.0 0.0 0.0
+/snapshot/16/source/16/aed 45.223 -28.7628 10.1458
+/snapshot/16/source/16/orientation 0.0 0.0 0.0 1.0
+/snapshot/16/source/16/lookat/xyz 0.0 0.0 0.0
+/snapshot/16/subwoofer/1/aed -45.0 0.0 4.0
+/snapshot/16/subwoofer/2/aed 45.0 0.0 4.0
+/snapshot/16/subwoofer/3/aed -135.0 0.0 4.0
+/snapshot/16/subwoofer/4/aed 135.0 0.0 4.0
+/snapshot/16/listener/aed 90.0 0.0 0.0
+/snapshot/16/listener/orientation 0.0 0.0 0.0 1.0
+/snapshot/16/listener/lookat/xyz 0.0 1.0 0.0
+/snapshot/16/end
+/snapshot/17/name "MO 4"
+/snapshot/17/time 0.0
+/snapshot/17/begin
+/snapshot/17/source/1/aed -137.431 0.867029 4.84663
+/snapshot/17/source/1/orientation 0.0 0.0 0.0 1.0
+/snapshot/17/source/1/lookat/xyz 0.0 0.0 0.0
+/snapshot/17/source/2/aed 138.916 1.82588 4.80005
+/snapshot/17/source/2/orientation 0.0 0.0 0.0 1.0
+/snapshot/17/source/2/lookat/xyz 0.0 0.0 0.0
+/snapshot/17/source/3/aed 146.263 45.8559 0.0492026
+/snapshot/17/source/3/orientation 0.0 0.0 0.0 1.0
+/snapshot/17/source/3/lookat/xyz 0.0 0.0 0.0
+/snapshot/17/source/4/aed 163.688 1.81682 4.14525
+/snapshot/17/source/4/orientation 0.0 0.0 0.0 1.0
+/snapshot/17/source/4/lookat/xyz 0.0 0.0 0.0
+/snapshot/17/source/5/aed 0.169865 47.4297 3.93648
+/snapshot/17/source/5/orientation 0.0 0.0 0.0 1.0
+/snapshot/17/source/5/lookat/xyz 0.0 0.0 0.0
+/snapshot/17/source/6/aed -60.4922 24.3524 5.20409
+/snapshot/17/source/6/orientation 0.0 0.0 0.0 1.0
+/snapshot/17/source/6/lookat/xyz 0.0 0.0 0.0
+/snapshot/17/source/7/aed 0.330808 32.9781 5.75979
+/snapshot/17/source/7/orientation 0.0 0.0 0.0 1.0
+/snapshot/17/source/7/lookat/xyz 0.0 0.0 0.0
+/snapshot/17/source/8/aed -30.4449 7.91061 5.60591
+/snapshot/17/source/8/orientation 0.0 0.0 0.0 1.0
+/snapshot/17/source/8/lookat/xyz 0.0 0.0 0.0
+/snapshot/17/source/9/aed -80.886 4.87671 3.85198
+/snapshot/17/source/9/orientation 0.0 0.0 0.0 1.0
+/snapshot/17/source/9/lookat/xyz 0.0 0.0 0.0
+/snapshot/17/source/10/aed -48.8402 7.81675 4.30219
+/snapshot/17/source/10/orientation 0.0 0.0 0.0 1.0
+/snapshot/17/source/10/lookat/xyz 0.0 0.0 0.0
+/snapshot/17/source/11/aed 49.3989 9.37162 4.1112
+/snapshot/17/source/11/orientation 0.0 0.0 0.0 1.0
+/snapshot/17/source/11/lookat/xyz 0.0 0.0 0.0
+/snapshot/17/source/12/aed 43.856 -22.8238 10.6937
+/snapshot/17/source/12/orientation 0.0 0.0 0.0 1.0
+/snapshot/17/source/12/lookat/xyz 0.0 0.0 0.0
+/snapshot/17/source/13/aed 35.1051 -29.9792 9.77013
+/snapshot/17/source/13/orientation 0.0 0.0 0.0 1.0
+/snapshot/17/source/13/lookat/xyz 0.0 0.0 0.0
+/snapshot/17/source/14/aed 34.3869 -35.2194 8.46526
+/snapshot/17/source/14/orientation 0.0 0.0 0.0 1.0
+/snapshot/17/source/14/lookat/xyz 0.0 0.0 0.0
+/snapshot/17/source/15/aed 40.4772 -28.2132 10.3267
+/snapshot/17/source/15/orientation 0.0 0.0 0.0 1.0
+/snapshot/17/source/15/lookat/xyz 0.0 0.0 0.0
+/snapshot/17/source/16/aed 45.223 -28.7628 10.1458
+/snapshot/17/source/16/orientation 0.0 0.0 0.0 1.0
+/snapshot/17/source/16/lookat/xyz 0.0 0.0 0.0
+/snapshot/17/subwoofer/1/aed -45.0 0.0 4.0
+/snapshot/17/subwoofer/2/aed 45.0 0.0 4.0
+/snapshot/17/subwoofer/3/aed -135.0 0.0 4.0
+/snapshot/17/subwoofer/4/aed 135.0 0.0 4.0
+/snapshot/17/listener/aed 90.0 0.0 0.0
+/snapshot/17/listener/orientation 0.0 0.0 0.0 1.0
+/snapshot/17/listener/lookat/xyz 0.0 1.0 0.0
+/snapshot/17/end
+/snapshot/18/name "MO 5 VOICES"
+/snapshot/18/time 0.0
+/snapshot/18/begin
+/snapshot/18/source/1/aed -141.989 0.900775 4.66507
+/snapshot/18/source/1/orientation 0.0 0.0 0.0 1.0
+/snapshot/18/source/1/lookat/xyz 0.0 0.0 0.0
+/snapshot/18/source/2/aed 144.386 1.92047 4.56372
+/snapshot/18/source/2/orientation 0.0 0.0 0.0 1.0
+/snapshot/18/source/2/lookat/xyz 0.0 0.0 0.0
+/snapshot/18/source/3/aed 146.263 45.8559 0.0492026
+/snapshot/18/source/3/orientation 0.0 0.0 0.0 1.0
+/snapshot/18/source/3/lookat/xyz 0.0 0.0 0.0
+/snapshot/18/source/4/aed 156.063 0.768214 3.9719
+/snapshot/18/source/4/orientation 0.0 0.0 0.0 1.0
+/snapshot/18/source/4/lookat/xyz 0.0 0.0 0.0
+/snapshot/18/source/5/aed 0.581725 38.6167 3.40842
+/snapshot/18/source/5/orientation 0.0 0.0 0.0 1.0
+/snapshot/18/source/5/lookat/xyz 0.0 0.0 0.0
+/snapshot/18/source/6/aed -60.4922 24.3524 5.20409
+/snapshot/18/source/6/orientation 0.0 0.0 0.0 1.0
+/snapshot/18/source/6/lookat/xyz 0.0 0.0 0.0
+/snapshot/18/source/7/aed 0.269014 17.1858 5.05755
+/snapshot/18/source/7/orientation 0.0 0.0 0.0 1.0
+/snapshot/18/source/7/lookat/xyz 0.0 0.0 0.0
+/snapshot/18/source/8/aed -30.4449 7.91061 5.60591
+/snapshot/18/source/8/orientation 0.0 0.0 0.0 1.0
+/snapshot/18/source/8/lookat/xyz 0.0 0.0 0.0
+/snapshot/18/source/9/aed -80.886 4.87671 3.85198
+/snapshot/18/source/9/orientation 0.0 0.0 0.0 1.0
+/snapshot/18/source/9/lookat/xyz 0.0 0.0 0.0
+/snapshot/18/source/10/aed -49.1302 2.0654 4.28988
+/snapshot/18/source/10/orientation 0.0 0.0 0.0 1.0
+/snapshot/18/source/10/lookat/xyz 0.0 0.0 0.0
+/snapshot/18/source/11/aed 49.7531 2.26381 4.08907
+/snapshot/18/source/11/orientation 0.0 0.0 0.0 1.0
+/snapshot/18/source/11/lookat/xyz 0.0 0.0 0.0
+/snapshot/18/source/12/aed -119.971 -0.126769 4.72303
+/snapshot/18/source/12/orientation 0.0 0.0 0.0 1.0
+/snapshot/18/source/12/lookat/xyz 0.0 0.0 0.0
+/snapshot/18/source/13/aed 40.9129 39.9001 5.11932
+/snapshot/18/source/13/orientation 0.0 0.0 0.0 1.0
+/snapshot/18/source/13/lookat/xyz 0.0 0.0 0.0
+/snapshot/18/source/14/aed 34.3869 -35.2194 8.46526
+/snapshot/18/source/14/orientation 0.0 0.0 0.0 1.0
+/snapshot/18/source/14/lookat/xyz 0.0 0.0 0.0
+/snapshot/18/source/15/aed 40.4772 -28.2132 10.3267
+/snapshot/18/source/15/orientation 0.0 0.0 0.0 1.0
+/snapshot/18/source/15/lookat/xyz 0.0 0.0 0.0
+/snapshot/18/source/16/aed 45.223 -28.7628 10.1458
+/snapshot/18/source/16/orientation 0.0 0.0 0.0 1.0
+/snapshot/18/source/16/lookat/xyz 0.0 0.0 0.0
+/snapshot/18/subwoofer/1/aed -45.0 0.0 4.0
+/snapshot/18/subwoofer/2/aed 45.0 0.0 4.0
+/snapshot/18/subwoofer/3/aed -135.0 0.0 4.0
+/snapshot/18/subwoofer/4/aed 135.0 0.0 4.0
+/snapshot/18/listener/aed 90.0 0.0 0.0
+/snapshot/18/listener/orientation 0.0 0.0 0.0 1.0
+/snapshot/18/listener/lookat/xyz 0.0 1.0 0.0
+/snapshot/18/end
+/snapshot/2/name "GEOMETRY 1"
+/snapshot/2/time 80000.0
+/snapshot/2/begin
+/snapshot/2/source/1/aed -90.2584 17.352 2.08759
+/snapshot/2/source/1/orientation 0 0 0 1
+/snapshot/2/source/1/lookat/xyz 0 0 0
+/snapshot/2/source/2/aed 0.539243 16.0366 2.0686
+/snapshot/2/source/2/orientation 0 0 0 1
+/snapshot/2/source/2/lookat/xyz 0 0 0
+/snapshot/2/source/3/aed 89.8477 16.6837 2.02916
+/snapshot/2/source/3/orientation 0 0 0 1
+/snapshot/2/source/3/lookat/xyz 0 0 0
+/snapshot/2/source/4/aed -179.457 24.9057 2.24347
+/snapshot/2/source/4/orientation 0 0 0 1
+/snapshot/2/source/4/lookat/xyz 0 0 0
+/snapshot/2/source/5/aed -45.4924 10.009 4.00389
+/snapshot/2/source/5/orientation 0 0 0 1
+/snapshot/2/source/5/lookat/xyz 0 0 0
+/snapshot/2/source/6/aed 45.5205 8.21988 4.0302
+/snapshot/2/source/6/orientation 0 0 0 1
+/snapshot/2/source/6/lookat/xyz 0 0 0
+/snapshot/2/source/7/aed -135.902 5.2964 4.02725
+/snapshot/2/source/7/orientation 0 0 0 1
+/snapshot/2/source/7/lookat/xyz 0 0 0
+/snapshot/2/source/8/aed 136.284 25.2555 4.3361
+/snapshot/2/source/8/orientation 0 0 0 1
+/snapshot/2/source/8/lookat/xyz 0 0 0
+/snapshot/2/source/9/aed 88.2764 1.71934 4.86036
+/snapshot/2/source/9/orientation 0 0 0 1
+/snapshot/2/source/9/lookat/xyz 0 0 0
+/snapshot/2/source/10/aed -87.7052 1.57873 4.74501
+/snapshot/2/source/10/orientation 0 0 0 1
+/snapshot/2/source/10/lookat/xyz 0 0 0
+/snapshot/2/source/11/aed 0.600305 44.6025 4.44501
+/snapshot/2/source/11/orientation 0 0 0 1
+/snapshot/2/source/11/lookat/xyz 0 0 0
+/snapshot/2/source/12/aed 17.3193 40.7694 8.17812
+/snapshot/2/source/12/orientation 0 0 0 1
+/snapshot/2/source/12/lookat/xyz 0 0 0
+/snapshot/2/source/13/aed 24.9917 42.1475 8.6686
+/snapshot/2/source/13/orientation 0 0 0 1
+/snapshot/2/source/13/lookat/xyz 0 0 0
+/snapshot/2/source/14/aed -8.73296 31.092 7.53082
+/snapshot/2/source/14/orientation 0 0 0 1
+/snapshot/2/source/14/lookat/xyz 0 0 0
+/snapshot/2/source/15/aed 19.4326 38.1985 8.38462
+/snapshot/2/source/15/orientation 0 0 0 1
+/snapshot/2/source/15/lookat/xyz 0 0 0
+/snapshot/2/source/16/aed 8.54971 42.607 8.66228
+/snapshot/2/source/16/orientation 0 0 0 1
+/snapshot/2/source/16/lookat/xyz 0 0 0
+/snapshot/2/subwoofer/1/aed -45 0 4
+/snapshot/2/subwoofer/2/aed 45 0 4
+/snapshot/2/subwoofer/3/aed -135 0 4
+/snapshot/2/subwoofer/4/aed 135 0 4
+/snapshot/2/listener/aed 90 0 0
+/snapshot/2/listener/orientation 0 0 0 1
+/snapshot/2/listener/lookat/xyz 0 1 0
+/snapshot/2/end
+/snapshot/3/name "GEOMETRY 2"
+/snapshot/3/time 83000.0
+/snapshot/3/begin
+/snapshot/3/source/1/aed -89.9554 7.75282 0.970902
+/snapshot/3/source/1/orientation 0 0 0 1
+/snapshot/3/source/1/lookat/xyz 0 0 0
+/snapshot/3/source/2/aed 173.508 26.1299 1.30897
+/snapshot/3/source/2/orientation 0 0 0 1
+/snapshot/3/source/2/lookat/xyz 0 0 0
+/snapshot/3/source/3/aed 90.7314 20.8494 2.02145
+/snapshot/3/source/3/orientation 0 0 0 1
+/snapshot/3/source/3/lookat/xyz 0 0 0
+/snapshot/3/source/4/aed 0.740122 25.1338 2.22517
+/snapshot/3/source/4/orientation 0 0 0 1
+/snapshot/3/source/4/lookat/xyz 0 0 0
+/snapshot/3/source/5/aed -88.9326 22.9622 3.2304
+/snapshot/3/source/5/orientation 0 0 0 1
+/snapshot/3/source/5/lookat/xyz 0 0 0
+/snapshot/3/source/6/aed 179.731 25.9793 3.32839
+/snapshot/3/source/6/orientation 0 0 0 1
+/snapshot/3/source/6/lookat/xyz 0 0 0
+/snapshot/3/source/7/aed 90.486 23.1505 4.34049
+/snapshot/3/source/7/orientation 0 0 0 1
+/snapshot/3/source/7/lookat/xyz 0 0 0
+/snapshot/3/source/8/aed -0.222078 31.7122 5.76603
+/snapshot/3/source/8/orientation 0 0 0 1
+/snapshot/3/source/8/lookat/xyz 0 0 0
+/snapshot/3/source/9/aed 89.4299 5.85317 4.94589
+/snapshot/3/source/9/orientation 0 0 0 1
+/snapshot/3/source/9/lookat/xyz 0 0 0
+/snapshot/3/source/10/aed -29.2364 1.21997 4.19504
+/snapshot/3/source/10/orientation 0 0 0 1
+/snapshot/3/source/10/lookat/xyz 0 0 0
+/snapshot/3/source/11/aed -5.81316 41.7519 8.02903
+/snapshot/3/source/11/orientation 0 0 0 1
+/snapshot/3/source/11/lookat/xyz 0 0 0
+/snapshot/3/source/12/aed 4.17864 41.559 7.92303
+/snapshot/3/source/12/orientation 0 0 0 1
+/snapshot/3/source/12/lookat/xyz 0 0 0
+/snapshot/3/source/13/aed 12.5277 42.9123 8.14773
+/snapshot/3/source/13/orientation 0 0 0 1
+/snapshot/3/source/13/lookat/xyz 0 0 0
+/snapshot/3/source/14/aed -8.73296 38.6045 8.2523
+/snapshot/3/source/14/orientation 0 0 0 1
+/snapshot/3/source/14/lookat/xyz 0 0 0
+/snapshot/3/source/15/aed 7.2351 40.3254 8.21604
+/snapshot/3/source/15/orientation 0 0 0 1
+/snapshot/3/source/15/lookat/xyz 0 0 0
+/snapshot/3/source/16/aed -4.209 41.4897 8.43942
+/snapshot/3/source/16/orientation 0 0 0 1
+/snapshot/3/source/16/lookat/xyz 0 0 0
+/snapshot/3/subwoofer/1/aed -45 0 4
+/snapshot/3/subwoofer/2/aed 45 0 4
+/snapshot/3/subwoofer/3/aed -135 0 4
+/snapshot/3/subwoofer/4/aed 135 0 4
+/snapshot/3/listener/aed 90 0 0
+/snapshot/3/listener/orientation 0 0 0 1
+/snapshot/3/listener/lookat/xyz 0 1 0
+/snapshot/3/end
+/snapshot/4/name "GEOMETRY 3"
+/snapshot/4/time 80000.0
+/snapshot/4/begin
+/snapshot/4/source/1/aed -89.9032 28.8089 2.20651
+/snapshot/4/source/1/orientation 0 0 0 1
+/snapshot/4/source/1/lookat/xyz 0 0 0
+/snapshot/4/source/2/aed 178.728 15.5379 2.15205
+/snapshot/4/source/2/orientation 0 0 0 1
+/snapshot/4/source/2/lookat/xyz 0 0 0
+/snapshot/4/source/3/aed 90.735 27.5457 2.1242
+/snapshot/4/source/3/orientation 0 0 0 1
+/snapshot/4/source/3/lookat/xyz 0 0 0
+/snapshot/4/source/4/aed 0.738208 26.0714 2.24902
+/snapshot/4/source/4/orientation 0 0 0 1
+/snapshot/4/source/4/lookat/xyz 0 0 0
+/snapshot/4/source/5/aed -88.9395 33.6842 3.57459
+/snapshot/4/source/5/orientation 0 0 0 1
+/snapshot/4/source/5/lookat/xyz 0 0 0
+/snapshot/4/source/6/aed -27.2324 26.8232 4.40458
+/snapshot/4/source/6/orientation 0 0 0 1
+/snapshot/4/source/6/lookat/xyz 0 0 0
+/snapshot/4/source/7/aed 90.1875 29.6601 3.44875
+/snapshot/4/source/7/orientation 0 0 0 1
+/snapshot/4/source/7/lookat/xyz 0 0 0
+/snapshot/4/source/8/aed -1.30804 45.1086 4.27827
+/snapshot/4/source/8/orientation 0 0 0 1
+/snapshot/4/source/8/lookat/xyz 0 0 0
+/snapshot/4/source/9/aed 2.40708 43.4139 8.73084
+/snapshot/4/source/9/orientation 0 0 0 1
+/snapshot/4/source/9/lookat/xyz 0 0 0
+/snapshot/4/source/10/aed -12.8094 41.4675 7.94341
+/snapshot/4/source/10/orientation 0 0 0 1
+/snapshot/4/source/10/lookat/xyz 0 0 0
+/snapshot/4/source/11/aed -5.81317 41.752 8.02905
+/snapshot/4/source/11/orientation 0 0 0 1
+/snapshot/4/source/11/lookat/xyz 0 0 0
+/snapshot/4/source/12/aed 4.1718 41.559 7.92297
+/snapshot/4/source/12/orientation 0 0 0 1
+/snapshot/4/source/12/lookat/xyz 0 0 0
+/snapshot/4/source/13/aed 12.5211 42.9123 8.14752
+/snapshot/4/source/13/orientation 0 0 0 1
+/snapshot/4/source/13/lookat/xyz 0 0 0
+/snapshot/4/source/14/aed -8.73296 38.6057 8.25244
+/snapshot/4/source/14/orientation 0 0 0 1
+/snapshot/4/source/14/lookat/xyz 0 0 0
+/snapshot/4/source/15/aed 7.22865 40.3262 8.21602
+/snapshot/4/source/15/orientation 0 0 0 1
+/snapshot/4/source/15/lookat/xyz 0 0 0
+/snapshot/4/source/16/aed -4.21542 41.4887 8.43937
+/snapshot/4/source/16/orientation 0 0 0 1
+/snapshot/4/source/16/lookat/xyz 0 0 0
+/snapshot/4/subwoofer/1/aed -45 0 4
+/snapshot/4/subwoofer/2/aed 45 0 4
+/snapshot/4/subwoofer/3/aed -135 0 4
+/snapshot/4/subwoofer/4/aed 135 0 4
+/snapshot/4/listener/aed 90 0 0
+/snapshot/4/listener/orientation 0 0 0 1
+/snapshot/4/listener/lookat/xyz 0 1 0
+/snapshot/4/end
+/snapshot/12/name "GEOMETRY 4"
+/snapshot/12/time 80000.0
+/snapshot/12/begin
+/snapshot/12/source/1/aed -179.991 15.5222 3.83042
+/snapshot/12/source/1/orientation 0 0 0 1
+/snapshot/12/source/1/lookat/xyz 0 0 0
+/snapshot/12/source/2/aed 178.728 15.5375 2.1521
+/snapshot/12/source/2/orientation 0 0 0 1
+/snapshot/12/source/2/lookat/xyz 0 0 0
+/snapshot/12/source/3/aed 90.7343 27.5622 2.12454
+/snapshot/12/source/3/orientation 0 0 0 1
+/snapshot/12/source/3/lookat/xyz 0 0 0
+/snapshot/12/source/4/aed 0.738203 26.0736 2.24908
+/snapshot/12/source/4/orientation 0 0 0 1
+/snapshot/12/source/4/lookat/xyz 0 0 0
+/snapshot/12/source/5/aed 1.40863 27.2413 4.33227
+/snapshot/12/source/5/orientation 0 0 0 1
+/snapshot/12/source/5/lookat/xyz 0 0 0
+/snapshot/12/source/6/aed -90.5546 62.7697 4.14109
+/snapshot/12/source/6/orientation 0 0 0 1
+/snapshot/12/source/6/lookat/xyz 0 0 0
+/snapshot/12/source/7/aed 90.9451 29.6797 3.44668
+/snapshot/12/source/7/orientation 0 0 0 1
+/snapshot/12/source/7/lookat/xyz 0 0 0
+/snapshot/12/source/8/aed -1.3089 45.1173 4.27763
+/snapshot/12/source/8/orientation 0 0 0 1
+/snapshot/12/source/8/lookat/xyz 0 0 0
+/snapshot/12/source/9/aed 2.40455 43.4138 8.73131
+/snapshot/12/source/9/orientation 0 0 0 1
+/snapshot/12/source/9/lookat/xyz 0 0 0
+/snapshot/12/source/10/aed -12.8088 41.4686 7.94369
+/snapshot/12/source/10/orientation 0 0 0 1
+/snapshot/12/source/10/lookat/xyz 0 0 0
+/snapshot/12/source/11/aed -5.81329 41.7571 8.02969
+/snapshot/12/source/11/orientation 0 0 0 1
+/snapshot/12/source/11/lookat/xyz 0 0 0
+/snapshot/12/source/12/aed 4.17024 41.559 7.92295
+/snapshot/12/source/12/orientation 0 0 0 1
+/snapshot/12/source/12/lookat/xyz 0 0 0
+/snapshot/12/source/13/aed 12.5195 42.9123 8.14747
+/snapshot/12/source/13/orientation 0 0 0 1
+/snapshot/12/source/13/lookat/xyz 0 0 0
+/snapshot/12/source/14/aed -8.73296 38.6068 8.25256
+/snapshot/12/source/14/orientation 0 0 0 1
+/snapshot/12/source/14/lookat/xyz 0 0 0
+/snapshot/12/source/15/aed 7.22724 40.3264 8.21601
+/snapshot/12/source/15/orientation 0 0 0 1
+/snapshot/12/source/15/lookat/xyz 0 0 0
+/snapshot/12/source/16/aed -4.21688 41.4885 8.43936
+/snapshot/12/source/16/orientation 0 0 0 1
+/snapshot/12/source/16/lookat/xyz 0 0 0
+/snapshot/12/subwoofer/1/aed -45 0 4
+/snapshot/12/subwoofer/2/aed 45 0 4
+/snapshot/12/subwoofer/3/aed -135 0 4
+/snapshot/12/subwoofer/4/aed 135 0 4
+/snapshot/12/listener/aed 90 0 0
+/snapshot/12/listener/orientation 0 0 0 1
+/snapshot/12/listener/lookat/xyz 0 1 0
+/snapshot/12/end
+/snapshot/7/name "2ND PART VOCALS"
+/snapshot/7/time 30000.0
+/snapshot/7/begin
+/snapshot/7/source/1/aed -37.7452 54.8315 2.51042
+/snapshot/7/source/1/orientation 0 0 0 1
+/snapshot/7/source/1/lookat/xyz 0 0 0
+/snapshot/7/source/2/aed 38.0349 56.4919 2.56145
+/snapshot/7/source/2/orientation 0 0 0 1
+/snapshot/7/source/2/lookat/xyz 0 0 0
+/snapshot/7/source/3/aed -71.5603 51.9607 2.30474
+/snapshot/7/source/3/orientation 0 0 0 1
+/snapshot/7/source/3/lookat/xyz 0 0 0
+/snapshot/7/source/4/aed 61.0876 53.0374 2.13636
+/snapshot/7/source/4/orientation 0 0 0 1
+/snapshot/7/source/4/lookat/xyz 0 0 0
+/snapshot/7/source/5/aed -112.738 53.6951 2.51579
+/snapshot/7/source/5/orientation 0 0 0 1
+/snapshot/7/source/5/lookat/xyz 0 0 0
+/snapshot/7/source/6/aed 110.987 44.3779 2.23601
+/snapshot/7/source/6/orientation 0 0 0 1
+/snapshot/7/source/6/lookat/xyz 0 0 0
+/snapshot/7/source/7/aed -161.109 51.0457 2.24601
+/snapshot/7/source/7/orientation 0 0 0 1
+/snapshot/7/source/7/lookat/xyz 0 0 0
+/snapshot/7/source/8/aed 155.922 60.569 2.69613
+/snapshot/7/source/8/orientation 0 0 0 1
+/snapshot/7/source/8/lookat/xyz 0 0 0
+/snapshot/7/source/9/aed 2.40455 43.4138 8.73131
+/snapshot/7/source/9/orientation 0 0 0 1
+/snapshot/7/source/9/lookat/xyz 0 0 0
+/snapshot/7/source/10/aed -12.9463 31.8005 7.00754
+/snapshot/7/source/10/orientation 0 0 0 1
+/snapshot/7/source/10/lookat/xyz 0 0 0
+/snapshot/7/source/11/aed -5.60599 32.105 7.06876
+/snapshot/7/source/11/orientation 0 0 0 1
+/snapshot/7/source/11/lookat/xyz 0 0 0
+/snapshot/7/source/12/aed 4.17024 35.5668 7.28823
+/snapshot/7/source/12/orientation 0 0 0 1
+/snapshot/7/source/12/lookat/xyz 0 0 0
+/snapshot/7/source/13/aed 12.605 38.3088 7.60712
+/snapshot/7/source/13/orientation 0 0 0 1
+/snapshot/7/source/13/lookat/xyz 0 0 0
+/snapshot/7/source/14/aed -8.73296 31.0969 7.53121
+/snapshot/7/source/14/orientation 0 0 0 1
+/snapshot/7/source/14/lookat/xyz 0 0 0
+/snapshot/7/source/15/aed 7.15046 33.1084 7.47648
+/snapshot/7/source/15/orientation 0 0 0 1
+/snapshot/7/source/15/lookat/xyz 0 0 0
+/snapshot/7/source/16/aed -4.21688 36.9935 7.91511
+/snapshot/7/source/16/orientation 0 0 0 1
+/snapshot/7/source/16/lookat/xyz 0 0 0
+/snapshot/7/subwoofer/1/aed -45 0 4
+/snapshot/7/subwoofer/2/aed 45 0 4
+/snapshot/7/subwoofer/3/aed -135 0 4
+/snapshot/7/subwoofer/4/aed 135 0 4
+/snapshot/7/listener/aed 90 0 0
+/snapshot/7/listener/orientation 0 0 0 1
+/snapshot/7/listener/lookat/xyz 0 1 0
+/snapshot/7/end
+/snapshot/13/name "2ND PART VOCALS 2"
+/snapshot/13/time 40000.0
+/snapshot/13/begin
+/snapshot/13/source/1/aed -37.7452 54.8315 2.51042
+/snapshot/13/source/1/orientation 0 0 0 1
+/snapshot/13/source/1/lookat/xyz 0 0 0
+/snapshot/13/source/2/aed 38.0349 56.4919 2.56145
+/snapshot/13/source/2/orientation 0 0 0 1
+/snapshot/13/source/2/lookat/xyz 0 0 0
+/snapshot/13/source/3/aed -71.5603 51.9607 2.30474
+/snapshot/13/source/3/orientation 0 0 0 1
+/snapshot/13/source/3/lookat/xyz 0 0 0
+/snapshot/13/source/4/aed 61.0876 53.0374 2.13636
+/snapshot/13/source/4/orientation 0 0 0 1
+/snapshot/13/source/4/lookat/xyz 0 0 0
+/snapshot/13/source/5/aed -112.738 53.6951 2.51579
+/snapshot/13/source/5/orientation 0 0 0 1
+/snapshot/13/source/5/lookat/xyz 0 0 0
+/snapshot/13/source/6/aed 95.1908 49.111 2.06863
+/snapshot/13/source/6/orientation 0 0 0 1
+/snapshot/13/source/6/lookat/xyz 0 0 0
+/snapshot/13/source/7/aed -161.109 51.0457 2.24601
+/snapshot/13/source/7/orientation 0 0 0 1
+/snapshot/13/source/7/lookat/xyz 0 0 0
+/snapshot/13/source/8/aed -82.1785 44.5387 3.34791
+/snapshot/13/source/8/orientation 0 0 0 1
+/snapshot/13/source/8/lookat/xyz 0 0 0
+/snapshot/13/source/9/aed 2.40222 43.4136 8.7307
+/snapshot/13/source/9/orientation 0 0 0 1
+/snapshot/13/source/9/lookat/xyz 0 0 0
+/snapshot/13/source/10/aed -12.9463 31.8027 7.0077
+/snapshot/13/source/10/orientation 0 0 0 1
+/snapshot/13/source/10/lookat/xyz 0 0 0
+/snapshot/13/source/11/aed -5.60603 32.1072 7.06893
+/snapshot/13/source/11/orientation 0 0 0 1
+/snapshot/13/source/11/lookat/xyz 0 0 0
+/snapshot/13/source/12/aed 4.17024 35.5681 7.28835
+/snapshot/13/source/12/orientation 0 0 0 1
+/snapshot/13/source/12/lookat/xyz 0 0 0
+/snapshot/13/source/13/aed 12.605 38.3098 7.60722
+/snapshot/13/source/13/orientation 0 0 0 1
+/snapshot/13/source/13/lookat/xyz 0 0 0
+/snapshot/13/source/14/aed -8.73296 31.0986 7.53134
+/snapshot/13/source/14/orientation 0 0 0 1
+/snapshot/13/source/14/lookat/xyz 0 0 0
+/snapshot/13/source/15/aed 7.15047 33.1101 7.47661
+/snapshot/13/source/15/orientation 0 0 0 1
+/snapshot/13/source/15/lookat/xyz 0 0 0
+/snapshot/13/source/16/aed -4.21688 36.9945 7.91521
+/snapshot/13/source/16/orientation 0 0 0 1
+/snapshot/13/source/16/lookat/xyz 0 0 0
+/snapshot/13/subwoofer/1/aed -45 0 4
+/snapshot/13/subwoofer/2/aed 45 0 4
+/snapshot/13/subwoofer/3/aed -135 0 4
+/snapshot/13/subwoofer/4/aed 135 0 4
+/snapshot/13/listener/aed 90 0 0
+/snapshot/13/listener/orientation 0 0 0 1
+/snapshot/13/listener/lookat/xyz 0 1 0
+/snapshot/13/end
+/snapshot/5/name "PIPE OUT"
+/snapshot/5/time 40000.0
+/snapshot/5/begin
+/snapshot/5/source/1/aed -91.2707 9.25934 3.86943
+/snapshot/5/source/1/orientation 0 0 0 1
+/snapshot/5/source/1/lookat/xyz 0 0 0
+/snapshot/5/source/2/aed 0.199534 8.3809 3.92069
+/snapshot/5/source/2/orientation 0 0 0 1
+/snapshot/5/source/2/lookat/xyz 0 0 0
+/snapshot/5/source/3/aed 89.3659 8.24067 4.06274
+/snapshot/5/source/3/orientation 0 0 0 1
+/snapshot/5/source/3/lookat/xyz 0 0 0
+/snapshot/5/source/4/aed -179.9 13.1622 4.14908
+/snapshot/5/source/4/orientation 0 0 0 1
+/snapshot/5/source/4/lookat/xyz 0 0 0
+/snapshot/5/source/5/aed -45.4924 10.009 4.00389
+/snapshot/5/source/5/orientation 0 0 0 1
+/snapshot/5/source/5/lookat/xyz 0 0 0
+/snapshot/5/source/6/aed 45.5202 8.21992 4.03018
+/snapshot/5/source/6/orientation 0 0 0 1
+/snapshot/5/source/6/lookat/xyz 0 0 0
+/snapshot/5/source/7/aed -134.736 4.96696 4.29363
+/snapshot/5/source/7/orientation 0 0 0 1
+/snapshot/5/source/7/lookat/xyz 0 0 0
+/snapshot/5/source/8/aed 135.338 5.87455 4.0061
+/snapshot/5/source/8/orientation 0 0 0 1
+/snapshot/5/source/8/lookat/xyz 0 0 0
+/snapshot/5/source/9/aed 24.3355 11.0672 4.09631
+/snapshot/5/source/9/orientation 0 0 0 1
+/snapshot/5/source/9/lookat/xyz 0 0 0
+/snapshot/5/source/10/aed -27.9099 28.894 4.09307
+/snapshot/5/source/10/orientation 0 0 0 1
+/snapshot/5/source/10/lookat/xyz 0 0 0
+/snapshot/5/source/11/aed -5.60586 32.0985 7.06826
+/snapshot/5/source/11/orientation 0 0 0 1
+/snapshot/5/source/11/lookat/xyz 0 0 0
+/snapshot/5/source/12/aed 4.17024 35.5629 7.28788
+/snapshot/5/source/12/orientation 0 0 0 1
+/snapshot/5/source/12/lookat/xyz 0 0 0
+/snapshot/5/source/13/aed 12.6051 38.3058 7.60681
+/snapshot/5/source/13/orientation 0 0 0 1
+/snapshot/5/source/13/lookat/xyz 0 0 0
+/snapshot/5/source/14/aed -8.73296 31.092 7.53082
+/snapshot/5/source/14/orientation 0 0 0 1
+/snapshot/5/source/14/lookat/xyz 0 0 0
+/snapshot/5/source/15/aed 7.15041 33.1037 7.47608
+/snapshot/5/source/15/orientation 0 0 0 1
+/snapshot/5/source/15/lookat/xyz 0 0 0
+/snapshot/5/source/16/aed -4.21688 36.9907 7.91481
+/snapshot/5/source/16/orientation 0 0 0 1
+/snapshot/5/source/16/lookat/xyz 0 0 0
+/snapshot/5/subwoofer/1/aed -45 0 4
+/snapshot/5/subwoofer/2/aed 45 0 4
+/snapshot/5/subwoofer/3/aed -135 0 4
+/snapshot/5/subwoofer/4/aed 135 0 4
+/snapshot/5/listener/aed 90 0 0
+/snapshot/5/listener/orientation 0 0 0 1
+/snapshot/5/listener/lookat/xyz 0 1 0
+/snapshot/5/end
+/snapshot/6/name "PIPE IN"
+/snapshot/6/time 40000.0
+/snapshot/6/begin
+/snapshot/6/source/1/aed -37.7484 54.8253 2.51077
+/snapshot/6/source/1/orientation 0 0 0 1
+/snapshot/6/source/1/lookat/xyz 0 0 0
+/snapshot/6/source/2/aed 38.0036 56.4756 2.56132
+/snapshot/6/source/2/orientation 0 0 0 1
+/snapshot/6/source/2/lookat/xyz 0 0 0
+/snapshot/6/source/3/aed -71.5603 51.9607 2.30474
+/snapshot/6/source/3/orientation 0 0 0 1
+/snapshot/6/source/3/lookat/xyz 0 0 0
+/snapshot/6/source/4/aed 61.1346 53.0406 2.13681
+/snapshot/6/source/4/orientation 0 0 0 1
+/snapshot/6/source/4/lookat/xyz 0 0 0
+/snapshot/6/source/5/aed -112.765 53.7092 2.51456
+/snapshot/6/source/5/orientation 0 0 0 1
+/snapshot/6/source/5/lookat/xyz 0 0 0
+/snapshot/6/source/6/aed 110.987 44.3779 2.23601
+/snapshot/6/source/6/orientation 0 0 0 1
+/snapshot/6/source/6/lookat/xyz 0 0 0
+/snapshot/6/source/7/aed -161.084 51.0229 2.24615
+/snapshot/6/source/7/orientation 0 0 0 1
+/snapshot/6/source/7/lookat/xyz 0 0 0
+/snapshot/6/source/8/aed 155.902 60.548 2.69596
+/snapshot/6/source/8/orientation 0 0 0 1
+/snapshot/6/source/8/lookat/xyz 0 0 0
+/snapshot/6/source/9/aed 0.576836 52.0832 2.50019
+/snapshot/6/source/9/orientation 0 0 0 1
+/snapshot/6/source/9/lookat/xyz 0 0 0
+/snapshot/6/source/10/aed -19.522 84.2272 1.151
+/snapshot/6/source/10/orientation 0 0 0 1
+/snapshot/6/source/10/lookat/xyz 0 0 0
+/snapshot/6/source/11/aed -5.60586 32.0985 7.06826
+/snapshot/6/source/11/orientation 0 0 0 1
+/snapshot/6/source/11/lookat/xyz 0 0 0
+/snapshot/6/source/12/aed 4.17024 35.5629 7.28788
+/snapshot/6/source/12/orientation 0 0 0 1
+/snapshot/6/source/12/lookat/xyz 0 0 0
+/snapshot/6/source/13/aed 12.6051 38.3058 7.60681
+/snapshot/6/source/13/orientation 0 0 0 1
+/snapshot/6/source/13/lookat/xyz 0 0 0
+/snapshot/6/source/14/aed -8.73296 31.092 7.53082
+/snapshot/6/source/14/orientation 0 0 0 1
+/snapshot/6/source/14/lookat/xyz 0 0 0
+/snapshot/6/source/15/aed 7.15041 33.1037 7.47608
+/snapshot/6/source/15/orientation 0 0 0 1
+/snapshot/6/source/15/lookat/xyz 0 0 0
+/snapshot/6/source/16/aed -4.21688 36.9907 7.91481
+/snapshot/6/source/16/orientation 0 0 0 1
+/snapshot/6/source/16/lookat/xyz 0 0 0
+/snapshot/6/subwoofer/1/aed -45 0 4
+/snapshot/6/subwoofer/2/aed 45 0 4
+/snapshot/6/subwoofer/3/aed -135 0 4
+/snapshot/6/subwoofer/4/aed 135 0 4
+/snapshot/6/listener/aed 90 0 0
+/snapshot/6/listener/orientation 0 0 0 1
+/snapshot/6/listener/lookat/xyz 0 1 0
+/snapshot/6/end
+/snapshot/11/name "END 2ND DRUMS IN"
+/snapshot/11/time 20000.0
+/snapshot/11/begin
+/snapshot/11/source/1/aed -91.2707 9.25934 3.86943
+/snapshot/11/source/1/orientation 0 0 0 1
+/snapshot/11/source/1/lookat/xyz 0 0 0
+/snapshot/11/source/2/aed 0.199534 8.3809 3.92069
+/snapshot/11/source/2/orientation 0 0 0 1
+/snapshot/11/source/2/lookat/xyz 0 0 0
+/snapshot/11/source/3/aed 89.3659 8.24067 4.06274
+/snapshot/11/source/3/orientation 0 0 0 1
+/snapshot/11/source/3/lookat/xyz 0 0 0
+/snapshot/11/source/4/aed -179.9 13.1622 4.14908
+/snapshot/11/source/4/orientation 0 0 0 1
+/snapshot/11/source/4/lookat/xyz 0 0 0
+/snapshot/11/source/5/aed 34.5931 47.7446 0.0180426
+/snapshot/11/source/5/orientation 0 0 0 1
+/snapshot/11/source/5/lookat/xyz 0 0 0
+/snapshot/11/source/6/aed 45.5202 8.21992 4.03018
+/snapshot/11/source/6/orientation 0 0 0 1
+/snapshot/11/source/6/lookat/xyz 0 0 0
+/snapshot/11/source/7/aed -134.736 4.96696 4.29363
+/snapshot/11/source/7/orientation 0 0 0 1
+/snapshot/11/source/7/lookat/xyz 0 0 0
+/snapshot/11/source/8/aed 135.338 5.87455 4.0061
+/snapshot/11/source/8/orientation 0 0 0 1
+/snapshot/11/source/8/lookat/xyz 0 0 0
+/snapshot/11/source/9/aed 2.40455 43.4138 8.73131
+/snapshot/11/source/9/orientation 0 0 0 1
+/snapshot/11/source/9/lookat/xyz 0 0 0
+/snapshot/11/source/10/aed -12.9463 31.7994 7.00745
+/snapshot/11/source/10/orientation 0 0 0 1
+/snapshot/11/source/10/lookat/xyz 0 0 0
+/snapshot/11/source/11/aed -5.60597 32.1039 7.06868
+/snapshot/11/source/11/orientation 0 0 0 1
+/snapshot/11/source/11/lookat/xyz 0 0 0
+/snapshot/11/source/12/aed 4.17024 35.5661 7.28817
+/snapshot/11/source/12/orientation 0 0 0 1
+/snapshot/11/source/12/lookat/xyz 0 0 0
+/snapshot/11/source/13/aed 12.605 38.3083 7.60707
+/snapshot/11/source/13/orientation 0 0 0 1
+/snapshot/11/source/13/lookat/xyz 0 0 0
+/snapshot/11/source/14/aed -8.73296 31.0961 7.53115
+/snapshot/11/source/14/orientation 0 0 0 1
+/snapshot/11/source/14/lookat/xyz 0 0 0
+/snapshot/11/source/15/aed 7.15045 33.1077 7.47641
+/snapshot/11/source/15/orientation 0 0 0 1
+/snapshot/11/source/15/lookat/xyz 0 0 0
+/snapshot/11/source/16/aed -4.21688 36.9931 7.91506
+/snapshot/11/source/16/orientation 0 0 0 1
+/snapshot/11/source/16/lookat/xyz 0 0 0
+/snapshot/11/subwoofer/1/aed -45 0 4
+/snapshot/11/subwoofer/2/aed 45 0 4
+/snapshot/11/subwoofer/3/aed -135 0 4
+/snapshot/11/subwoofer/4/aed 135 0 4
+/snapshot/11/listener/aed 90 0 0
+/snapshot/11/listener/orientation 0 0 0 1
+/snapshot/11/listener/lookat/xyz 0 1 0
+/snapshot/11/end
+/snapshot/8/name "3RD PART"
+/snapshot/8/time 40000.0
+/snapshot/8/begin
+/snapshot/8/source/1/aed 90.9148 8.98601 3.98612
+/snapshot/8/source/1/orientation 0 0 0 1
+/snapshot/8/source/1/lookat/xyz 0 0 0
+/snapshot/8/source/2/aed 0.199534 8.3809 3.92069
+/snapshot/8/source/2/orientation 0 0 0 1
+/snapshot/8/source/2/lookat/xyz 0 0 0
+/snapshot/8/source/3/aed 89.3659 8.24067 4.06274
+/snapshot/8/source/3/orientation 0 0 0 1
+/snapshot/8/source/3/lookat/xyz 0 0 0
+/snapshot/8/source/4/aed -179.9 13.1622 4.14908
+/snapshot/8/source/4/orientation 0 0 0 1
+/snapshot/8/source/4/lookat/xyz 0 0 0
+/snapshot/8/source/5/aed 34.3649 45.535 0.0187119
+/snapshot/8/source/5/orientation 0 0 0 1
+/snapshot/8/source/5/lookat/xyz 0 0 0
+/snapshot/8/source/6/aed 45.5301 8.22081 4.02975
+/snapshot/8/source/6/orientation 0 0 0 1
+/snapshot/8/source/6/lookat/xyz 0 0 0
+/snapshot/8/source/7/aed 133.077 6.45827 3.30503
+/snapshot/8/source/7/orientation 0 0 0 1
+/snapshot/8/source/7/lookat/xyz 0 0 0
+/snapshot/8/source/8/aed 135.338 5.87455 4.0061
+/snapshot/8/source/8/orientation 0 0 0 1
+/snapshot/8/source/8/lookat/xyz 0 0 0
+/snapshot/8/source/9/aed -99.2336 1.09256 4.98131
+/snapshot/8/source/9/orientation 0 0 0 1
+/snapshot/8/source/9/lookat/xyz 0 0 0
+/snapshot/8/source/10/aed -57.2965 13.4218 3.19727
+/snapshot/8/source/10/orientation 0 0 0 1
+/snapshot/8/source/10/lookat/xyz 0 0 0
+/snapshot/8/source/11/aed -79.2451 8.76845 4.37702
+/snapshot/8/source/11/orientation 0 0 0 1
+/snapshot/8/source/11/lookat/xyz 0 0 0
+/snapshot/8/source/12/aed 4.17092 35.5632 7.28792
+/snapshot/8/source/12/orientation 0 0 0 1
+/snapshot/8/source/12/lookat/xyz 0 0 0
+/snapshot/8/source/13/aed 12.6058 38.3061 7.60686
+/snapshot/8/source/13/orientation 0 0 0 1
+/snapshot/8/source/13/lookat/xyz 0 0 0
+/snapshot/8/source/14/aed -8.73296 31.0985 7.53134
+/snapshot/8/source/14/orientation 0 0 0 1
+/snapshot/8/source/14/lookat/xyz 0 0 0
+/snapshot/8/source/15/aed 7.15105 33.104 7.47612
+/snapshot/8/source/15/orientation 0 0 0 1
+/snapshot/8/source/15/lookat/xyz 0 0 0
+/snapshot/8/source/16/aed -4.21624 36.991 7.91484
+/snapshot/8/source/16/orientation 0 0 0 1
+/snapshot/8/source/16/lookat/xyz 0 0 0
+/snapshot/8/subwoofer/1/aed -45 0 4
+/snapshot/8/subwoofer/2/aed 45 0 4
+/snapshot/8/subwoofer/3/aed -135 0 4
+/snapshot/8/subwoofer/4/aed 135 0 4
+/snapshot/8/listener/aed 90 0 0
+/snapshot/8/listener/orientation 0 0 0 1
+/snapshot/8/listener/lookat/xyz 0 1 0
+/snapshot/8/end
+/snapshot/9/name "3RD PART 2"
+/snapshot/9/time 20000.0
+/snapshot/9/begin
+/snapshot/9/source/1/aed -91.2707 9.25934 3.86943
+/snapshot/9/source/1/orientation 0 0 0 1
+/snapshot/9/source/1/lookat/xyz 0 0 0
+/snapshot/9/source/2/aed 0.199534 8.3809 3.92069
+/snapshot/9/source/2/orientation 0 0 0 1
+/snapshot/9/source/2/lookat/xyz 0 0 0
+/snapshot/9/source/3/aed 89.3659 8.24067 4.06274
+/snapshot/9/source/3/orientation 0 0 0 1
+/snapshot/9/source/3/lookat/xyz 0 0 0
+/snapshot/9/source/4/aed -179.9 13.1622 4.14908
+/snapshot/9/source/4/orientation 0 0 0 1
+/snapshot/9/source/4/lookat/xyz 0 0 0
+/snapshot/9/source/5/aed 31.5346 0.156404 4.89212
+/snapshot/9/source/5/orientation 0 0 0 1
+/snapshot/9/source/5/lookat/xyz 0 0 0
+/snapshot/9/source/6/aed 45.5202 8.21992 4.03018
+/snapshot/9/source/6/orientation 0 0 0 1
+/snapshot/9/source/6/lookat/xyz 0 0 0
+/snapshot/9/source/7/aed -134.736 4.96696 4.29363
+/snapshot/9/source/7/orientation 0 0 0 1
+/snapshot/9/source/7/lookat/xyz 0 0 0
+/snapshot/9/source/8/aed 135.338 5.87455 4.0061
+/snapshot/9/source/8/orientation 0 0 0 1
+/snapshot/9/source/8/lookat/xyz 0 0 0
+/snapshot/9/source/9/aed 2.40455 43.4138 8.73131
+/snapshot/9/source/9/orientation 0 0 0 1
+/snapshot/9/source/9/lookat/xyz 0 0 0
+/snapshot/9/source/10/aed -12.9463 31.7994 7.00745
+/snapshot/9/source/10/orientation 0 0 0 1
+/snapshot/9/source/10/lookat/xyz 0 0 0
+/snapshot/9/source/11/aed -5.60597 32.1039 7.06868
+/snapshot/9/source/11/orientation 0 0 0 1
+/snapshot/9/source/11/lookat/xyz 0 0 0
+/snapshot/9/source/12/aed 4.17024 35.5661 7.28817
+/snapshot/9/source/12/orientation 0 0 0 1
+/snapshot/9/source/12/lookat/xyz 0 0 0
+/snapshot/9/source/13/aed 12.605 38.3083 7.60707
+/snapshot/9/source/13/orientation 0 0 0 1
+/snapshot/9/source/13/lookat/xyz 0 0 0
+/snapshot/9/source/14/aed -8.73296 31.0961 7.53115
+/snapshot/9/source/14/orientation 0 0 0 1
+/snapshot/9/source/14/lookat/xyz 0 0 0
+/snapshot/9/source/15/aed 7.15045 33.1077 7.47641
+/snapshot/9/source/15/orientation 0 0 0 1
+/snapshot/9/source/15/lookat/xyz 0 0 0
+/snapshot/9/source/16/aed -4.21688 36.9931 7.91506
+/snapshot/9/source/16/orientation 0 0 0 1
+/snapshot/9/source/16/lookat/xyz 0 0 0
+/snapshot/9/subwoofer/1/aed -45 0 4
+/snapshot/9/subwoofer/2/aed 45 0 4
+/snapshot/9/subwoofer/3/aed -135 0 4
+/snapshot/9/subwoofer/4/aed 135 0 4
+/snapshot/9/listener/aed 90 0 0
+/snapshot/9/listener/orientation 0 0 0 1
+/snapshot/9/listener/lookat/xyz 0 1 0
+/snapshot/9/end
+/snapshot/10/name "3RD PART 3"
+/snapshot/10/time 20000.0
+/snapshot/10/begin
+/snapshot/10/source/1/aed -0.198992 8.12509 4.40518
+/snapshot/10/source/1/orientation 0 0 0 1
+/snapshot/10/source/1/lookat/xyz 0 0 0
+/snapshot/10/source/2/aed 0.199534 8.3809 3.92069
+/snapshot/10/source/2/orientation 0 0 0 1
+/snapshot/10/source/2/lookat/xyz 0 0 0
+/snapshot/10/source/3/aed 89.3659 8.24067 4.06274
+/snapshot/10/source/3/orientation 0 0 0 1
+/snapshot/10/source/3/lookat/xyz 0 0 0
+/snapshot/10/source/4/aed -179.9 13.1622 4.14908
+/snapshot/10/source/4/orientation 0 0 0 1
+/snapshot/10/source/4/lookat/xyz 0 0 0
+/snapshot/10/source/5/aed 34.4746 46.6197 0.0183738
+/snapshot/10/source/5/orientation 0 0 0 1
+/snapshot/10/source/5/lookat/xyz 0 0 0
+/snapshot/10/source/6/aed 45.5202 8.21992 4.03018
+/snapshot/10/source/6/orientation 0 0 0 1
+/snapshot/10/source/6/lookat/xyz 0 0 0
+/snapshot/10/source/7/aed -134.736 4.96696 4.29363
+/snapshot/10/source/7/orientation 0 0 0 1
+/snapshot/10/source/7/lookat/xyz 0 0 0
+/snapshot/10/source/8/aed -129.284 5.48695 4.28813
+/snapshot/10/source/8/orientation 0 0 0 1
+/snapshot/10/source/8/lookat/xyz 0 0 0
+/snapshot/10/source/9/aed 2.40455 43.4138 8.73131
+/snapshot/10/source/9/orientation 0 0 0 1
+/snapshot/10/source/9/lookat/xyz 0 0 0
+/snapshot/10/source/10/aed -12.9463 31.7994 7.00745
+/snapshot/10/source/10/orientation 0 0 0 1
+/snapshot/10/source/10/lookat/xyz 0 0 0
+/snapshot/10/source/11/aed -5.60597 32.1039 7.06868
+/snapshot/10/source/11/orientation 0 0 0 1
+/snapshot/10/source/11/lookat/xyz 0 0 0
+/snapshot/10/source/12/aed 4.17024 35.5661 7.28817
+/snapshot/10/source/12/orientation 0 0 0 1
+/snapshot/10/source/12/lookat/xyz 0 0 0
+/snapshot/10/source/13/aed 12.605 38.3083 7.60707
+/snapshot/10/source/13/orientation 0 0 0 1
+/snapshot/10/source/13/lookat/xyz 0 0 0
+/snapshot/10/source/14/aed -8.73296 31.0961 7.53115
+/snapshot/10/source/14/orientation 0 0 0 1
+/snapshot/10/source/14/lookat/xyz 0 0 0
+/snapshot/10/source/15/aed 7.15045 33.1077 7.47641
+/snapshot/10/source/15/orientation 0 0 0 1
+/snapshot/10/source/15/lookat/xyz 0 0 0
+/snapshot/10/source/16/aed -4.21688 36.9931 7.91506
+/snapshot/10/source/16/orientation 0 0 0 1
+/snapshot/10/source/16/lookat/xyz 0 0 0
+/snapshot/10/subwoofer/1/aed -45 0 4
+/snapshot/10/subwoofer/2/aed 45 0 4
+/snapshot/10/subwoofer/3/aed -135 0 4
+/snapshot/10/subwoofer/4/aed 135 0 4
+/snapshot/10/listener/aed 90 0 0
+/snapshot/10/listener/orientation 0 0 0 1
+/snapshot/10/listener/lookat/xyz 0 1 0
+/snapshot/10/end
+/snapshot/14/name "END PAD OUT"
+/snapshot/14/time 20000.0
+/snapshot/14/begin
+/snapshot/14/source/1/aed -44.9727 19.3366 9.05761
+/snapshot/14/source/1/orientation 0 0 0 1
+/snapshot/14/source/1/lookat/xyz 0 0 0
+/snapshot/14/source/2/aed 0.199534 8.3809 3.92069
+/snapshot/14/source/2/orientation 0 0 0 1
+/snapshot/14/source/2/lookat/xyz 0 0 0
+/snapshot/14/source/3/aed 89.3659 8.24067 4.06274
+/snapshot/14/source/3/orientation 0 0 0 1
+/snapshot/14/source/3/lookat/xyz 0 0 0
+/snapshot/14/source/4/aed -179.9 13.1622 4.14908
+/snapshot/14/source/4/orientation 0 0 0 1
+/snapshot/14/source/4/lookat/xyz 0 0 0
+/snapshot/14/source/5/aed 132.526 0.0894105 8.55765
+/snapshot/14/source/5/orientation 0 0 0 1
+/snapshot/14/source/5/lookat/xyz 0 0 0
+/snapshot/14/source/6/aed 20.3166 4.09978 8.05956
+/snapshot/14/source/6/orientation 0 0 0 1
+/snapshot/14/source/6/lookat/xyz 0 0 0
+/snapshot/14/source/7/aed -134.738 4.96739 4.29326
+/snapshot/14/source/7/orientation 0 0 0 1
+/snapshot/14/source/7/lookat/xyz 0 0 0
+/snapshot/14/source/8/aed -1.60199 88.3785 2.69795
+/snapshot/14/source/8/orientation 0 0 0 1
+/snapshot/14/source/8/lookat/xyz 0 0 0
+/snapshot/14/source/9/aed 2.40455 43.4138 8.73131
+/snapshot/14/source/9/orientation 0 0 0 1
+/snapshot/14/source/9/lookat/xyz 0 0 0
+/snapshot/14/source/10/aed 60.8688 26.5612 8.2579
+/snapshot/14/source/10/orientation 0 0 0 1
+/snapshot/14/source/10/lookat/xyz 0 0 0
+/snapshot/14/source/11/aed -130.564 25.4498 8.7422
+/snapshot/14/source/11/orientation 0 0 0 1
+/snapshot/14/source/11/lookat/xyz 0 0 0
+/snapshot/14/source/12/aed 4.17024 35.5661 7.28817
+/snapshot/14/source/12/orientation 0 0 0 1
+/snapshot/14/source/12/lookat/xyz 0 0 0
+/snapshot/14/source/13/aed 12.605 38.3083 7.60707
+/snapshot/14/source/13/orientation 0 0 0 1
+/snapshot/14/source/13/lookat/xyz 0 0 0
+/snapshot/14/source/14/aed -8.73296 31.092 7.53082
+/snapshot/14/source/14/orientation 0 0 0 1
+/snapshot/14/source/14/lookat/xyz 0 0 0
+/snapshot/14/source/15/aed 7.15045 33.1077 7.47641
+/snapshot/14/source/15/orientation 0 0 0 1
+/snapshot/14/source/15/lookat/xyz 0 0 0
+/snapshot/14/source/16/aed -4.21688 36.9931 7.91506
+/snapshot/14/source/16/orientation 0 0 0 1
+/snapshot/14/source/16/lookat/xyz 0 0 0
+/snapshot/14/subwoofer/1/aed -45 0 4
+/snapshot/14/subwoofer/2/aed 45 0 4
+/snapshot/14/subwoofer/3/aed -135 0 4
+/snapshot/14/subwoofer/4/aed 135 0 4
+/snapshot/14/listener/aed 90 0 0
+/snapshot/14/listener/orientation 0 0 0 1
+/snapshot/14/listener/lookat/xyz 0 1 0
+/snapshot/14/end
+/snapshot/mode "store positions"
+/snapshot/lock 0

@@ -2,27 +2,50 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 9,
-			"minor" : 0,
-			"revision" : 4,
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 424.0, 137.0, 1345.0, 615.0 ],
+		"rect" : [ 0.0, 66.0, 1345.0, 615.0 ],
 		"bglocked" : 1,
+		"openinpresentation" : 0,
 		"default_fontsize" : 9.0,
+		"default_fontface" : 0,
+		"default_fontname" : "Arial",
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
+		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
 		"toolbars_unpinned_last_save" : 15,
+		"tallnewobj" : 0,
+		"boxanimatetime" : 200,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-114",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 121.5, 567.0, 88.0, 19.0 ],
-					"text" : "mc.dac~ 1 5 2 4 3 6"
+					"patching_rect" : [ 121.5, 567.0, 43.0, 19.0 ],
+					"text" : "mc.dac~"
 				}
 
 			}
@@ -32,7 +55,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1133.0, 71.0, 116.0, 17.0 ],
+					"patching_rect" : [ 1007.0, 52.0, 116.0, 17.0 ],
 					"text" : "snapshots for spat5.router"
 				}
 
@@ -44,7 +67,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1133.0, 120.0, 64.0, 19.0 ],
+					"patching_rect" : [ 1007.0, 90.0, 64.0, 19.0 ],
 					"text" : "s spat5-router"
 				}
 
@@ -56,8 +79,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1133.0, 90.0, 99.0, 19.0 ],
-					"text" : "/snapshot/openorclose"
+					"patching_rect" : [ 1007.0, 71.0, 70.0, 19.0 ],
+					"text" : "/snapshot/open"
 				}
 
 			}
@@ -67,7 +90,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1013.0, 71.0, 116.0, 17.0 ],
+					"patching_rect" : [ 1007.0, 91.0, 116.0, 17.0 ],
 					"text" : "snapshots for spat5.viewer"
 				}
 
@@ -79,7 +102,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1013.0, 120.0, 57.0, 19.0 ],
+					"patching_rect" : [ 1007.0, 131.0, 57.0, 19.0 ],
 					"text" : "s snapshots"
 				}
 
@@ -91,8 +114,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1013.0, 90.0, 99.0, 19.0 ],
-					"text" : "/snapshot/openorclose"
+					"patching_rect" : [ 1007.0, 110.0, 70.0, 19.0 ],
+					"text" : "/snapshot/open"
 				}
 
 			}
@@ -288,8 +311,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1256.0, 41.0, 14.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1256.0, 41.0, 14.0, 14.0 ],
-					"svg" : ""
+					"presentation_rect" : [ 1256.0, 41.0, 14.0, 14.0 ]
 				}
 
 			}
@@ -306,18 +328,42 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 4,
+							"major" : 8,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 134.0, 178.0, 366.0, 234.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial Bold",
+						"gridonopen" : 1,
 						"gridsize" : [ 8.0, 8.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial Bold",
@@ -421,17 +467,19 @@
 								}
 
 							}
- ],
-						"originid" : "pat-16"
+ ]
 					}
 ,
 					"patching_rect" : [ 1255.0, 62.0, 47.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1255.0, 62.0, 47.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
 						"fontname" : "Arial Bold",
 						"fontsize" : 10.0,
-						"globalpatchername" : ""
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p noclose"
@@ -468,18 +516,18 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1102.0, 15.0, 142.0, 19.0 ],
 					"restore" : 					{
-						"fader-HOA-master" : [ 0 ],
+						"fader-HOA-master" : [ 15 ],
 						"fader-IKO-master" : [ 0 ],
 						"fader-binaural-master" : [ 0 ],
-						"fader-subs-master" : [ 0 ],
+						"fader-subs-master" : [ 16 ],
 						"hoa-decoded" : [ -70.0 ],
-						"hoa-decoded[1]" : [ 0.0 ],
-						"hoa-gain" : [ 0.0 ],
+						"hoa-decoded[1]" : [ -70.0 ],
+						"hoa-gain" : [ -3.228346456692882 ],
 						"hoa-subs" : [ -70.0 ],
 						"hoa-subs[1]" : [ -70.0 ],
 						"live.drop" : [ "" ],
 						"radiogroup" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
-						"umenu[1]" : [ 1 ]
+						"umenu[1]" : [ 2 ]
 					}
 ,
 					"text" : "autopattr @autorestore 1",
@@ -496,16 +544,42 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 4,
+							"major" : 8,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 84.0, 144.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-20",
@@ -549,8 +623,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 39.0, 67.0, 24.0, 24.0 ],
-									"svg" : ""
+									"patching_rect" : [ 39.0, 67.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -595,7 +668,6 @@
 											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "live.gain~",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -718,15 +790,17 @@
 								}
 
 							}
- ],
-						"originid" : "pat-18"
+ ]
 					}
 ,
 					"patching_rect" : [ 871.5, 567.0, 57.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 871.5, 567.0, 57.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p IKO-tester"
@@ -911,17 +985,195 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 4,
+							"major" : 8,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 116.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 116.0, 981.0, 450.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-6",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 584.5, 222.0, 29.5, 19.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 101.5, 529.0, 29.5, 19.0 ],
+									"text" : "-100"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-7",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 584.5, 165.0, 29.5, 19.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 101.5, 472.0, 29.5, 19.0 ],
+									"text" : "0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-23",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 18.5, 222.0, 29.5, 19.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 101.5, 529.0, 29.5, 19.0 ],
+									"text" : "-100"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-92",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 18.5, 165.0, 29.5, 19.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 101.5, 472.0, 29.5, 19.0 ],
+									"text" : "0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"lastchannelcount" : 64,
+									"maxclass" : "mc.live.gain~",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "multichannelsignal", "", "float", "list" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 50.0, 148.0, 408.0, 123.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "mc.live.gain~[2]",
+											"parameter_mmax" : 6.0,
+											"parameter_mmin" : -70.0,
+											"parameter_modmode" : 3,
+											"parameter_shortname" : "mc.live.gain~[1]",
+											"parameter_type" : 0,
+											"parameter_unitstyle" : 4
+										}
+
+									}
+,
+									"varname" : "mc.live.gain~[1]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"lastchannelcount" : 16,
+									"maxclass" : "mc.live.gain~",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "multichannelsignal", "", "float", "list" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 616.0, 148.0, 113.0, 123.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "mc.live.gain~[1]",
+											"parameter_mmax" : 6.0,
+											"parameter_mmin" : -70.0,
+											"parameter_modmode" : 3,
+											"parameter_shortname" : "mc.live.gain~[1]",
+											"parameter_type" : 0,
+											"parameter_unitstyle" : 4
+										}
+
+									}
+,
+									"varname" : "mc.live.gain~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 552.0, 106.5, 49.0, 20.0 ],
+									"text" : "DANTE"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 939.0, 119.0, 38.0, 20.0 ],
+									"text" : "MADI"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "multichannelsignal" ],
+									"patching_rect" : [ 616.0, 118.0, 321.0, 22.0 ],
+									"text" : "mc.adc~ 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 11.0,
@@ -951,20 +1203,71 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-56", 0 ],
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
 									"source" : [ "obj-1673", 0 ]
 								}
 
 							}
- ],
-						"originid" : "pat-22"
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-56", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-56", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-92", 0 ]
+								}
+
+							}
+ ]
 					}
 ,
 					"patching_rect" : [ 63.0, 147.0, 36.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 63.0, 147.0, 36.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p input"
@@ -1094,7 +1397,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 930.0, 70.0, 71.0, 19.0 ],
+					"patching_rect" : [ 932.0, 73.0, 71.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 938.0, 121.37109375, 71.0, 19.0 ],
 					"text" : "storagewindow"
@@ -1103,6 +1406,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "pattr-Mo2.json",
 					"fontsize" : 9.0,
 					"id" : "obj-47",
 					"maxclass" : "newobj",
@@ -1231,7 +1535,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595186999999999,
 					"id" : "obj-15",
-					"items" : [ "ipMIDI Port 1", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "Digiface Dante (24128585) Port 1", ",", "D 400 Port 1", ",", "D 400 Port 2", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1249,7 +1553,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595186999999999,
 					"id" : "obj-5",
-					"items" : [ "ipMIDI Port 1", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "Digiface Dante (24128585) Port 1", ",", "D 400 Port 1", ",", "D 400 Port 2", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1267,7 +1571,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595186999999999,
 					"id" : "obj-124",
-					"items" : [ "ipMIDI Port 1", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "Digiface Dante (24128585) Port 1", ",", "D 400 Port 1", ",", "D 400 Port 2", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1336,7 +1640,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595186999999999,
 					"id" : "obj-123",
-					"items" : [ "ipMIDI Port 1", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "Digiface Dante (24128585) Port 1", ",", "D 400 Port 1", ",", "D 400 Port 2", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1478,19 +1782,42 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 4,
+							"major" : 8,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 95.0, 66.0, 917.0, 378.0 ],
+						"rect" : [ 620.0, 66.0, 917.0, 378.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 1,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
 						"toolbars_unpinned_last_save" : 15,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-156",
@@ -1515,8 +1842,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 765.0, -37.0, 51.200000762939453, 19.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 849.0, 2.0, 34.0, 19.0 ],
-									"varname" : "faderIKO[1]"
+									"presentation_rect" : [ 849.0, 2.0, 34.0, 19.0 ]
 								}
 
 							}
@@ -1765,16 +2091,42 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 9,
-											"minor" : 0,
-											"revision" : 4,
+											"major" : 8,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 59.0, 116.0, 640.0, 480.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
+										"default_fontsize" : 12.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 1,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-3",
@@ -1855,13 +2207,15 @@
 												}
 
 											}
- ],
-										"originid" : "pat-34"
+ ]
 									}
 ,
 									"patching_rect" : [ 680.0, -9.0, 49.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : ""
+										"description" : "",
+										"digest" : "",
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p levels"
@@ -2514,26 +2868,25 @@
 										"faderG" : [ 0 ],
 										"faderH" : [ 0 ],
 										"faderHOA" : [ 0 ],
-										"faderHOA1" : [ 0 ],
-										"faderHOA2" : [ 0 ],
-										"faderHOA3" : [ 0 ],
-										"faderHOA4" : [ 0 ],
-										"faderHOA5" : [ 0 ],
-										"faderHOA6" : [ 0 ],
-										"faderHOA7" : [ 0 ],
-										"faderHOA8" : [ 0 ],
+										"faderHOA1" : [ 1 ],
+										"faderHOA2" : [ 2 ],
+										"faderHOA3" : [ 3 ],
+										"faderHOA4" : [ 4 ],
+										"faderHOA5" : [ 5 ],
+										"faderHOA6" : [ 6 ],
+										"faderHOA7" : [ 7 ],
+										"faderHOA8" : [ 8 ],
 										"faderHOAsubs" : [ 0 ],
 										"faderI" : [ 0 ],
 										"faderIKO" : [ 0 ],
-										"faderIKO1" : [ 0 ],
-										"faderIKO2" : [ 0 ],
-										"faderIKO3" : [ 0 ],
-										"faderIKO4" : [ 0 ],
-										"faderIKO5" : [ 0 ],
-										"faderIKO6" : [ 0 ],
+										"faderIKO1" : [ 9 ],
+										"faderIKO2" : [ 10 ],
+										"faderIKO3" : [ 11 ],
+										"faderIKO4" : [ 12 ],
+										"faderIKO5" : [ 13 ],
+										"faderIKO6" : [ 14 ],
 										"faderIKO7" : [ 0 ],
 										"faderIKO8" : [ 0 ],
-										"faderIKO[1]" : [ 0 ],
 										"faderJ" : [ 0 ],
 										"faderK" : [ 0 ],
 										"faderL" : [ 0 ],
@@ -2557,23 +2910,23 @@
 										"live.gain~[E]" : [ 0.0 ],
 										"live.gain~[F]" : [ 0.0 ],
 										"live.gain~[G]" : [ 0.0 ],
-										"live.gain~[HOA10]" : [ 0.0 ],
-										"live.gain~[HOA11]" : [ 0.0 ],
-										"live.gain~[HOA12]" : [ 0.0 ],
-										"live.gain~[HOA13]" : [ 0.0 ],
-										"live.gain~[HOA14]" : [ 0.0 ],
-										"live.gain~[HOA16]" : [ 0.0 ],
-										"live.gain~[HOA1]" : [ 0.0 ],
-										"live.gain~[HOA2]" : [ 0.0 ],
-										"live.gain~[HOA3]" : [ 0.0 ],
-										"live.gain~[HOA4]" : [ 0.0 ],
-										"live.gain~[HOA5]" : [ 0.0 ],
-										"live.gain~[HOA6]" : [ 0.0 ],
-										"live.gain~[HOA7]" : [ 0.0 ],
-										"live.gain~[HOA8]" : [ 0.0 ],
-										"live.gain~[HOA9]" : [ 0.0 ],
+										"live.gain~[HOA10]" : [ -70.0 ],
+										"live.gain~[HOA11]" : [ -70.0 ],
+										"live.gain~[HOA12]" : [ -70.0 ],
+										"live.gain~[HOA13]" : [ -70.0 ],
+										"live.gain~[HOA14]" : [ -70.0 ],
+										"live.gain~[HOA16]" : [ -70.0 ],
+										"live.gain~[HOA1]" : [ -70.0 ],
+										"live.gain~[HOA2]" : [ -70.0 ],
+										"live.gain~[HOA3]" : [ -70.0 ],
+										"live.gain~[HOA4]" : [ -70.0 ],
+										"live.gain~[HOA5]" : [ -70.0 ],
+										"live.gain~[HOA6]" : [ -70.0 ],
+										"live.gain~[HOA7]" : [ -70.0 ],
+										"live.gain~[HOA8]" : [ -70.0 ],
+										"live.gain~[HOA9]" : [ -70.0 ],
 										"live.gain~[H]" : [ 0.0 ],
-										"live.gain~[IKO7]" : [ 0.0 ],
+										"live.gain~[IKO7]" : [ -70.0 ],
 										"live.gain~[I]" : [ 0.0 ],
 										"live.gain~[J]" : [ 0.0 ],
 										"live.gain~[K]" : [ 0.0 ],
@@ -2639,7 +2992,7 @@
 												"/row/1/col/36" : 0,
 												"/row/1/col/37" : 0,
 												"/row/1/col/38" : 0,
-												"/row/1/col/39" : 0,
+												"/row/1/col/39" : 1,
 												"/row/1/col/40" : 0,
 												"/row/1/col/41" : 0,
 												"/row/1/col/42" : 0,
@@ -2670,7 +3023,7 @@
 												"/row/1/col/67" : 0,
 												"/row/1/col/68" : 0,
 												"/row/1/col/69" : 0,
-												"/row/1/col/70" : 0,
+												"/row/1/col/70" : 1,
 												"/row/1/col/71" : 0,
 												"/row/1/col/72" : 0,
 												"/row/1/col/73" : 0,
@@ -2759,7 +3112,7 @@
 												"/row/2/col/67" : 0,
 												"/row/2/col/68" : 0,
 												"/row/2/col/69" : 0,
-												"/row/2/col/70" : 0,
+												"/row/2/col/70" : 1,
 												"/row/2/col/71" : 0,
 												"/row/2/col/72" : 0,
 												"/row/2/col/73" : 0,
@@ -2848,7 +3201,7 @@
 												"/row/3/col/67" : 0,
 												"/row/3/col/68" : 0,
 												"/row/3/col/69" : 0,
-												"/row/3/col/70" : 0,
+												"/row/3/col/70" : 1,
 												"/row/3/col/71" : 0,
 												"/row/3/col/72" : 0,
 												"/row/3/col/73" : 0,
@@ -2904,7 +3257,7 @@
 												"/row/4/col/34" : 0,
 												"/row/4/col/35" : 0,
 												"/row/4/col/36" : 0,
-												"/row/4/col/37" : 0,
+												"/row/4/col/37" : 1,
 												"/row/4/col/38" : 0,
 												"/row/4/col/39" : 0,
 												"/row/4/col/40" : 0,
@@ -2937,7 +3290,7 @@
 												"/row/4/col/67" : 0,
 												"/row/4/col/68" : 0,
 												"/row/4/col/69" : 0,
-												"/row/4/col/70" : 0,
+												"/row/4/col/70" : 1,
 												"/row/4/col/71" : 0,
 												"/row/4/col/72" : 0,
 												"/row/4/col/73" : 0,
@@ -2994,7 +3347,7 @@
 												"/row/5/col/35" : 0,
 												"/row/5/col/36" : 0,
 												"/row/5/col/37" : 0,
-												"/row/5/col/38" : 0,
+												"/row/5/col/38" : 1,
 												"/row/5/col/39" : 0,
 												"/row/5/col/40" : 0,
 												"/row/5/col/41" : 0,
@@ -3026,7 +3379,7 @@
 												"/row/5/col/67" : 0,
 												"/row/5/col/68" : 0,
 												"/row/5/col/69" : 0,
-												"/row/5/col/70" : 0,
+												"/row/5/col/70" : 1,
 												"/row/5/col/71" : 0,
 												"/row/5/col/72" : 0,
 												"/row/5/col/73" : 0,
@@ -3115,7 +3468,7 @@
 												"/row/6/col/67" : 0,
 												"/row/6/col/68" : 0,
 												"/row/6/col/69" : 0,
-												"/row/6/col/70" : 0,
+												"/row/6/col/70" : 1,
 												"/row/6/col/71" : 0,
 												"/row/6/col/72" : 0,
 												"/row/6/col/73" : 0,
@@ -3204,7 +3557,7 @@
 												"/row/7/col/67" : 0,
 												"/row/7/col/68" : 0,
 												"/row/7/col/69" : 0,
-												"/row/7/col/70" : 0,
+												"/row/7/col/70" : 1,
 												"/row/7/col/71" : 0,
 												"/row/7/col/72" : 0,
 												"/row/7/col/73" : 0,
@@ -3293,7 +3646,7 @@
 												"/row/8/col/67" : 0,
 												"/row/8/col/68" : 0,
 												"/row/8/col/69" : 0,
-												"/row/8/col/70" : 0,
+												"/row/8/col/70" : 1,
 												"/row/8/col/71" : 0,
 												"/row/8/col/72" : 0,
 												"/row/8/col/73" : 0,
@@ -3349,7 +3702,7 @@
 												"/row/9/col/34" : 0,
 												"/row/9/col/35" : 0,
 												"/row/9/col/36" : 0,
-												"/row/9/col/37" : 1,
+												"/row/9/col/37" : 0,
 												"/row/9/col/38" : 0,
 												"/row/9/col/39" : 0,
 												"/row/9/col/40" : 0,
@@ -3439,7 +3792,7 @@
 												"/row/10/col/35" : 0,
 												"/row/10/col/36" : 0,
 												"/row/10/col/37" : 0,
-												"/row/10/col/38" : 1,
+												"/row/10/col/38" : 0,
 												"/row/10/col/39" : 0,
 												"/row/10/col/40" : 0,
 												"/row/10/col/41" : 0,
@@ -3529,7 +3882,7 @@
 												"/row/11/col/36" : 0,
 												"/row/11/col/37" : 0,
 												"/row/11/col/38" : 0,
-												"/row/11/col/39" : 1,
+												"/row/11/col/39" : 0,
 												"/row/11/col/40" : 0,
 												"/row/11/col/41" : 0,
 												"/row/11/col/42" : 0,
@@ -3619,7 +3972,7 @@
 												"/row/12/col/37" : 0,
 												"/row/12/col/38" : 0,
 												"/row/12/col/39" : 0,
-												"/row/12/col/40" : 1,
+												"/row/12/col/40" : 0,
 												"/row/12/col/41" : 0,
 												"/row/12/col/42" : 0,
 												"/row/12/col/43" : 0,
@@ -3709,7 +4062,7 @@
 												"/row/13/col/38" : 0,
 												"/row/13/col/39" : 0,
 												"/row/13/col/40" : 0,
-												"/row/13/col/41" : 1,
+												"/row/13/col/41" : 0,
 												"/row/13/col/42" : 0,
 												"/row/13/col/43" : 0,
 												"/row/13/col/44" : 0,
@@ -3799,7 +4152,7 @@
 												"/row/14/col/39" : 0,
 												"/row/14/col/40" : 0,
 												"/row/14/col/41" : 0,
-												"/row/14/col/42" : 1,
+												"/row/14/col/42" : 0,
 												"/row/14/col/43" : 0,
 												"/row/14/col/44" : 0,
 												"/row/14/col/45" : 0,
@@ -3889,7 +4242,7 @@
 												"/row/15/col/40" : 0,
 												"/row/15/col/41" : 0,
 												"/row/15/col/42" : 0,
-												"/row/15/col/43" : 1,
+												"/row/15/col/43" : 0,
 												"/row/15/col/44" : 0,
 												"/row/15/col/45" : 0,
 												"/row/15/col/46" : 0,
@@ -3979,7 +4332,7 @@
 												"/row/16/col/41" : 0,
 												"/row/16/col/42" : 0,
 												"/row/16/col/43" : 0,
-												"/row/16/col/44" : 1,
+												"/row/16/col/44" : 0,
 												"/row/16/col/45" : 0,
 												"/row/16/col/46" : 0,
 												"/row/16/col/47" : 0,
@@ -9720,16 +10073,42 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 9,
-											"minor" : 0,
-											"revision" : 4,
+											"major" : 8,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 59.0, 116.0, 640.0, 480.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
+										"default_fontsize" : 12.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 1,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-3",
@@ -9810,13 +10189,15 @@
 												}
 
 											}
- ],
-										"originid" : "pat-130"
+ ]
 									}
 ,
 									"patching_rect" : [ 599.5, -9.0, 49.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : ""
+										"description" : "",
+										"digest" : "",
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p levels"
@@ -10086,20 +10467,42 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 9,
-											"minor" : 0,
-											"revision" : 4,
+											"major" : 8,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 69.0, 63.0, 1283.0, 815.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
 										"default_fontsize" : 11.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
 										"gridonopen" : 2,
 										"gridsize" : [ 10.0, 10.0 ],
 										"gridsnaponopen" : 2,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
 										"toolbarvisible" : 0,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-77",
@@ -10151,7 +10554,6 @@
 															"parameter_longname" : "live.toggle[57]",
 															"parameter_mmax" : 1,
 															"parameter_modmode" : 0,
-															"parameter_osc_name" : "<default>",
 															"parameter_shortname" : "live.toggle",
 															"parameter_type" : 2
 														}
@@ -10189,7 +10591,6 @@
 															"parameter_longname" : "live.toggle[58]",
 															"parameter_mmax" : 1,
 															"parameter_modmode" : 0,
-															"parameter_osc_name" : "<default>",
 															"parameter_shortname" : "live.toggle",
 															"parameter_type" : 2
 														}
@@ -10227,7 +10628,6 @@
 															"parameter_longname" : "live.toggle[59]",
 															"parameter_mmax" : 1,
 															"parameter_modmode" : 0,
-															"parameter_osc_name" : "<default>",
 															"parameter_shortname" : "live.toggle",
 															"parameter_type" : 2
 														}
@@ -10550,7 +10950,6 @@
 															"parameter_longname" : "live.toggle[10]",
 															"parameter_mmax" : 1,
 															"parameter_modmode" : 0,
-															"parameter_osc_name" : "<default>",
 															"parameter_shortname" : "live.toggle",
 															"parameter_type" : 2
 														}
@@ -10648,7 +11047,6 @@
 															"parameter_longname" : "live.toggle[9]",
 															"parameter_mmax" : 1,
 															"parameter_modmode" : 0,
-															"parameter_osc_name" : "<default>",
 															"parameter_shortname" : "live.toggle",
 															"parameter_type" : 2
 														}
@@ -10686,7 +11084,6 @@
 															"parameter_longname" : "live.toggle[8]",
 															"parameter_mmax" : 1,
 															"parameter_modmode" : 0,
-															"parameter_osc_name" : "<default>",
 															"parameter_shortname" : "live.toggle",
 															"parameter_type" : 2
 														}
@@ -10724,7 +11121,6 @@
 															"parameter_longname" : "live.toggle[7]",
 															"parameter_mmax" : 1,
 															"parameter_modmode" : 0,
-															"parameter_osc_name" : "<default>",
 															"parameter_shortname" : "live.toggle",
 															"parameter_type" : 2
 														}
@@ -10820,7 +11216,6 @@
 															"parameter_longname" : "live.toggle[6]",
 															"parameter_mmax" : 1,
 															"parameter_modmode" : 0,
-															"parameter_osc_name" : "<default>",
 															"parameter_shortname" : "live.toggle",
 															"parameter_type" : 2
 														}
@@ -10846,7 +11241,6 @@
 															"parameter_longname" : "live.toggle[5]",
 															"parameter_mmax" : 1,
 															"parameter_modmode" : 0,
-															"parameter_osc_name" : "<default>",
 															"parameter_shortname" : "live.toggle",
 															"parameter_type" : 2
 														}
@@ -11825,7 +12219,6 @@
 
 											}
  ],
-										"originid" : "pat-132",
 										"styles" : [ 											{
 												"name" : "AudioStatus_Menu",
 												"default" : 												{
@@ -11972,8 +12365,11 @@
 ,
 									"patching_rect" : [ 58.0, -33.0, 99.0, 22.0 ],
 									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
 										"fontsize" : 11.0,
-										"globalpatchername" : ""
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p routing-presets"
@@ -12001,20 +12397,42 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 9,
-											"minor" : 0,
-											"revision" : 4,
+											"major" : 8,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 81.0, 71.0, 1965.0, 728.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
 										"default_fontsize" : 11.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
 										"gridonopen" : 2,
 										"gridsize" : [ 10.0, 10.0 ],
 										"gridsnaponopen" : 2,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
 										"toolbarvisible" : 0,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-21",
@@ -13701,7 +14119,6 @@
 
 											}
  ],
-										"originid" : "pat-134",
 										"styles" : [ 											{
 												"name" : "AudioStatus_Menu",
 												"default" : 												{
@@ -13848,8 +14265,11 @@
 ,
 									"patching_rect" : [ 159.0, -33.0, 58.0, 22.0 ],
 									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
 										"fontsize" : 11.0,
-										"globalpatchername" : ""
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p naming"
@@ -13881,7 +14301,6 @@
 											"parameter_invisible" : 1,
 											"parameter_longname" : "spat5-routing",
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "spat5-routing",
 											"parameter_type" : 3
 										}
@@ -14061,7 +14480,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "HOA1",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -14069,7 +14487,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[HOA1]"
 								}
 
@@ -14100,7 +14517,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "HOA2",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -14108,7 +14524,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[HOA2]"
 								}
 
@@ -14139,7 +14554,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "HOA3",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -14147,7 +14561,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[HOA3]"
 								}
 
@@ -14178,7 +14591,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "HOA4",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -14186,7 +14598,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[HOA4]"
 								}
 
@@ -14217,7 +14628,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "HOA5",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -14225,7 +14635,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[HOA5]"
 								}
 
@@ -14256,7 +14665,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "HOA6",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -14264,7 +14672,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[HOA6]"
 								}
 
@@ -14295,7 +14702,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "HOA7",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -14303,7 +14709,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[HOA7]"
 								}
 
@@ -14334,7 +14739,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "HOA8",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -14342,7 +14746,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[HOA8]"
 								}
 
@@ -14373,7 +14776,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "HOA9",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -14381,7 +14783,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[HOA9]"
 								}
 
@@ -14412,7 +14813,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "HOA10",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -14420,7 +14820,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[HOA10]"
 								}
 
@@ -14451,7 +14850,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "HOA11",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -14459,7 +14857,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[HOA11]"
 								}
 
@@ -14490,7 +14887,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "HOA12",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -14498,7 +14894,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[HOA12]"
 								}
 
@@ -14529,7 +14924,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "HOA13",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -14537,7 +14931,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[HOA13]"
 								}
 
@@ -14568,7 +14961,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "HOA14",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -14576,7 +14968,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[HOA14]"
 								}
 
@@ -14608,7 +14999,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "HOA15",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -14616,7 +15006,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[IKO7]"
 								}
 
@@ -14647,7 +15036,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "HOA16",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -14655,7 +15043,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[HOA16]"
 								}
 
@@ -14686,7 +15073,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "HOA",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -14694,7 +15080,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "mc.live.gain~[HOA]"
 								}
 
@@ -14725,7 +15110,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "HOA subs",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -14733,7 +15117,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "mc.live.gain~[HOA-subs]"
 								}
 
@@ -14764,7 +15147,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "IKO",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -14772,7 +15154,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "mc.live.gain~[IKO]"
 								}
 
@@ -14803,7 +15184,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "subAB",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -14811,7 +15191,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[subAB]"
 								}
 
@@ -14842,7 +15221,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "subAA",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -14850,7 +15228,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[subAA]"
 								}
 
@@ -14881,7 +15258,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "subZ",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -14889,7 +15265,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[subZ]"
 								}
 
@@ -14920,7 +15295,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "subD",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -14928,7 +15302,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[subD]"
 								}
 
@@ -14959,7 +15332,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "Y",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -14967,7 +15339,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[Y]"
 								}
 
@@ -14998,7 +15369,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "X",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -15006,7 +15376,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[X]"
 								}
 
@@ -15037,7 +15406,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "W",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -15045,7 +15413,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[W]"
 								}
 
@@ -15076,7 +15443,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "V",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -15084,7 +15450,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[V]"
 								}
 
@@ -15115,7 +15480,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "U",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -15123,7 +15487,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[U]"
 								}
 
@@ -15154,7 +15517,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "T",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -15162,7 +15524,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[T]"
 								}
 
@@ -15193,7 +15554,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "S",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -15201,7 +15561,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[S]"
 								}
 
@@ -15232,7 +15591,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "R",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -15240,7 +15598,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[R]"
 								}
 
@@ -15271,7 +15628,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "Q",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -15279,7 +15635,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[Q]"
 								}
 
@@ -15310,7 +15665,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "P",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -15318,7 +15672,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[P]"
 								}
 
@@ -15349,7 +15702,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "O",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -15357,7 +15709,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[O]"
 								}
 
@@ -15388,7 +15739,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "N",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -15396,7 +15746,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[N]"
 								}
 
@@ -15427,7 +15776,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "M",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -15435,7 +15783,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[M]"
 								}
 
@@ -15466,7 +15813,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "L",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -15474,7 +15820,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[L]"
 								}
 
@@ -15505,7 +15850,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "K",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -15513,7 +15857,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[K]"
 								}
 
@@ -15544,7 +15887,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "J",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -15552,7 +15894,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[J]"
 								}
 
@@ -15583,7 +15924,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "I",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -15591,7 +15931,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[I]"
 								}
 
@@ -15622,7 +15961,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "H",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -15630,7 +15968,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[H]"
 								}
 
@@ -15661,7 +15998,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "G",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -15669,7 +16005,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[G]"
 								}
 
@@ -15700,7 +16035,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "F",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -15708,7 +16042,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[F]"
 								}
 
@@ -15739,7 +16072,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "E",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -15747,7 +16079,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[E]"
 								}
 
@@ -15778,7 +16109,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "C",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -15786,7 +16116,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[C]"
 								}
 
@@ -15817,7 +16146,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "B",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -15825,7 +16153,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[B]"
 								}
 
@@ -15856,7 +16183,6 @@
 											"parameter_mmax" : 12.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "A",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -15864,7 +16190,6 @@
 
 									}
 ,
-									"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 									"varname" : "live.gain~[A]"
 								}
 
@@ -18326,15 +18651,17 @@
 								}
 
 							}
- ],
-						"originid" : "pat-32"
+ ]
 					}
 ,
 					"patching_rect" : [ 121.5, 338.0, 554.200000000000045, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 121.5, 338.0, 554.200000000000045, 29.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p mixer",
@@ -18505,7 +18832,6 @@
 							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "binaural",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -18633,7 +18959,6 @@
 							"parameter_longname" : "mix-radiogroup",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "mix-radiogroup",
 							"parameter_type" : 2
 						}
@@ -18732,7 +19057,6 @@
 							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "IKO",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -18879,16 +19203,42 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 4,
+							"major" : 8,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 40.0, 364.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-28",
@@ -19203,15 +19553,17 @@
 								}
 
 							}
- ],
-						"originid" : "pat-168"
+ ]
 					}
 ,
 					"patching_rect" : [ 739.5, 276.0, 34.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 739.5, 276.0, 34.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p view"
@@ -19228,8 +19580,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 314.0, 74.0, 30.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 314.0, 74.0, 30.0, 30.0 ],
-					"svg" : ""
+					"presentation_rect" : [ 314.0, 74.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -19256,18 +19607,42 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 4,
+							"major" : 8,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 134.0, 172.0, 1218.0, 747.0 ],
+						"rect" : [ 134.0, 171.0, 1218.0, 747.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
 						"default_fontsize" : 9.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"visible" : 1,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-92",
@@ -19346,20 +19721,42 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 9,
-											"minor" : 0,
-											"revision" : 4,
+											"major" : 8,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 100.0, 138.0, 782.0, 580.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
 										"default_fontsize" : 11.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
 										"gridonopen" : 2,
 										"gridsize" : [ 10.0, 10.0 ],
 										"gridsnaponopen" : 2,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
 										"toolbarvisible" : 0,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"color" : [ 0.990418910980225, 0.500286102294922, 0.032855201512575, 1.0 ],
@@ -19467,7 +19864,6 @@
 
 											}
  ],
-										"originid" : "pat-172",
 										"styles" : [ 											{
 												"name" : "AudioStatus_Menu",
 												"default" : 												{
@@ -20478,8 +20874,11 @@
 									"presentation_linecount" : 3,
 									"presentation_rect" : [ 121.5, 290.0, 37.0, 55.0 ],
 									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
 										"fontsize" : 11.0,
-										"globalpatchername" : ""
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p HOA-fx"
@@ -20510,15 +20909,15 @@
 										"live.dial" : [ 1.0 ],
 										"live.dial[1]" : [ 20.472440944881885 ],
 										"live.menu[1]" : [ 0.0 ],
-										"live.numbox" : [ 5.0 ],
+										"live.numbox" : [ 24.0 ],
 										"live.toggle" : [ 0.0 ],
 										"live.toggle[1]" : [ 0.0 ],
 										"live.toggle[2]" : [ 0.0 ],
 										"live.toggle[5]" : [ 0.0 ],
 										"live.toggle[6]" : [ 0.0 ],
 										"script_decoder" : [ 											{
-												"/speaker/number" : 5,
-												"/speakers/aed" : [ -30.0, 0.0, 1.0, 0.0, 0.0, 1.0, 30.0, 0.0, 1.0, -110.0, 0.0, 1.0, 110.0, 0.0, 1.0 ],
+												"/speaker/number" : 24,
+												"/speakers/aed" : [ 90.0, 90.0, 1.0, 60.0, 45.533927917480469, 1.0, 0.0, 45.533927917480469, 1.0, -60.0, 45.533927917480469, 1.0, -120.0, 45.533927917480469, 1.0, -180.0, 45.533927917480469, 1.0, 120.0, 45.533927917480469, 1.0, 78.0, 0.000000000000016, 1.0, 42.0, 0.000000000000016, 1.0, 6.0, 0.000000000000016, 1.0, -30.0, 0.000000000000016, 1.0, -66.0, 0.000000000000016, 1.0, -102.0, 0.000000000000016, 1.0, -138.0, 0.000000000000016, 1.0, -174.0, 0.000000000000016, 1.0, 150.0, 0.000000000000016, 1.0, 114.0, 0.000000000000016, 1.0, 48.0, -45.533927917480469, 1.0, -12.0, -45.533927917480469, 1.0, -72.0, -45.533927917480469, 1.0, -132.0, -45.533927917480469, 1.0, 168.0, -45.533927917480469, 1.0, 108.0, -45.533927917480469, 1.0, 90.0, -90.0, 1.0 ],
 												"/norm" : "SN3D",
 												"/order" : 4,
 												"/dimension" : 3,
@@ -20537,7 +20936,7 @@
 												"/dsp/bypass" : 0,
 												"/dsp/bypass/ramptime" : 50.0,
 												"/dsp/samplerate" : 48000.0,
-												"/dsp/buffersize" : 64,
+												"/dsp/buffersize" : 1024,
 												"/dsp/throttle" : -1,
 												"/dsp/maxqueuesize" : -1,
 												"/dsp/usurp" : 0,
@@ -20549,8 +20948,8 @@
 											}
  ],
 										"script_virtualspeakers" : [ 											{
-												"/speaker/number" : 5,
-												"/speakers/aed" : [ -30.0, 0.0, 1.0, 0.0, 0.0, 1.0, 30.0, 0.0, 1.0, -110.0, 0.0, 1.0, 110.0, 0.0, 1.0 ],
+												"/speaker/number" : 24,
+												"/speakers/aed" : [ 0.0, 0.0, 1.0, 15.0, 0.0, 1.0, 30.0, 0.0, 1.0, 45.0, 0.0, 1.0, 60.0, 0.0, 1.0, 75.0, 0.0, 1.0, 90.0, 0.0, 1.0, 105.0, 0.0, 1.0, 120.0, 0.0, 1.0, 135.0, 0.0, 1.0, 150.0, 0.0, 1.0, 165.0, 0.0, 1.0, -180.0, 0.0, 1.0, -165.0, 0.0, 1.0, -150.0, 0.0, 1.0, -135.0, 0.0, 1.0, -120.0, 0.0, 1.0, -105.0, 0.0, 1.0, -90.0, 0.0, 1.0, -75.0, 0.0, 1.0, -60.0, 0.0, 1.0, -45.0, 0.0, 1.0, -30.0, 0.0, 1.0, -15.0, 0.0, 1.0 ],
 												"/hrtf" : "kemar",
 												"/width" : 60.0,
 												"/rotation" : -0.0,
@@ -20570,7 +20969,7 @@
 												"/dsp/bypass" : 0,
 												"/dsp/bypass/ramptime" : 50.0,
 												"/dsp/samplerate" : 48000.0,
-												"/dsp/buffersize" : 64,
+												"/dsp/buffersize" : 1024,
 												"/dsp/throttle" : -1,
 												"/dsp/maxqueuesize" : -1,
 												"/dsp/usurp" : 0,
@@ -20680,7 +21079,6 @@
 											"parameter_longname" : "live.toggle[56]",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "live.toggle[1]",
 											"parameter_type" : 2
 										}
@@ -20739,7 +21137,6 @@
 											"parameter_longname" : "live.dial[65]",
 											"parameter_mmax" : 100.0,
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "spread",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 5
@@ -20818,7 +21215,6 @@
 											"parameter_mmax" : 10.0,
 											"parameter_mmin" : 0.1,
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "radius",
 											"parameter_type" : 0,
 											"parameter_units" : "m",
@@ -20846,7 +21242,6 @@
 											"parameter_longname" : "live.toggle[61]",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "live.toggle",
 											"parameter_type" : 2
 										}
@@ -20901,7 +21296,6 @@
 											"parameter_longname" : "live.menu[46]",
 											"parameter_mmax" : 6,
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "live.menu",
 											"parameter_type" : 2
 										}
@@ -20952,10 +21346,11 @@
 										}
 ,
 										"valueof" : 										{
+											"parameter_initial" : [ 0 ],
+											"parameter_initial_enable" : 1,
 											"parameter_longname" : "live.dial[4]",
 											"parameter_mmax" : 100.0,
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "spread",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 5
@@ -21089,7 +21484,6 @@
 											"parameter_longname" : "live.toggle[81]",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "live.toggle[80]",
 											"parameter_type" : 2
 										}
@@ -21144,7 +21538,6 @@
 											"parameter_longname" : "live.toggle[80]",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "live.toggle[80]",
 											"parameter_type" : 2
 										}
@@ -21263,7 +21656,6 @@
 											"parameter_mmax" : 64.0,
 											"parameter_mmin" : 1.0,
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "live.numbox",
 											"parameter_type" : 1,
 											"parameter_unitstyle" : 0
@@ -21377,17 +21769,42 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 9,
-											"minor" : 0,
-											"revision" : 4,
+											"major" : 8,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 59.0, 116.0, 640.0, 480.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
 										"default_fontsize" : 9.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 1,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"bubble" : 1,
@@ -21496,14 +21913,16 @@
 												}
 
 											}
- ],
-										"originid" : "pat-184"
+ ]
 									}
 ,
 									"patching_rect" : [ 84.0, 474.0, 74.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
 										"fontsize" : 9.0,
-										"globalpatchername" : ""
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p speaker-levels"
@@ -21670,21 +22089,42 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 9,
-											"minor" : 0,
-											"revision" : 4,
+											"major" : 8,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 59.0, 104.0, 523.0, 545.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
 										"default_fontsize" : 11.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
 										"gridonopen" : 2,
 										"gridsize" : [ 10.0, 10.0 ],
 										"gridsnaponopen" : 2,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
 										"toolbarvisible" : 0,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
 										"subpatcher_template" : "spat5-template",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-4",
@@ -21758,15 +22198,17 @@
 
 											}
  ],
-										"originid" : "pat-186",
 										"bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 									}
 ,
 									"patching_rect" : [ 162.0, 595.0, 55.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
 										"fontsize" : 11.0,
 										"globalpatchername" : "",
-										"locked_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
+										"locked_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+										"tags" : ""
 									}
 ,
 									"text" : "p routing"
@@ -21795,21 +22237,42 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 9,
-											"minor" : 0,
-											"revision" : 4,
+											"major" : 8,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 59.0, 104.0, 874.0, 489.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
 										"default_fontsize" : 11.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
 										"gridonopen" : 2,
 										"gridsize" : [ 10.0, 10.0 ],
 										"gridsnaponopen" : 2,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
 										"toolbarvisible" : 0,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
 										"subpatcher_template" : "spat5-template",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "",
@@ -22097,15 +22560,17 @@
 
 											}
  ],
-										"originid" : "pat-188",
 										"bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 									}
 ,
 									"patching_rect" : [ 97.0, 595.0, 58.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
 										"fontsize" : 11.0,
 										"globalpatchername" : "",
-										"locked_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
+										"locked_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+										"tags" : ""
 									}
 ,
 									"text" : "p naming"
@@ -22135,7 +22600,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "multichannelsignal", "" ],
-									"patching_rect" : [ 58.5, 652.0, 199.0, 19.0 ],
+									"patching_rect" : [ 37.0, 652.0, 199.0, 19.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -22230,20 +22695,42 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 9,
-											"minor" : 0,
-											"revision" : 4,
+											"major" : 8,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 42.0, 467.0, 519.0, 273.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
 										"default_fontsize" : 11.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
 										"gridonopen" : 2,
 										"gridsize" : [ 10.0, 10.0 ],
 										"gridsnaponopen" : 2,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
 										"toolbarvisible" : 0,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"color" : [ 0.990418910980225, 0.500286102294922, 0.032855201512575, 1.0 ],
@@ -22344,7 +22831,6 @@
 															"parameter_mmax" : 30.0,
 															"parameter_mmin" : -120.0,
 															"parameter_modmode" : 0,
-															"parameter_osc_name" : "<default>",
 															"parameter_shortname" : " ",
 															"parameter_type" : 0,
 															"parameter_unitstyle" : 4
@@ -22416,7 +22902,6 @@
 															"parameter_longname" : "live.toggle[478]",
 															"parameter_mmax" : 1,
 															"parameter_modmode" : 0,
-															"parameter_osc_name" : "<default>",
 															"parameter_shortname" : "live.toggle[1]",
 															"parameter_type" : 2
 														}
@@ -22529,14 +23014,16 @@
 												}
 
 											}
- ],
-										"originid" : "pat-192"
+ ]
 									}
 ,
 									"patching_rect" : [ 555.0, 354.0, 75.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
 										"fontsize" : 11.0,
-										"globalpatchername" : ""
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p vumeters-subs"
@@ -22553,20 +23040,42 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 9,
-											"minor" : 0,
-											"revision" : 4,
+											"major" : 8,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 42.0, 467.0, 499.0, 271.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
 										"default_fontsize" : 11.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
 										"gridonopen" : 2,
 										"gridsize" : [ 10.0, 10.0 ],
 										"gridsnaponopen" : 2,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
 										"toolbarvisible" : 0,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"color" : [ 0.990418910980225, 0.500286102294922, 0.032855201512575, 1.0 ],
@@ -22649,7 +23158,6 @@
 															"parameter_mmax" : 30.0,
 															"parameter_mmin" : -120.0,
 															"parameter_modmode" : 0,
-															"parameter_osc_name" : "<default>",
 															"parameter_shortname" : " ",
 															"parameter_type" : 0,
 															"parameter_unitstyle" : 4
@@ -22721,7 +23229,6 @@
 															"parameter_longname" : "live.toggle[467]",
 															"parameter_mmax" : 1,
 															"parameter_modmode" : 0,
-															"parameter_osc_name" : "<default>",
 															"parameter_shortname" : "live.toggle[1]",
 															"parameter_type" : 2
 														}
@@ -22819,14 +23326,16 @@
 												}
 
 											}
- ],
-										"originid" : "pat-198"
+ ]
 									}
 ,
 									"patching_rect" : [ 536.0, 333.0, 63.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
 										"fontsize" : 11.0,
-										"globalpatchername" : ""
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p vumeters"
@@ -23006,7 +23515,7 @@
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "spat5.hoa.decoder~ @order 4 @dimension 3D @outputs 5 @mc 1",
+									"text" : "spat5.hoa.decoder~ @order 4 @dimension 3D @outputs 24 @mc 1",
 									"varname" : "script_decoder"
 								}
 
@@ -23025,7 +23534,7 @@
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "spat5.virtualspeakers~ @speakers 5 @mc 1",
+									"text" : "spat5.virtualspeakers~ @speakers 24 @mc 1",
 									"varname" : "script_virtualspeakers"
 								}
 
@@ -23466,7 +23975,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-65", 0 ],
+									"destination" : [ "obj-57", 0 ],
 									"source" : [ "obj-40", 0 ]
 								}
 
@@ -23798,16 +24307,18 @@
 								}
 
 							}
- ],
-						"originid" : "pat-170"
+ ]
 					}
 ,
 					"patching_rect" : [ 182.0, 407.5, 51.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 210.699999999999989, 410.0, 51.0, 24.0 ],
 					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
 						"fontsize" : 9.0,
-						"globalpatchername" : ""
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p HOA",
@@ -23833,7 +24344,6 @@
 							"parameter_longname" : "umenu[2]",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "umenu",
 							"parameter_type" : 2
 						}
@@ -23855,17 +24365,42 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 4,
+							"major" : 8,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 97.0, 1251.0, 747.0 ],
+						"rect" : [ 134.0, 172.0, 1251.0, 747.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
 						"default_fontsize" : 9.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-238",
@@ -23876,8 +24411,8 @@
 									"patching_rect" : [ 963.0, 30.0, 142.0, 19.0 ],
 									"restore" : 									{
 										"live.gain~[1]" : [ 0.0 ],
-										"live.text" : [ 0.0 ],
-										"umenu" : [ 1 ]
+										"live.text" : [ 1.0 ],
+										"umenu" : [ 2 ]
 									}
 ,
 									"text" : "autopattr @autorestore 1",
@@ -23920,20 +24455,42 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 9,
-											"minor" : 0,
-											"revision" : 4,
+											"major" : 8,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 42.0, 467.0, 508.0, 271.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
 										"default_fontsize" : 11.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
 										"gridonopen" : 2,
 										"gridsize" : [ 10.0, 10.0 ],
 										"gridsnaponopen" : 2,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
 										"toolbarvisible" : 0,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"bubble" : 1,
@@ -24002,7 +24559,6 @@
 															"parameter_mmax" : 30.0,
 															"parameter_mmin" : -120.0,
 															"parameter_modmode" : 0,
-															"parameter_osc_name" : "<default>",
 															"parameter_shortname" : " ",
 															"parameter_type" : 0,
 															"parameter_unitstyle" : 4
@@ -24074,7 +24630,6 @@
 															"parameter_longname" : "live.toggle[2]",
 															"parameter_mmax" : 1,
 															"parameter_modmode" : 0,
-															"parameter_osc_name" : "<default>",
 															"parameter_shortname" : "live.toggle[1]",
 															"parameter_type" : 2
 														}
@@ -24165,14 +24720,16 @@
 												}
 
 											}
- ],
-										"originid" : "pat-230"
+ ]
 									}
 ,
 									"patching_rect" : [ 625.0, 180.0, 63.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
 										"fontsize" : 11.0,
-										"globalpatchername" : ""
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p vumeters"
@@ -24534,7 +25091,6 @@
 											"parameter_longname" : "live.text[42]",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "live.text",
 											"parameter_type" : 2
 										}
@@ -24588,7 +25144,6 @@
 											"parameter_longname" : "umenu[3]",
 											"parameter_mmax" : 2,
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "umenu",
 											"parameter_type" : 2
 										}
@@ -24713,7 +25268,6 @@
 											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "HOA stream",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -25073,7 +25627,6 @@
 
 							}
  ],
-						"originid" : "pat-228",
 						"styles" : [ 							{
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
@@ -25244,8 +25797,11 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 478.300000000000011, 410.0, 85.0, 24.0 ],
 					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
 						"fontsize" : 9.0,
-						"globalpatchername" : ""
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p HOA-subs",
@@ -25274,7 +25830,6 @@
 							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "subs",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -25346,17 +25901,42 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 4,
+							"major" : 8,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 34.0, 172.0, 1660.0, 784.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
 						"default_fontsize" : 9.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"color" : [ 0.990418910980225, 0.500286102294922, 0.032855201512575, 1.0 ],
@@ -25909,7 +26489,6 @@
 											"parameter_longname" : "live.tab[12]",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "live.tab",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -26031,7 +26610,6 @@
 											"parameter_longname" : "live.menu[4]",
 											"parameter_mmax" : 9,
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "live.menu[1]",
 											"parameter_type" : 2
 										}
@@ -26120,7 +26698,6 @@
 											"parameter_longname" : "live.text[46]",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "live.text[46]",
 											"parameter_type" : 2
 										}
@@ -26183,7 +26760,6 @@
 											"parameter_longname" : "live.tab[14]",
 											"parameter_mmax" : 2,
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "live.tab[12]",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -26215,7 +26791,6 @@
 											"parameter_longname" : "live.tab[15]",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "live.tab[12]",
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 9
@@ -26238,19 +26813,42 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 9,
-											"minor" : 0,
-											"revision" : 4,
+											"major" : 8,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 59.0, 104.0, 643.0, 612.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
 										"default_fontsize" : 11.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
 										"gridonopen" : 2,
 										"gridsize" : [ 10.0, 10.0 ],
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
 										"toolbarvisible" : 0,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-10",
@@ -26307,8 +26905,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 248.0, 460.0, 24.0, 24.0 ],
-													"svg" : ""
+													"patching_rect" : [ 248.0, 460.0, 24.0, 24.0 ]
 												}
 
 											}
@@ -26669,14 +27266,16 @@
 												}
 
 											}
- ],
-										"originid" : "pat-532"
+ ]
 									}
 ,
 									"patching_rect" : [ 313.0, 558.0, 118.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
 										"fontsize" : 11.0,
-										"globalpatchername" : ""
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p load_iko_filters"
@@ -27215,16 +27814,18 @@
 								}
 
 							}
- ],
-						"originid" : "pat-258"
+ ]
 					}
 ,
 					"patching_rect" : [ 567.5, 410.0, 79.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 567.5, 410.0, 79.0, 24.0 ],
 					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
 						"fontsize" : 9.0,
-						"globalpatchername" : ""
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p HOA-IKO",
@@ -27350,7 +27951,6 @@
 							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "speaker dome",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -27405,7 +28005,6 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "live.drop[5]",
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.drop",
 							"parameter_type" : 4
 						}
@@ -27490,7 +28089,6 @@
 							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "input",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -28330,7 +28928,6 @@
 
 			}
  ],
-		"originid" : "pat-6",
 		"parameters" : 		{
 			"obj-102::obj-10::obj-116" : [ "live.dial[142]", "pitch", 0 ],
 			"obj-102::obj-10::obj-117" : [ "live.dial[69]", "yaw", 0 ],
@@ -28523,6 +29120,8 @@
 			"obj-40::obj-82" : [ "live.toggle[12]", "live.toggle", 0 ],
 			"obj-40::obj-83" : [ "live.toggle[13]", "live.toggle", 0 ],
 			"obj-40::obj-85" : [ "live.toggle[15]", "live.toggle", 0 ],
+			"obj-57::obj-2" : [ "mc.live.gain~[1]", "mc.live.gain~[1]", 0 ],
+			"obj-57::obj-5" : [ "mc.live.gain~[2]", "mc.live.gain~[1]", 0 ],
 			"obj-66::obj-108::obj-26" : [ "live.toggle[467]", "live.toggle[1]", 0 ],
 			"obj-66::obj-108::obj-87" : [ "live.dial[104]", " ", 0 ],
 			"obj-66::obj-114::obj-54::obj-102" : [ "live.toggle[18]", "live.toggle", 0 ],
@@ -29353,20 +29952,27 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "pattr-Mo2.json",
+				"bootpath" : "~/Desktop/SPARCL/SPARCL-max/Mo",
+				"patcherrelativepath" : "./Mo",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "spat5.colormap.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "spat5.colorpicker.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/spat5/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spat5.deferloadmess.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/spat5/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -29392,8 +29998,8 @@
 			}
 , 			{
 				"name" : "spat5.hoa.decoder.control.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/spat5/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -29419,8 +30025,8 @@
 			}
 , 			{
 				"name" : "spat5.hoa.fx~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/spat5/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -29457,22 +30063,22 @@
 			}
 , 			{
 				"name" : "spat5.known.colors.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/spat5/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spat5.known.hoanorm.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/spat5/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spat5.known.speakersetups.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/spat5/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -29514,8 +30120,8 @@
 			}
 , 			{
 				"name" : "spat5.playbar.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/spat5/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -29561,8 +30167,8 @@
 			}
 , 			{
 				"name" : "spat5.window.management.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/spat5/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 8/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
