@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 76.0, 53.0, 1345.0, 615.0 ],
+		"rect" : [ 424.0, 137.0, 1345.0, 615.0 ],
 		"bglocked" : 1,
 		"default_fontsize" : 9.0,
 		"gridsize" : [ 15.0, 15.0 ],
@@ -472,11 +472,11 @@
 						"fader-IKO-master" : [ 0 ],
 						"fader-binaural-master" : [ 0 ],
 						"fader-subs-master" : [ 0 ],
-						"hoa-decoded" : [ 0.0 ],
+						"hoa-decoded" : [ -70.0 ],
 						"hoa-decoded[1]" : [ 0.0 ],
 						"hoa-gain" : [ 0.0 ],
-						"hoa-subs" : [ 0.0 ],
-						"hoa-subs[1]" : [ 0.0 ],
+						"hoa-subs" : [ -70.0 ],
+						"hoa-subs[1]" : [ -70.0 ],
 						"live.drop" : [ "" ],
 						"radiogroup" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 						"umenu[1]" : [ 1 ]
@@ -1103,7 +1103,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "pattr-Mo-5.1.json",
 					"fontsize" : 9.0,
 					"id" : "obj-47",
 					"maxclass" : "newobj",
@@ -2564,12 +2563,12 @@
 										"live.gain~[HOA13]" : [ 0.0 ],
 										"live.gain~[HOA14]" : [ 0.0 ],
 										"live.gain~[HOA16]" : [ 0.0 ],
-										"live.gain~[HOA1]" : [ -23.244094488188928 ],
-										"live.gain~[HOA2]" : [ -29.055118110236162 ],
-										"live.gain~[HOA3]" : [ -42.614173228346445 ],
-										"live.gain~[HOA4]" : [ -20.661417322834602 ],
-										"live.gain~[HOA5]" : [ -41.968503937007867 ],
-										"live.gain~[HOA6]" : [ -21.307086614173212 ],
+										"live.gain~[HOA1]" : [ 0.0 ],
+										"live.gain~[HOA2]" : [ 0.0 ],
+										"live.gain~[HOA3]" : [ 0.0 ],
+										"live.gain~[HOA4]" : [ 0.0 ],
+										"live.gain~[HOA5]" : [ 0.0 ],
+										"live.gain~[HOA6]" : [ 0.0 ],
 										"live.gain~[HOA7]" : [ 0.0 ],
 										"live.gain~[HOA8]" : [ 0.0 ],
 										"live.gain~[HOA9]" : [ 0.0 ],
@@ -2630,7 +2629,7 @@
 												"/row/1/col/26" : 0,
 												"/row/1/col/27" : 0,
 												"/row/1/col/28" : 0,
-												"/row/1/col/29" : 0,
+												"/row/1/col/29" : 1,
 												"/row/1/col/30" : 0,
 												"/row/1/col/31" : 0,
 												"/row/1/col/32" : 0,
@@ -2720,7 +2719,7 @@
 												"/row/2/col/27" : 0,
 												"/row/2/col/28" : 0,
 												"/row/2/col/29" : 0,
-												"/row/2/col/30" : 0,
+												"/row/2/col/30" : 1,
 												"/row/2/col/31" : 0,
 												"/row/2/col/32" : 0,
 												"/row/2/col/33" : 0,
@@ -2810,7 +2809,7 @@
 												"/row/3/col/28" : 0,
 												"/row/3/col/29" : 0,
 												"/row/3/col/30" : 0,
-												"/row/3/col/31" : 0,
+												"/row/3/col/31" : 1,
 												"/row/3/col/32" : 0,
 												"/row/3/col/33" : 0,
 												"/row/3/col/34" : 0,
@@ -2900,7 +2899,7 @@
 												"/row/4/col/29" : 0,
 												"/row/4/col/30" : 0,
 												"/row/4/col/31" : 0,
-												"/row/4/col/32" : 0,
+												"/row/4/col/32" : 1,
 												"/row/4/col/33" : 0,
 												"/row/4/col/34" : 0,
 												"/row/4/col/35" : 0,
@@ -2990,7 +2989,7 @@
 												"/row/5/col/30" : 0,
 												"/row/5/col/31" : 0,
 												"/row/5/col/32" : 0,
-												"/row/5/col/33" : 0,
+												"/row/5/col/33" : 1,
 												"/row/5/col/34" : 0,
 												"/row/5/col/35" : 0,
 												"/row/5/col/36" : 0,
@@ -3080,7 +3079,7 @@
 												"/row/6/col/31" : 0,
 												"/row/6/col/32" : 0,
 												"/row/6/col/33" : 0,
-												"/row/6/col/34" : 0,
+												"/row/6/col/34" : 1,
 												"/row/6/col/35" : 0,
 												"/row/6/col/36" : 0,
 												"/row/6/col/37" : 0,
@@ -3170,7 +3169,7 @@
 												"/row/7/col/32" : 0,
 												"/row/7/col/33" : 0,
 												"/row/7/col/34" : 0,
-												"/row/7/col/35" : 0,
+												"/row/7/col/35" : 1,
 												"/row/7/col/36" : 0,
 												"/row/7/col/37" : 0,
 												"/row/7/col/38" : 0,
@@ -3260,7 +3259,7 @@
 												"/row/8/col/33" : 0,
 												"/row/8/col/34" : 0,
 												"/row/8/col/35" : 0,
-												"/row/8/col/36" : 0,
+												"/row/8/col/36" : 1,
 												"/row/8/col/37" : 0,
 												"/row/8/col/38" : 0,
 												"/row/8/col/39" : 0,
@@ -3350,7 +3349,7 @@
 												"/row/9/col/34" : 0,
 												"/row/9/col/35" : 0,
 												"/row/9/col/36" : 0,
-												"/row/9/col/37" : 0,
+												"/row/9/col/37" : 1,
 												"/row/9/col/38" : 0,
 												"/row/9/col/39" : 0,
 												"/row/9/col/40" : 0,
@@ -3440,7 +3439,7 @@
 												"/row/10/col/35" : 0,
 												"/row/10/col/36" : 0,
 												"/row/10/col/37" : 0,
-												"/row/10/col/38" : 0,
+												"/row/10/col/38" : 1,
 												"/row/10/col/39" : 0,
 												"/row/10/col/40" : 0,
 												"/row/10/col/41" : 0,
@@ -3530,7 +3529,7 @@
 												"/row/11/col/36" : 0,
 												"/row/11/col/37" : 0,
 												"/row/11/col/38" : 0,
-												"/row/11/col/39" : 0,
+												"/row/11/col/39" : 1,
 												"/row/11/col/40" : 0,
 												"/row/11/col/41" : 0,
 												"/row/11/col/42" : 0,
@@ -3620,7 +3619,7 @@
 												"/row/12/col/37" : 0,
 												"/row/12/col/38" : 0,
 												"/row/12/col/39" : 0,
-												"/row/12/col/40" : 0,
+												"/row/12/col/40" : 1,
 												"/row/12/col/41" : 0,
 												"/row/12/col/42" : 0,
 												"/row/12/col/43" : 0,
@@ -3710,7 +3709,7 @@
 												"/row/13/col/38" : 0,
 												"/row/13/col/39" : 0,
 												"/row/13/col/40" : 0,
-												"/row/13/col/41" : 0,
+												"/row/13/col/41" : 1,
 												"/row/13/col/42" : 0,
 												"/row/13/col/43" : 0,
 												"/row/13/col/44" : 0,
@@ -3800,7 +3799,7 @@
 												"/row/14/col/39" : 0,
 												"/row/14/col/40" : 0,
 												"/row/14/col/41" : 0,
-												"/row/14/col/42" : 0,
+												"/row/14/col/42" : 1,
 												"/row/14/col/43" : 0,
 												"/row/14/col/44" : 0,
 												"/row/14/col/45" : 0,
@@ -3890,7 +3889,7 @@
 												"/row/15/col/40" : 0,
 												"/row/15/col/41" : 0,
 												"/row/15/col/42" : 0,
-												"/row/15/col/43" : 0,
+												"/row/15/col/43" : 1,
 												"/row/15/col/44" : 0,
 												"/row/15/col/45" : 0,
 												"/row/15/col/46" : 0,
@@ -3980,7 +3979,7 @@
 												"/row/16/col/41" : 0,
 												"/row/16/col/42" : 0,
 												"/row/16/col/43" : 0,
-												"/row/16/col/44" : 0,
+												"/row/16/col/44" : 1,
 												"/row/16/col/45" : 0,
 												"/row/16/col/46" : 0,
 												"/row/16/col/47" : 0,
@@ -19268,6 +19267,7 @@
 						"rect" : [ 134.0, 172.0, 1218.0, 747.0 ],
 						"default_fontsize" : 9.0,
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-92",
@@ -19275,7 +19275,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 840.0, 64.0, 55.0, 19.0 ],
+									"patching_rect" : [ 792.0, 192.0, 55.0, 19.0 ],
 									"text" : "r snapshots"
 								}
 
@@ -22135,7 +22135,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "multichannelsignal", "" ],
-									"patching_rect" : [ 37.0, 652.0, 199.0, 19.0 ],
+									"patching_rect" : [ 58.5, 652.0, 199.0, 19.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -22189,7 +22189,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 680.0, 233.0, 74.0, 19.0 ],
+									"patching_rect" : [ 688.0, 206.0, 74.0, 19.0 ],
 									"text" : "loadmess set 66"
 								}
 
@@ -23466,7 +23466,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-57", 0 ],
+									"destination" : [ "obj-65", 0 ],
 									"source" : [ "obj-40", 0 ]
 								}
 
@@ -29333,28 +29333,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "D400F.maxpat",
-				"bootpath" : "~/Desktop/SPARCL-main/SPARCL-max",
+				"bootpath" : "~/Desktop/SPARCL/SPARCL-max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SPARCL-OSC.maxpat",
-				"bootpath" : "~/Desktop/SPARCL-main/SPARCL-max",
+				"bootpath" : "~/Desktop/SPARCL/SPARCL-max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fader.maxpat",
-				"bootpath" : "~/Desktop/SPARCL-main/SPARCL-max",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pattr-Mo-5.1.json",
-				"bootpath" : "~/Desktop/SPARCL-main/SPARCL-max",
+				"bootpath" : "~/Desktop/SPARCL/SPARCL-max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -29457,7 +29450,7 @@
 			}
 , 			{
 				"name" : "spat5.iko.beamcontrol-SPARCL~.maxpat",
-				"bootpath" : "~/Desktop/SPARCL-main/SPARCL-max",
+				"bootpath" : "~/Desktop/SPARCL/SPARCL-max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

@@ -1,0 +1,62 @@
+# ==============================================================================
+# File: "/Users/student/Desktop/SPARCL/SPARCL-max/Mo/Foundation_snapshot_1.txt"
+# Exported by: student
+# student@musicadmins-Mac-Studio - macOS 15.5.0
+# 05-jun-2025 17:47:15
+# Content: 55 OSC messages
+# ==============================================================================
+/source/1/aed -31.5262 -1.9561 0.63649
+/source/1/orientation 0.0 0.0 0.0 1.0
+/source/1/lookat/xyz 0.0 0.0 0.0
+/source/2/aed 34.4162 -5.82217 0.65137
+/source/2/orientation 0.0 0.0 0.0 1.0
+/source/2/lookat/xyz 0.0 0.0 0.0
+/source/3/aed 179.343 0.0 0.444549
+/source/3/orientation 0.0 0.0 0.0 1.0
+/source/3/lookat/xyz 0.0 0.0 0.0
+/source/4/aed -125.227 0.0 0.467494
+/source/4/orientation 0.0 0.0 0.0 1.0
+/source/4/lookat/xyz 0.0 0.0 0.0
+/source/5/aed 146.559 0.0 0.757829
+/source/5/orientation 0.0 0.0 0.0 1.0
+/source/5/lookat/xyz 0.0 0.0 0.0
+/source/6/aed 125.927 0.0 0.450088
+/source/6/orientation 0.0 0.0 0.0 1.0
+/source/6/lookat/xyz 0.0 0.0 0.0
+/source/7/aed 1.23232 0.0 0.149804
+/source/7/orientation 0.0 0.0 0.0 1.0
+/source/7/lookat/xyz 0.0 0.0 0.0
+/source/8/aed -45.2773 0.0 0.989989
+/source/8/orientation 0.0 0.0 0.0 1.0
+/source/8/lookat/xyz 0.0 0.0 0.0
+/source/9/aed 123.807 0.0 1.00269
+/source/9/orientation 0.0 0.0 0.0 1.0
+/source/9/lookat/xyz 0.0 0.0 0.0
+/source/10/aed -120.137 0.0 1.2218
+/source/10/orientation 0.0 0.0 0.0 1.0
+/source/10/lookat/xyz 0.0 0.0 0.0
+/source/11/aed -132.269 0.0 1.26888
+/source/11/orientation 0.0 0.0 0.0 1.0
+/source/11/lookat/xyz 0.0 0.0 0.0
+/source/12/aed -84.4622 0.0 1.18094
+/source/12/orientation 0.0 0.0 0.0 1.0
+/source/12/lookat/xyz 0.0 0.0 0.0
+/source/13/aed -71.0226 0.0 1.20465
+/source/13/orientation 0.0 0.0 0.0 1.0
+/source/13/lookat/xyz 0.0 0.0 0.0
+/source/14/aed -58.9209 0.0 1.29062
+/source/14/orientation 0.0 0.0 0.0 1.0
+/source/14/lookat/xyz 0.0 0.0 0.0
+/source/15/aed 50.4794 -1.3566 1.47425
+/source/15/orientation 0.0 0.0 0.0 1.0
+/source/15/lookat/xyz 0.0 0.0 0.0
+/source/16/aed 80.9687 0.0 1.26204
+/source/16/orientation 0.0 0.0 0.0 1.0
+/source/16/lookat/xyz 0.0 0.0 0.0
+/subwoofer/1/aed -45.0 0.0 4.0
+/subwoofer/2/aed 45.0 0.0 4.0
+/subwoofer/3/aed -135.0 0.0 4.0
+/subwoofer/4/aed 135.0 0.0 4.0
+/listener/aed 90.0 0.0 0.0
+/listener/orientation 0.0 0.0 0.0 1.0
+/listener/lookat/xyz 0.0 1.0 0.0
