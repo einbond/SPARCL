@@ -1,0 +1,69 @@
+# ==============================================================================
+# File: "/Users/performancemac/Desktop/SPARCL/SPARCL-max/Ville/snapshot-viewer-Ville.txt"
+# Exported by: Performance mac
+# performancemac@Performance-Mac - macOS 14.4.1
+# 07-jun-2025 10:54:36
+# Content: 62 OSC messages
+# ==============================================================================
+/snapshot/indices 1
+/snapshot/1/name "cue # 1"
+/snapshot/1/time 0.0
+/snapshot/1/begin
+/snapshot/1/source/1/aed -30.5909 13.6659 4.16822
+/snapshot/1/source/1/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/1/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/2/aed 28.7841 12.8946 4.11844
+/snapshot/1/source/2/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/2/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/3/aed -65.5451 30.2531 4.5763
+/snapshot/1/source/3/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/3/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/4/aed 66.383 32.0852 4.63387
+/snapshot/1/source/4/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/4/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/5/aed -113.469 33.7005 4.73496
+/snapshot/1/source/5/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/5/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/6/aed 112.745 29.4465 4.48872
+/snapshot/1/source/6/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/6/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/7/aed -144.067 8.27639 4.06859
+/snapshot/1/source/7/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/7/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/8/aed 147.835 9.59097 3.97754
+/snapshot/1/source/8/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/8/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/9/aed -0.53003 48.5198 9.8147
+/snapshot/1/source/9/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/9/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/10/aed 1.41422 44.0985 8.87502
+/snapshot/1/source/10/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/10/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/11/aed -5.9296 45.7365 8.58388
+/snapshot/1/source/11/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/11/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/12/aed 3.84508 48.2101 8.89216
+/snapshot/1/source/12/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/12/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/13/aed 12.286 50.0077 9.27646
+/snapshot/1/source/13/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/13/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/14/aed -9.03142 44.2189 9.00567
+/snapshot/1/source/14/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/14/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/15/aed 6.84144 45.9727 9.00494
+/snapshot/1/source/15/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/15/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/source/16/aed -4.5242 48.5222 9.54875
+/snapshot/1/source/16/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/source/16/lookat/xyz 0.0 0.0 0.0
+/snapshot/1/subwoofer/1/aed -45.0 0.0 4.0
+/snapshot/1/subwoofer/2/aed 45.0 0.0 4.0
+/snapshot/1/subwoofer/3/aed -135.0 0.0 4.0
+/snapshot/1/subwoofer/4/aed 135.0 0.0 4.0
+/snapshot/1/listener/aed 90.0 0.0 0.0
+/snapshot/1/listener/orientation 0.0 0.0 0.0 1.0
+/snapshot/1/listener/lookat/xyz 0.0 1.0 0.0
+/snapshot/1/end
+/snapshot/mode "store positions"
+/snapshot/lock 0
