@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.64/macOS-arm64" 1779884523 0
+<REAPER_PROJECT 0.1 "7.64/macOS-arm64" 1779880054 0
   <NOTES 0 2
   >
   RIPPLE 0 0
@@ -17,9 +17,9 @@
   TIMEMODE 0 5 -1 30 0 0 -1 0
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 5696
-  ZOOM 0.36608212239077 1277 0
-  VZOOMEX 7.40685558 0
+  CURSOR 960
+  ZOOM 0.33323506225975 0 0
+  VZOOMEX 7.40685558 921
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -98,7 +98,7 @@
   RULERHEIGHT 86 84
   RULERLANE 1 4 "" 0 -1
   RULERLANE 2 8 "" 0 -1
-  MARKER 1 0 Kristian 8 0 1 B {FBF40BE9-368F-4A45-96E5-2F13BE8DEDF5} 0 2
+  MARKER 1 0 Kristian 0 0 1 B {FBF40BE9-368F-4A45-96E5-2F13BE8DEDF5} 0 2
   MARKER 2 600 Günseli 0 0 1 B {927D2CF1-7FC6-754C-A848-B8B235DF2749} 0 2
   MARKER 3 1280 pantea 0 0 1 B {A98566B6-CC65-AB4D-97E4-D0B75375B563} 0 2
   MARKER 4 2640 Bea 0 0 1 B {98D96178-FFDB-2E46-B3DA-B2FC236A7CB6} 0 2
@@ -111,7 +111,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.59967938967682 0 -1 -1 1
+    VOLPAN 0.01124076351823 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -134,9 +134,9 @@
     MAINSEND 0 0
     HWOUT 0 0 1 0 0 0 12288 -1:U -1
     <FXCHAIN
-      WNDRECT 32 746 923 301
+      WNDRECT 32 316 731 731
       SHOW 0
-      LASTSEL 2
+      LASTSEL 1
       DOCKED 0
       BYPASS 0 0 0
       <VST "VST: AllRADecoder (IEM) (64ch)" AllRADecoder.vst 0 "" 1097618017<565354416C5261616C6C72616465636F> ""
@@ -310,7 +310,7 @@
       CHANMODE 0
       GUID {BEEADB18-C350-FF4C-B819-00DB5834C080}
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/SPARCL-2026/7th order Ambisonics mixes SPARC 2026/Song 1 - Heartfelt.wav"
+        FILE "/Users/performancemac/Downloads/Music for SPARC Symposium 2026/7th order Ambisonics mixes SPARC 2026/Song 1 - Heartfelt.wav"
       >
     >
     <ITEM
@@ -332,29 +332,7 @@
       CHANMODE 0
       GUID {6765CBC2-2489-8947-A78D-D704D363DCCF}
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/SPARCL-2026/7th order Ambisonics mixes SPARC 2026/Performing Ecologies II - Kristian Skaarbrevik.wav"
-      >
-    >
-    <ITEM
-      POSITION 1280
-      SNAPOFFS 0
-      LENGTH 1266.6247708333333
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {C74CCD3B-DED6-2C49-A51E-9B66E6F96CC3}
-      IID 23
-      NAME City_BUS_track_pantea_Simorgh_SPARC2026.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {71EC1AA4-3BA6-484B-8944-4A8FAC8AC64E}
-      <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/SPARCL-2026/City_BUS_track_pantea_Simorgh_SPARC2026.wav"
+        FILE "/Users/performancemac/Downloads/Music for SPARC Symposium 2026/7th order Ambisonics mixes SPARC 2026/Performing Ecologies II - Kristian Skaarbrevik.wav"
       >
     >
   >
@@ -364,7 +342,7 @@
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
-    VOLPAN 0.60644583612321 0 -1 -1 1
+    VOLPAN 0.00396509778346 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -421,7 +399,7 @@
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
-      MUTE 1 0
+      MUTE 0 0
       SEL 0
       IGUID {B588F105-C2B3-9E41-AAF4-BB99F429D0D9}
       IID 7
@@ -442,7 +420,7 @@
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
-    VOLPAN 0.00245413076186 0 -1 -1 1
+    VOLPAN 0.01872929093732 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -489,7 +467,7 @@
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
-    VOLPAN 0.24862826452413 0 -1 -1 1
+    VOLPAN 0.33636587904169 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -498,7 +476,7 @@
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
     LANEREC -1 -1 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -528,7 +506,7 @@
       CHANMODE 0
       GUID {730DE15E-BADE-F940-A6D2-155818AACB75}
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/SPARCL-2026/gûn - one's whirling selves.wav"
+        FILE "/Users/performancemac/Documents/gûn - one's whirling selves.wav"
       >
     >
     <ITEM
@@ -550,7 +528,7 @@
       CHANMODE 0
       GUID {5AF64C47-F617-E345-B35D-B4CF6AAD747C}
       <SOURCE VIDEO
-        FILE "/Users/performancemac/Documents/SPARCL-media/SPARCL-2026/Spiderwebs (smaller file) - HD 1080p.mov"
+        FILE "/Users/performancemac/Downloads/Spiderwebs (smaller file) - HD 1080p.mov"
       >
     >
     <ITEM
@@ -562,7 +540,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {F5339A41-7042-924B-AA05-354E6E4155A8}
       IID 5
       NAME MU3210_VideoGameMusic_MaishaPatodia_StardewValley_“FallTheme”_Video.mp4
@@ -581,7 +559,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.22734196558974 0 -1 -1 1
+    VOLPAN 0.28134576102548 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -622,7 +600,7 @@
       CHANMODE 0
       GUID {D313F44A-6F18-0D4F-AE44-CE5A681482EA}
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/SPARCL-2026/gûn - one's whirling selves.wav"
+        FILE "/Users/performancemac/Documents/gûn - one's whirling selves.wav"
       >
     >
   >
@@ -631,7 +609,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.21780078734893 0 -1 -1 1
+    VOLPAN 0.00068511705102 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -672,7 +650,7 @@
       CHANMODE 0
       GUID {8A6AF8B5-0892-3341-A5E5-0843AD401358}
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/SPARCL-2026/gûn - one's whirling selves.wav"
+        FILE "/Users/performancemac/Documents/gûn - one's whirling selves.wav"
       >
     >
   >
@@ -681,7 +659,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.25197012268714 0 -1 -1 1
+    VOLPAN 0.04527774934943 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -722,7 +700,7 @@
       CHANMODE 0
       GUID {9D27C6A1-0BBA-A342-B8ED-9DB313C6896E}
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/SPARCL-2026/gûn - one's whirling selves.wav"
+        FILE "/Users/performancemac/Documents/gûn - one's whirling selves.wav"
       >
     >
     <ITEM
@@ -745,7 +723,7 @@
       CHANMODE 0
       GUID {F8F7DEA5-9C13-7744-A62E-CB97702EF286}
       <SOURCE VIDEO
-        FILE "/Users/performancemac/Documents/SPARCL-media/SPARCL-2026/Spiderwebs (smaller file) - HD 1080p.mov"
+        FILE "/Users/performancemac/Downloads/Spiderwebs (smaller file) - HD 1080p.mov"
       >
     >
     <ITEM
@@ -777,7 +755,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.24697022579653 0 -1 -1 1
+    VOLPAN 0 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -818,7 +796,7 @@
       CHANMODE 0
       GUID {D05ED516-17A7-6249-9740-926D6B1419BF}
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/SPARCL-2026/gûn - one's whirling selves.wav"
+        FILE "/Users/performancemac/Documents/gûn - one's whirling selves.wav"
       >
     >
   >
@@ -827,7 +805,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.20820544811655 0 -1 -1 1
+    VOLPAN 0.01586576730982 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -869,7 +847,7 @@
       CHANMODE 0
       GUID {5C6F32BD-FEC1-4D47-A75C-488C1CD11E0F}
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/SPARCL-2026/gûn - one's whirling selves.wav"
+        FILE "/Users/performancemac/Documents/gûn - one's whirling selves.wav"
       >
     >
   >
@@ -878,7 +856,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.18762324730353 0 -1 -1 1
+    VOLPAN 0.10917236026867 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -910,7 +888,7 @@
         IQAAAAUAAAAAAAAAAQAAAAAAAAAAAFlAAAAAAAAA8D+amZmZmZnpPwEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
         8D8AAAAAAAAAQAEEAAAAAQAAAFJegtC4T39AAAAAAAAA8D8AAAAAAAAAQAEEAAAAAAAAAAAAAAAAAFlAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAA
         AEACAABrAQAAAgAAAA==
-        AFByb2dyYW0gMQAQAAAA
+        AAAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {D4D00B98-1E6F-7246-9DCA-FDEFBF290A2C}
@@ -936,7 +914,7 @@
       CHANMODE 0
       GUID {B88CE587-85E5-1C4F-B76B-FF346E254189}
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/SPARCL-2026/gûn - one's whirling selves.wav"
+        FILE "/Users/performancemac/Documents/gûn - one's whirling selves.wav"
       >
     >
   >
@@ -945,7 +923,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.18930511472769 0 -1 -1 1
+    VOLPAN 0.13599541098221 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -977,7 +955,7 @@
         IQAAAAUAAAAAAAAAAQAAAAAAAAAAAFlAAAAAAAAA8D+amZmZmZnpPwEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
         8D8AAAAAAAAAQAEEAAAAAQAAAFJegtC4T39AAAAAAAAA8D8AAAAAAAAAQAEEAAAAAAAAAAAAAAAAAFlAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAA
         AEACAABrAQAAAgAAAA==
-        AFByb2dyYW0gMQAQAAAA
+        AAAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {9BF9B3D9-7AC9-3441-AC0A-45D6435C196E}
@@ -1003,7 +981,7 @@
       CHANMODE 0
       GUID {B3D096C0-056A-1F4E-9CB0-699FC7B58602}
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/SPARCL-2026/gûn - one's whirling selves.wav"
+        FILE "/Users/performancemac/Documents/gûn - one's whirling selves.wav"
       >
     >
   >
@@ -1012,7 +990,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.18330310769121 0 -1 -1 1
+    VOLPAN 0.18495572964684 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -1044,7 +1022,7 @@
         IQAAAAUAAAAAAAAAAQAAAAAAAAAAAFlAAAAAAAAA8D+amZmZmZnpPwEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
         8D8AAAAAAAAAQAEEAAAAAQAAAFJegtC4T39AAAAAAAAA8D8AAAAAAAAAQAEEAAAAAAAAAAAAAAAAAFlAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAA
         AEACAABrAQAAAgAAAA==
-        AFByb2dyYW0gMQAQAAAA
+        AAAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {6F2A6DC0-13A9-DF42-A0CC-465FE8EE8560}
@@ -1070,7 +1048,7 @@
       CHANMODE 0
       GUID {FA26608B-C90E-6C4E-A083-0A24F8ADC0AC}
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/SPARCL-2026/gûn - one's whirling selves.wav"
+        FILE "/Users/performancemac/Documents/gûn - one's whirling selves.wav"
       >
     >
   >
@@ -1079,7 +1057,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.22463883462265 0 -1 -1 1
+    VOLPAN 0.14435551771711 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -1111,7 +1089,7 @@
         IQAAAAUAAAAAAAAAAQAAAAAAAAAAAFlAAAAAAAAA8D+amZmZmZnpPwEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
         8D8AAAAAAAAAQAEEAAAAAQAAAFJegtC4T39AAAAAAAAA8D8AAAAAAAAAQAEEAAAAAAAAAAAAAAAAAFlAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAA
         AEACAABrAQAAAgAAAA==
-        AFByb2dyYW0gMQAQAAAA
+        AAAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {12B0CCEF-7026-F64C-80AF-FD982BF3F12E}
@@ -1137,7 +1115,7 @@
       CHANMODE 0
       GUID {F7A34B6E-5FDB-6E47-AD19-CC9C68D33926}
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/SPARCL-2026/gûn - one's whirling selves.wav"
+        FILE "/Users/performancemac/Documents/gûn - one's whirling selves.wav"
       >
     >
   >
@@ -1146,7 +1124,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.24697022579653 0 -1 -1 1
+    VOLPAN 0.09184470239224 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -1155,7 +1133,7 @@
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
     LANEREC -1 -1 -1 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -1178,7 +1156,7 @@
         IQAAAAUAAAAAAAAAAQAAAAAAAAAAAFlAAAAAAAAA8D+amZmZmZnpPwEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
         8D8AAAAAAAAAQAEEAAAAAQAAAFA6j8VItJJAAAAAAAAA8D8AAAAAAAAAQAEEAAAAAAAAAAAAAAAAAFlAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAA
         AEACAABrAQAAAgAAAA==
-        AFByb2dyYW0gMQAQAAAA
+        AAAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {73482118-4B4C-F241-8535-B09676B168E1}
@@ -1204,7 +1182,7 @@
       CHANMODE 0
       GUID {0957AADF-1BC2-AF45-B8C0-B51D37B53FC2}
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/SPARCL-2026/gûn - one's whirling selves.wav"
+        FILE "/Users/performancemac/Documents/gûn - one's whirling selves.wav"
       >
     >
   >
@@ -1213,7 +1191,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.18297392223619 0 -1 -1 1
+    VOLPAN 0.06367592014395 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -1245,7 +1223,7 @@
         IQAAAAUAAAAAAAAAAQAAAAAAAAAAAFlAAAAAAAAA8D+amZmZmZnpPwEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
         8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAiLNAAAAAAAAA8D+amZmZmZnpPwEEAAAAAAAAAAAAAAAAAFlAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAA
         AEACAABrAQAAAgAAAA==
-        AFByb2dyYW0gMQAQAAAA
+        AAAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {07819F63-8A58-1E47-81E6-82244B57F2F1}
@@ -1256,7 +1234,7 @@
         IQAAAAUAAAAAAAAAAQAAAAAAAAAAAFlAAAAAAAAA8D+amZmZmZnpPwEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
         8D8AAAAAAAAAQAEEAAAAAQAAAFA6j8VItJJAAAAAAAAA8D8AAAAAAAAAQAEEAAAAAAAAAAAAAAAAAFlAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAA
         AEACAABrAQAAAgAAAA==
-        AFByb2dyYW0gMQAQAAAA
+        AAAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {0E518B07-63DE-744D-87F2-903ADBFE62B8}
@@ -1271,7 +1249,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       YPOS 0 1 0
       IGUID {BC7B2DFA-B569-A440-84D4-8C4F855D3827}
       IID 22
@@ -1282,7 +1260,7 @@
       CHANMODE 0
       GUID {700D4C52-F5B1-4C4C-B04F-78EF312016FD}
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/SPARCL-2026/gûn - one's whirling selves.wav"
+        FILE "/Users/performancemac/Documents/gûn - one's whirling selves.wav"
       >
     >
   >
