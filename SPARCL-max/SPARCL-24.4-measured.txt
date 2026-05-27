@@ -1,4 +1,4 @@
-speaker, /speaker/number 24;
+	speaker, /speaker/number 24;
 subwoofer, /subwoofer/number 4;
 display, /display/zoom 34;
 1, /speaker/1/aed -30. 0. 6.1;
