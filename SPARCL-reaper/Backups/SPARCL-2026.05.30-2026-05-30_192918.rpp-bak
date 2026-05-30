@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.64/macOS-arm64" 1780165787 0
+<REAPER_PROJECT 0.1 "7.64/macOS-arm64" 1780165758 0
   <NOTES 0 2
   >
   RIPPLE 0 0
@@ -180,7 +180,7 @@
       GUID {9AA19842-E9F3-764A-98BD-8D01A12289D5}
       RECPASS 14
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Sat-1-260530_1921.wav"
+        FILE "Media/01-EM64-Sat-1-260530_1921.wav"
       >
     >
     <ITEM
@@ -203,7 +203,7 @@
       GUID {4109C79C-7E78-4741-9800-B9CE2F98C879}
       RECPASS 14
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Sat-1-260530_1923.wav"
+        FILE "Media/01-EM64-Sat-1-260530_1923.wav"
       >
     >
     <ITEM
@@ -226,7 +226,7 @@
       GUID {A54F58E3-AA19-C64E-BB16-36F5B5CBF8FD}
       RECPASS 14
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Sat-1-260530_1924.wav"
+        FILE "Media/01-EM64-Sat-1-260530_1924.wav"
       >
     >
     <ITEM
@@ -249,7 +249,7 @@
       GUID {522A784E-38D3-D740-8F03-D36BDD14AB08}
       RECPASS 14
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Sat-1-260530_1926.wav"
+        FILE "Media/01-EM64-Sat-1-260530_1926.wav"
       >
     >
   >
@@ -329,7 +329,7 @@
       GUID {EAE692A8-67AB-3744-A1B2-22286B0259D8}
       RECPASS 13
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Sat-1-260530_1913.wav"
+        FILE "Media/01-EM64-Sat-1-260530_1913.wav"
       >
     >
     <ITEM
@@ -352,7 +352,7 @@
       GUID {831929D4-7527-1840-B53E-8ABAD3231D4F}
       RECPASS 13
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Sat-1-260530_1915.wav"
+        FILE "Media/01-EM64-Sat-1-260530_1915.wav"
       >
     >
     <ITEM
@@ -375,7 +375,7 @@
       GUID {440B07A6-5C56-574B-A25B-D6DFA70DAB35}
       RECPASS 13
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Sat-1-260530_1917.wav"
+        FILE "Media/01-EM64-Sat-1-260530_1917.wav"
       >
     >
     <ITEM
@@ -398,7 +398,7 @@
       GUID {E285D155-A1CF-2D41-9591-E3B23106D086}
       RECPASS 13
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Sat-1-260530_1919.wav"
+        FILE "Media/01-EM64-Sat-1-260530_1919.wav"
       >
     >
   >
@@ -1542,7 +1542,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1.37622335052672 0 -1 -1 1
+    VOLPAN 1.37109901012519 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1

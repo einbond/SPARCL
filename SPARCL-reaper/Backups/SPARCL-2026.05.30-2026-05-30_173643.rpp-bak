@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.64/macOS-arm64" 1780165787 0
+<REAPER_PROJECT 0.1 "7.64/macOS-arm64" 1780159003 0
   <NOTES 0 2
   >
   RIPPLE 0 0
@@ -17,8 +17,8 @@
   TIMEMODE 1 5 -1 30 0 0 -1 0
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 304
-  ZOOM 0.97817131992547 0 0
+  CURSOR 704
+  ZOOM 0.92136896327134 564 0
   VZOOMEX 7.08014202 0
   USE_REC_CFG 0
   RECMODE 1
@@ -99,13 +99,13 @@
   RULERLANE 1 4 "" 0 -1
   RULERLANE 2 8 "" 0 -1
   MARKER 1 104 "palimpsest 1" 0 0 1 B {FBF40BE9-368F-4A45-96E5-2F13BE8DEDF5} 0 2
-  MARKER 2 544 "palimpsest 2 +18 dB" 8 0 1 B {83B215FE-E4D7-5149-85FF-31A6D1B76372} 0 2
+  MARKER 2 544 "palimpsest 2 +18 dB" 0 0 1 B {83B215FE-E4D7-5149-85FF-31A6D1B76372} 0 2
   MARKER 3 968 "added x-y mirror" 0 0 1 B {4BC04CBC-5E1A-8341-802A-A0B9182700FB} 0 2
-  MARKER 4 1200 "quartet stereo -- 10 seconds settle in" 0 0 1 B {133C99EE-605A-854E-9108-F75F8CB83EB8} 0 2
+  MARKER 4 1200 "palimpsest stereo -- 10 seconds settle in" 8 0 1 B {133C99EE-605A-854E-9108-F75F8CB83EB8} 0 2
   <PROJBAY
   >
   <TRACK {86271EA1-C01F-2E45-AF78-8AA70DBA1B48}
-    NAME EM64-Sat-2
+    NAME EM64-Sat-1
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
@@ -119,7 +119,7 @@
     FIXEDLANES 9 0 0 0 0
     LANEREC -1 -1 -1 0
     SEL 0
-    REC 0 2048 1 0 0 0 0 0
+    REC 1 2048 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
@@ -142,7 +142,7 @@
         AAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAA
         AAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAB
         AAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAYAAAAAQAAAP//AAA=
-        CAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA
+        CAAAAAEAAACamRk/AAAAAAAAAAAAAAAA
         AAAAAAAA
       >
       FLOATPOS 0 0 0 0
@@ -160,255 +160,14 @@
       >
       WAK 0 0
     >
-    <ITEM
-      POSITION 544
-      SNAPOFFS 0
-      LENGTH 116.61775
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {3A3076FC-A451-C04A-9997-73BFFD687878}
-      IID 144
-      NAME 01-EM64-Sat-1-260530_1921.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {9AA19842-E9F3-764A-98BD-8D01A12289D5}
-      RECPASS 14
-      <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Sat-1-260530_1921.wav"
-      >
-    >
-    <ITEM
-      POSITION 660.61775
-      SNAPOFFS 0
-      LENGTH 116.55466666666666
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {77849006-33E2-EB4F-8B8D-F73CA941B100}
-      IID 145
-      NAME 01-EM64-Sat-1-260530_1923.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {4109C79C-7E78-4741-9800-B9CE2F98C879}
-      RECPASS 14
-      <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Sat-1-260530_1923.wav"
-      >
-    >
-    <ITEM
-      POSITION 777.17241666666666
-      SNAPOFFS 0
-      LENGTH 116.55466666666666
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {5752A458-CF87-974A-A0ED-8BABD7F66C00}
-      IID 146
-      NAME 01-EM64-Sat-1-260530_1924.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {A54F58E3-AA19-C64E-BB16-36F5B5CBF8FD}
-      RECPASS 14
-      <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Sat-1-260530_1924.wav"
-      >
-    >
-    <ITEM
-      POSITION 893.72708333333333
-      SNAPOFFS 0
-      LENGTH 67.776
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {4F21EC7D-CB66-A347-8D9C-90CF81B9FCC4}
-      IID 147
-      NAME 01-EM64-Sat-1-260530_1926.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {522A784E-38D3-D740-8F03-D36BDD14AB08}
-      RECPASS 14
-      <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Sat-1-260530_1926.wav"
-      >
-    >
-  >
-  <TRACK {3E090CC7-1837-A74D-8360-7569F9EA8941}
-    NAME EM64-Sat-1
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 3.98107170553497 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
-    FIXEDLANES 9 0 0 0 0
-    LANEREC -1 -1 -1 0
-    SEL 0
-    REC 0 2048 1 0 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 64
-    FX 1
-    TRACKID {3E090CC7-1837-A74D-8360-7569F9EA8941}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 0 0
-    <FXCHAIN
-      WNDRECT 284 664 701 281
-      SHOW 0
-      LASTSEL 0
-      DOCKED 0
-      BYPASS 0 0 0
-      <VST "VST3: EigenUnit-em64-Control (mh acoustics)" EigenUnit-em64-Control.vst3 0 "" 1653395483{C5AE7C500C1C5A8C9B6E9F6DBE949A3C} ""
-        G9CMYu5e7f4BAAAAAQAAAAAAAABAAAAAAwAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAABAAAAAAAA
-        AAIAAAAAAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAA
-        AAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAABAAAA
-        AAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAA
-        AAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAB
-        AAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAYAAAAAQAAAP//AAA=
-        CAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAA
-      >
-      FLOATPOS 0 0 0 0
-      FXID {31D57A34-15AE-3145-A58A-A4D93A68114D}
-      <PARMENV 0:101 0 1 0.5 "PGA Level / EigenUnit-em64-Control"
-        EGUID {5B70FCCE-5B65-1C46-B8AB-F32CC47CE11F}
-        ACT 1 -1
-        VIS 1 0 1
-        LANEHEIGHT 0 0
-        ARM 1
-        DEFSHAPE 0 -1 -1
-        PT 0 0 0
-        PT 536 0 0 0 1
-        PT 544 0.6 0
-      >
-      WAK 0 0
-    >
-    <ITEM
-      POSITION 544
-      SNAPOFFS 0
-      LENGTH 117.48175
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {18D1AAFA-B000-394E-BACA-0CD2F373136D}
-      IID 136
-      NAME 01-EM64-Sat-1-260530_1913.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {EAE692A8-67AB-3744-A1B2-22286B0259D8}
-      RECPASS 13
-      <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Sat-1-260530_1913.wav"
-      >
-    >
-    <ITEM
-      POSITION 661.48175
-      SNAPOFFS 0
-      LENGTH 116.55466666666666
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {EF617530-30D4-7A48-88FE-01A2C018813D}
-      IID 137
-      NAME 01-EM64-Sat-1-260530_1915.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {831929D4-7527-1840-B53E-8ABAD3231D4F}
-      RECPASS 13
-      <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Sat-1-260530_1915.wav"
-      >
-    >
-    <ITEM
-      POSITION 778.0364166666667
-      SNAPOFFS 0
-      LENGTH 116.55466666666666
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {4E936AA2-917D-B94B-85FA-00AB046B9BB0}
-      IID 138
-      NAME 01-EM64-Sat-1-260530_1917.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {440B07A6-5C56-574B-A25B-D6DFA70DAB35}
-      RECPASS 13
-      <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Sat-1-260530_1917.wav"
-      >
-    >
-    <ITEM
-      POSITION 894.59108333333336
-      SNAPOFFS 0
-      LENGTH 63.92533333333333
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {C50A6E42-E084-4D4E-A64F-524D0666886A}
-      IID 139
-      NAME 01-EM64-Sat-1-260530_1919.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {E285D155-A1CF-2D41-9591-E3B23106D086}
-      RECPASS 13
-      <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Sat-1-260530_1919.wav"
-      >
-    >
   >
   <TRACK {1D7A908C-DF2C-F64A-AD0D-B6C49FF8DFA0}
     NAME EM64-Fri
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 2.97884044891948 0 -1 -1 1
-    MUTESOLO 1 0 0
+    VOLPAN 0.67861755746995 0 -1 -1 1
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -478,7 +237,7 @@
       GUID {9E6B34EE-FF54-9D48-B9E5-40EEA3F14507}
       RECPASS 12
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Thurs-260529_1349.wav"
+        FILE "Media/01-EM64-Thurs-260529_1349.wav"
       >
     >
     <ITEM
@@ -501,7 +260,7 @@
       GUID {983D12BB-A1C9-B64C-ABE3-19400EB65F7F}
       RECPASS 12
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Thurs-260529_1351.wav"
+        FILE "Media/01-EM64-Thurs-260529_1351.wav"
       >
     >
     <ITEM
@@ -524,7 +283,7 @@
       GUID {3542AE2F-417E-ED43-A493-9F3B2CE5331C}
       RECPASS 12
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Thurs-260529_1352.wav"
+        FILE "Media/01-EM64-Thurs-260529_1352.wav"
       >
     >
     <ITEM
@@ -547,7 +306,7 @@
       GUID {33C0D9A5-BC1A-8248-A5B6-D56CC9680AA0}
       RECPASS 12
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Thurs-260529_1354.wav"
+        FILE "Media/01-EM64-Thurs-260529_1354.wav"
       >
     >
     <ITEM
@@ -570,7 +329,7 @@
       GUID {0D8EC012-AC9E-3243-99E4-3F768E751C44}
       RECPASS 11
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Thurs-260529_1313.wav"
+        FILE "Media/01-EM64-Thurs-260529_1313.wav"
       >
     >
     <ITEM
@@ -593,7 +352,7 @@
       GUID {E64F293D-CCAB-C642-A389-6B87B5E2C7DB}
       RECPASS 11
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Thurs-260529_1315.wav"
+        FILE "Media/01-EM64-Thurs-260529_1315.wav"
       >
     >
     <ITEM
@@ -616,7 +375,7 @@
       GUID {0D91BCA0-9804-DC43-BF35-765C017C8CE9}
       RECPASS 11
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Thurs-260529_1316.wav"
+        FILE "Media/01-EM64-Thurs-260529_1316.wav"
       >
     >
     <ITEM
@@ -639,7 +398,7 @@
       GUID {8F001B40-BADF-EA4F-8192-919AA0B205BB}
       RECPASS 11
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Thurs-260529_1318.wav"
+        FILE "Media/01-EM64-Thurs-260529_1318.wav"
       >
     >
   >
@@ -722,7 +481,7 @@
       GUID {6A44E899-204D-7148-8222-F72F395A4DCB}
       RECPASS 9
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Thurs-260528_1253.wav"
+        FILE "Media/01-EM64-Thurs-260528_1253.wav"
       >
     >
     <ITEM
@@ -748,7 +507,7 @@
       GUID {A58481A4-90D1-BC49-BF09-0EA6FA9113BA}
       RECPASS 9
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Thurs-260528_1255.wav"
+        FILE "Media/01-EM64-Thurs-260528_1255.wav"
       >
     >
     <ITEM
@@ -774,7 +533,7 @@
       GUID {8E55057C-A607-9C47-93AB-9A8A6155A445}
       RECPASS 9
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Thurs-260528_1257.wav"
+        FILE "Media/01-EM64-Thurs-260528_1257.wav"
       >
     >
     <ITEM
@@ -800,7 +559,7 @@
       GUID {59584983-F60F-A547-BA3B-B7DC6AB86B5E}
       RECPASS 9
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Thurs-260528_1259.wav"
+        FILE "Media/01-EM64-Thurs-260528_1259.wav"
       >
     >
     <ITEM
@@ -823,7 +582,7 @@
       GUID {8E7DC918-1419-1C4C-8B7F-3B275EB04FDB}
       RECPASS 8
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Thurs-260528_1243.wav"
+        FILE "Media/01-EM64-Thurs-260528_1243.wav"
       >
       TAKE NULL
     >
@@ -847,7 +606,7 @@
       GUID {7CCD701C-F9C8-6A40-A615-18E3F3489289}
       RECPASS 8
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Thurs-260528_1245.wav"
+        FILE "Media/01-EM64-Thurs-260528_1245.wav"
       >
       TAKE NULL
     >
@@ -871,7 +630,7 @@
       GUID {A6D65A97-2551-9545-9B4C-7060A2945D4F}
       RECPASS 8
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Thurs-260528_1247.wav"
+        FILE "Media/01-EM64-Thurs-260528_1247.wav"
       >
       TAKE NULL
     >
@@ -895,7 +654,7 @@
       GUID {398AD01D-A2CF-AD4A-AD9D-FA04938120ED}
       RECPASS 8
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-Thurs-260528_1249.wav"
+        FILE "Media/01-EM64-Thurs-260528_1249.wav"
       >
       TAKE NULL
     >
@@ -965,7 +724,7 @@
       GUID {E98636A2-8C89-E843-B1B6-B3E6932BD5CA}
       RECPASS 7
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-260527_1400.wav"
+        FILE "Media/01-EM64-260527_1400.wav"
       >
     >
     <ITEM
@@ -988,7 +747,7 @@
       GUID {5FB92689-3000-B84C-AEB9-E62EE2E2EA2F}
       RECPASS 7
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-260527_1402.wav"
+        FILE "Media/01-EM64-260527_1402.wav"
       >
     >
     <ITEM
@@ -1011,7 +770,7 @@
       GUID {3012F197-EB05-B447-9C1C-648E7444633A}
       RECPASS 7
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-260527_1404.wav"
+        FILE "Media/01-EM64-260527_1404.wav"
       >
     >
     <ITEM
@@ -1034,7 +793,7 @@
       GUID {1B62359B-BC98-E948-81F4-7D25EB849C6F}
       RECPASS 7
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-260527_1406.wav"
+        FILE "Media/01-EM64-260527_1406.wav"
       >
     >
     <ITEM
@@ -1057,7 +816,7 @@
       GUID {CEA89B90-B19A-FE44-A701-D7B6A696C165}
       RECPASS 6
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-260527_1352.wav"
+        FILE "Media/01-EM64-260527_1352.wav"
       >
     >
     <ITEM
@@ -1080,7 +839,7 @@
       GUID {72A4A94B-190E-0F41-B551-355E864DE2F2}
       RECPASS 6
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-260527_1354.wav"
+        FILE "Media/01-EM64-260527_1354.wav"
       >
     >
     <ITEM
@@ -1103,7 +862,7 @@
       GUID {891424AC-08AF-844F-AD39-EB3294AA9146}
       RECPASS 6
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-260527_1356.wav"
+        FILE "Media/01-EM64-260527_1356.wav"
       >
     >
     <ITEM
@@ -1126,7 +885,7 @@
       GUID {93054E89-CA28-0843-92F1-FA3296E57EC7}
       RECPASS 6
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-260527_1358.wav"
+        FILE "Media/01-EM64-260527_1358.wav"
       >
     >
   >
@@ -1135,7 +894,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1.47863551731211 0 -1 -1 1
+    VOLPAN 2.08529419230731 0 -1 -1 1
     MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -1195,7 +954,7 @@
       GUID {6DE34F67-266E-A449-BC6C-768FC469BD15}
       RECPASS 1
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-260526_1513.wav"
+        FILE "/Users/performancemac/Documents/Media/01-EM64-260526_1513.wav"
       >
     >
     <ITEM
@@ -1218,7 +977,7 @@
       GUID {ACA5D819-8192-0042-A4BD-44433C013D85}
       RECPASS 2
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-260526_1517.wav"
+        FILE "/Users/performancemac/Documents/Media/01-EM64-260526_1517.wav"
       >
     >
     <ITEM
@@ -1241,7 +1000,7 @@
       GUID {024AAF8F-01B9-3243-8DDE-3D5DC6BD808C}
       RECPASS 5
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-260526_1645.wav"
+        FILE "/Users/performancemac/Documents/Media/01-EM64-260526_1645.wav"
       >
     >
     <ITEM
@@ -1264,7 +1023,7 @@
       GUID {9349F8B1-D775-A44D-8209-576F0FA8B161}
       RECPASS 3
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-260526_1528.wav"
+        FILE "/Users/performancemac/Documents/Media/01-EM64-260526_1528.wav"
       >
     >
     <ITEM
@@ -1287,7 +1046,7 @@
       GUID {5C2C7FE6-969D-024E-93FE-DB09A6998D77}
       RECPASS 3
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-260526_1530.wav"
+        FILE "/Users/performancemac/Documents/Media/01-EM64-260526_1530.wav"
       >
     >
     <ITEM
@@ -1310,7 +1069,7 @@
       GUID {37312FC4-4D4E-3A4C-B0AA-A4EE5D417213}
       RECPASS 3
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-260526_1532.wav"
+        FILE "/Users/performancemac/Documents/Media/01-EM64-260526_1532.wav"
       >
     >
     <ITEM
@@ -1333,7 +1092,7 @@
       GUID {E6CBE572-5D98-0E4F-8F12-357314AB6A66}
       RECPASS 3
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-260526_1534.wav"
+        FILE "/Users/performancemac/Documents/Media/01-EM64-260526_1534.wav"
       >
     >
     <ITEM
@@ -1356,7 +1115,7 @@
       GUID {6EA4C6FA-AE12-D345-8D9F-A574BF27A1E6}
       RECPASS 4
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-260526_1539.wav"
+        FILE "/Users/performancemac/Documents/Media/01-EM64-260526_1539.wav"
       >
     >
     <ITEM
@@ -1379,7 +1138,7 @@
       GUID {BF03087D-37DD-8C41-A156-B440BE7D3AF4}
       RECPASS 4
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-260526_1541.wav"
+        FILE "/Users/performancemac/Documents/Media/01-EM64-260526_1541.wav"
       >
     >
     <ITEM
@@ -1402,7 +1161,7 @@
       GUID {38A39975-1D8F-9248-ACBF-D830F64F0A7E}
       RECPASS 4
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-260526_1543.wav"
+        FILE "/Users/performancemac/Documents/Media/01-EM64-260526_1543.wav"
       >
     >
     <ITEM
@@ -1425,7 +1184,7 @@
       GUID {FD0EEB85-0451-974A-A411-93970ED7B1D4}
       RECPASS 4
       <SOURCE WAVE
-        FILE "/Users/performancemac/Documents/SPARCL-media/Media/01-EM64-260526_1545.wav"
+        FILE "/Users/performancemac/Documents/Media/01-EM64-260526_1545.wav"
       >
     >
   >
@@ -1435,7 +1194,7 @@
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
-    VOLPAN 1.30271460519928 0 -1 -1 1
+    VOLPAN 1.28005418826645 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -1458,7 +1217,6 @@
     AUXRECV 2 0 1 0 0 0 0 32768 0 -1:U 0 -1 ''
     AUXRECV 3 0 1 0 0 0 0 32768 0 -1:U 0 -1 ''
     AUXRECV 4 0 1 0 0 0 0 32768 0 -1:U 0 -1 ''
-    AUXRECV 5 0 1 0 0 0 0 32768 0 -1:U 0 -1 ''
     MIDIOUT -1
     MAINSEND 0 0
     <FXCHAIN
@@ -1542,7 +1300,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1.37622335052672 0 -1 -1 1
+    VOLPAN 1.3076155674014 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -1560,7 +1318,7 @@
     FX 1
     TRACKID {3E804A8F-DAEE-6A45-8A3E-6AC3CB1E15D4}
     PERF 0
-    AUXRECV 6 0 1 0 0 0 0 32768 0 -1:U 0 -1 ''
+    AUXRECV 5 0 1 0 0 0 0 32768 0 -1:U 0 -1 ''
     MIDIOUT -1
     MAINSEND 0 0
     HWOUT 0 0 1 0 0 0 12288 -1:U -1
@@ -1639,7 +1397,6 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
-    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
